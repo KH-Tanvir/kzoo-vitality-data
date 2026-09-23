@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parking — Downtown Kalamazoo Vitality Data</title>
+<meta name="description" content="How full downtown Kalamazoo's counted parking gets, by facility and time of day, monthly since January 2023.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@600;700;800&family=Overpass+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <div class="brand">
+      <a class="t" href="index.html">Downtown Kalamazoo Economic Vitality Study</a>
+      <span class="sub">Western Michigan University · City of Kalamazoo</span>
+    </div>
+    <nav class="main" aria-label="Sections">
+      <a href="index.html">Overview</a>
+      <a href="traffic.html">Traffic</a>
+      <a href="people.html">People</a>
+      <a href="parking.html">Parking</a>
+      <a href="transit.html">Transit</a>
+      <a href="data.html">Data</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <p class="updated" data-coverage></p>
+    <h1>Parking</h1>
+    <p class="lede">A count of parked vehicles in the city's counted facilities, taken each month on a weekday afternoon, a weekday evening and a weekend evening. Occupancy is vehicles divided by spaces.</p>
+  </div>
+
+  <section>
+    <div class="figs two">
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title">Occupancy by quarter</div><div class="fig-sub">Share of spaces in use, by time of day</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-trend"></div>
+        <ul class="legend">
+          <li><span class="lk" style="background:var(--s1)"></span>Weekday afternoon</li>
+          <li><span class="lk" style="background:var(--s2)"></span>Weekday evening</li>
+          <li><span class="lk" style="background:var(--s3)"></span>Weekend evening</li>
+        </ul>
+        <div class="tv" hidden></div>
+      </figure>
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title" id="t2">Latest quarter by facility type</div><div class="fig-sub">Share of spaces in use</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-type"></div>
+        <ul class="legend">
+          <li><span class="sw" style="background:var(--s1)"></span>On-street</li>
+          <li><span class="sw" style="background:var(--s2)"></span>Ramps</li>
+          <li><span class="sw" style="background:var(--s3)"></span>Surface lots</li>
+        </ul>
+        <div class="tv" hidden></div>
+      </figure>
+    </div>
+    <p class="note"><b>Nothing here comes close to full.</b> Parking studies commonly treat 85% as effectively full, the point where drivers start circling. The highest single month in this data is about 41%.</p>
+  </section>
+
+  <section>
+    <h2>By facility</h2>
+    <p class="prose" id="fac-intro"></p>
+    <div class="tbl-wrap needs-data">
+      <table class="heat" id="fac">
+        <thead><tr><th scope="col">Facility</th><th scope="col">Type</th><th scope="col">Spaces</th><th scope="col">Weekday afternoon</th><th scope="col">Weekday evening</th><th scope="col">Weekend evening</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="fig-note" id="inv-note"></p>
+  </section>
+
+  <section>
+    <h2>Notes</h2>
+    <div class="prose">
+      <p><b>What is counted.</b> The city's counted public facilities only — not private lots, and not every space downtown. Each month is a single count in each time window, not a continuous measurement.</p>
+      <p><b>How the headline figure is built.</b> Each facility type is its occupied spaces divided by its spaces. The figure for a time window is the average of the three types, and the quarterly figure is the average of its months. The study's reports use the same method.</p>
+      <p><b>Small differences from the published reports.</b> These figures are recalculated from the counts, so they run about a point above the 2026 report figures: the reports keep Lot 20's 36 spaces in the denominator after that lot stopped being counted. Earlier quarters differ where a report formula averaged the wrong months. <a href="data.html">The data page lists each difference.</a></p>
+      <p><b>Source.</b> City of Kalamazoo occupancy counts, compiled with Discover Kalamazoo.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
+    <p><a href="data.html">Method, downloads and known issues</a></p>
+  </div>
+</footer>
+
+<script src="assets/charts.js"></script>
+<script src="assets/site.js"></script>
+<script>
+Site.ready(async () => {
+  const d = await Site.loadAll(["parking_monthly.csv"]);
+  const rows = d.parking;
+  const months = [...new Set(rows.map(r => r.month))].sort();
+  Site.stamp(months);
+
+  const WIN = ["Weekday afternoon", "Weekday evening", "Weekend evening"];
+  const TYPES = ["On-street", "Ramps", "Surface lots"];
+  const qu = Site.parkingQuarterly(rows);
+  const inv = Site.parkingInventory(rows);
+
+  // trend by time window
+  const hostT = document.getElementById("c-trend"), figT = hostT.closest("figure");
+  Chart.register(hostT, () => Chart.line(hostT, {
+    labels: qu.map(q => q.q), height: 250,
+    series: WIN.map((w, i) => ({ name: w.toLowerCase(), key: "s" + (i + 1), values: qu.map(q => (q.windows[w] ?? null) * 100) })),
+    fmtY: v => v + "%",
+    xTick: l => l.slice(5) === "Q1" ? l.slice(0, 4) : null,
+    tipTitle: Site.qLabel,
+    aria: "Quarterly parking occupancy by time of day since 2023, between about 20 and 40 percent.",
+  }));
+  Chart.table(figT, ["Quarter", ...WIN, "All windows"],
+    qu.map(q => [Site.qLabel(q.q), ...WIN.map(w => Site.pct(q.windows[w])), Site.pct(q.all)]));
+
+  // latest quarter by type
+  const latest = qu[qu.length - 1];
+  document.getElementById("t2").textContent = Site.qLabel(latest.q) + " by facility type";
+  const hostY = document.getElementById("c-type"), figY = hostY.closest("figure");
+  Chart.register(hostY, () => Chart.column(hostY, {
+    cats: WIN, height: 250, catLabel: c => c.split(" "),
+    yMin: 0, yMax: 100, yTicks: [0, 25, 50, 75, 100], fmtY: v => v + "%",
+    ref: { value: 85, label: "85% · effectively full" },
+    series: TYPES.map((t, i) => ({ name: t, key: "s" + (i + 1), values: WIN.map(w => (latest.types[t]?.[w] ?? 0) * 100) })),
+    tipTitle: c => c + ", " + Site.qLabel(latest.q),
+    tipRows: i => [
+      ...TYPES.map((t, k) => ({ key: "s" + (k + 1), name: t.toLowerCase(), value: Site.pct(latest.types[t]?.[WIN[i]]) })),
+      { name: "average of the three", value: Site.pct(latest.windows[WIN[i]]) },
+    ],
+    aria: `Parking occupancy by facility type and time of day for ${Site.qLabel(latest.q)}, all well below the 85 percent line.`,
+  }));
+  Chart.table(figY, ["Time of day", ...TYPES, "Average"],
+    WIN.map(w => [w, ...TYPES.map(t => Site.pct(latest.types[t]?.[w])), Site.pct(latest.windows[w])]));
+
+  // facility table over the last four quarters
+  const quarters = qu.map(q => q.q).slice(-4);
+  document.getElementById("fac-intro").textContent =
+    `Average over the last four quarters (${Site.qLabel(quarters[0])} to ${Site.qLabel(quarters[quarters.length - 1])}). Darker means fuller.`;
+  const facs = Site.parkingFacilities(rows, quarters);
+  const order = { "On-street": 0, "Ramps": 1, "Surface lots": 2 };
+  facs.sort((a, b) => (order[a.type] - order[b.type]) || a.facility.localeCompare(b.facility, undefined, { numeric: true }));
+  const tb = document.querySelector("#fac tbody");
+  for (const f of facs) {
+    const tr = tb.insertRow();
+    const th = document.createElement("th");
+    th.scope = "row";
+    th.textContent = f.facility;
+    tr.appendChild(th);
+    const t = tr.insertCell();
+    t.textContent = f.type;
+    t.style.color = "var(--muted)";
+    tr.insertCell().textContent = Site.fmtN(f.spaces);
+    for (const w of WIN) {
+      const td = tr.insertCell();
+      td.className = "c";
+      const v = f.windows[w];
+      td.textContent = v == null ? "—" : Math.round(v * 100) + "%";
+      if (v != null) td.style.background = `color-mix(in oklab, var(--s1) ${Math.round(v * 80)}%, var(--surface))`;
+    }
+  }
+  document.getElementById("inv-note").textContent =
+    `${Site.fmtN(inv.total)} spaces counted in total: on-street ${Site.fmtN(inv.byType["On-street"])}, ramps ${Site.fmtN(inv.byType["Ramps"])}, surface lots ${Site.fmtN(inv.byType["Surface lots"])}. A facility with no count in a month is left out of both sides of the calculation for that month.`;
+});
+</script>
+</body>
+</html>

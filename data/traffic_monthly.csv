@@ -1,0 +1,757 @@
+month,corridor,direction,vehicles_per_day
+2023-01,Amvets Memorial Highway,incoming,7054
+2023-01,Amvets Memorial Highway,outgoing,6616
+2023-01,Bus US-131,incoming,4788
+2023-01,Bus US-131,outgoing,4482
+2023-01,Gull Road,incoming,7527
+2023-01,Gull Road,outgoing,7295
+2023-01,Oakland Drive,incoming,6510
+2023-01,Oakland Drive,outgoing,6212
+2023-01,Portage Street,incoming,5095
+2023-01,Portage Street,outgoing,5353
+2023-01,South Westnedge Avenue,incoming,9246
+2023-01,South Westnedge Avenue,outgoing,9836
+2023-01,Stadium Drive,incoming,11669
+2023-01,Stadium Drive,outgoing,12263
+2023-01,West Main Street,incoming,12800
+2023-01,West Main Street,outgoing,12877
+2023-01,West Michigan Avenue,incoming,9235
+2023-01,West Michigan Avenue,outgoing,8590
+2023-02,Amvets Memorial Highway,incoming,7463
+2023-02,Amvets Memorial Highway,outgoing,7234
+2023-02,Bus US-131,incoming,4967
+2023-02,Bus US-131,outgoing,4765
+2023-02,Gull Road,incoming,8195
+2023-02,Gull Road,outgoing,7947
+2023-02,Oakland Drive,incoming,6670
+2023-02,Oakland Drive,outgoing,6568
+2023-02,Portage Street,incoming,5448
+2023-02,Portage Street,outgoing,5665
+2023-02,South Westnedge Avenue,incoming,9653
+2023-02,South Westnedge Avenue,outgoing,10522
+2023-02,Stadium Drive,incoming,12287
+2023-02,Stadium Drive,outgoing,13040
+2023-02,West Main Street,incoming,13277
+2023-02,West Main Street,outgoing,13510
+2023-02,West Michigan Avenue,incoming,10124
+2023-02,West Michigan Avenue,outgoing,9393
+2023-03,Amvets Memorial Highway,incoming,7669
+2023-03,Amvets Memorial Highway,outgoing,7389
+2023-03,Bus US-131,incoming,5104
+2023-03,Bus US-131,outgoing,4850
+2023-03,Gull Road,incoming,8106
+2023-03,Gull Road,outgoing,7868
+2023-03,Oakland Drive,incoming,6607
+2023-03,Oakland Drive,outgoing,6418
+2023-03,Portage Street,incoming,5615
+2023-03,Portage Street,outgoing,5661
+2023-03,South Westnedge Avenue,incoming,9523
+2023-03,South Westnedge Avenue,outgoing,10283
+2023-03,Stadium Drive,incoming,12285
+2023-03,Stadium Drive,outgoing,13001
+2023-03,West Main Street,incoming,13252
+2023-03,West Main Street,outgoing,13532
+2023-03,West Michigan Avenue,incoming,9809
+2023-03,West Michigan Avenue,outgoing,9223
+2023-04,Amvets Memorial Highway,incoming,7719
+2023-04,Amvets Memorial Highway,outgoing,7376
+2023-04,Bus US-131,incoming,5231
+2023-04,Bus US-131,outgoing,4992
+2023-04,Gull Road,incoming,8363
+2023-04,Gull Road,outgoing,8101
+2023-04,Oakland Drive,incoming,6896
+2023-04,Oakland Drive,outgoing,6733
+2023-04,Portage Street,incoming,5775
+2023-04,Portage Street,outgoing,5705
+2023-04,South Westnedge Avenue,incoming,9772
+2023-04,South Westnedge Avenue,outgoing,10672
+2023-04,Stadium Drive,incoming,12959
+2023-04,Stadium Drive,outgoing,13507
+2023-04,West Main Street,incoming,14315
+2023-04,West Main Street,outgoing,14786
+2023-04,West Michigan Avenue,incoming,10658
+2023-04,West Michigan Avenue,outgoing,10069
+2023-05,Amvets Memorial Highway,incoming,7438
+2023-05,Amvets Memorial Highway,outgoing,7404
+2023-05,Bus US-131,incoming,5420
+2023-05,Bus US-131,outgoing,5214
+2023-05,Gull Road,incoming,8682
+2023-05,Gull Road,outgoing,8329
+2023-05,Oakland Drive,incoming,6683
+2023-05,Oakland Drive,outgoing,6333
+2023-05,Portage Street,incoming,6405
+2023-05,Portage Street,outgoing,6384
+2023-05,South Westnedge Avenue,incoming,9564
+2023-05,South Westnedge Avenue,outgoing,10317
+2023-05,Stadium Drive,incoming,12211
+2023-05,Stadium Drive,outgoing,12513
+2023-05,West Main Street,incoming,13448
+2023-05,West Main Street,outgoing,13727
+2023-05,West Michigan Avenue,incoming,7248
+2023-05,West Michigan Avenue,outgoing,6940
+2023-06,Amvets Memorial Highway,incoming,6296
+2023-06,Amvets Memorial Highway,outgoing,6001
+2023-06,Bus US-131,incoming,5470
+2023-06,Bus US-131,outgoing,5056
+2023-06,Gull Road,incoming,8825
+2023-06,Gull Road,outgoing,8443
+2023-06,Oakland Drive,incoming,6860
+2023-06,Oakland Drive,outgoing,6363
+2023-06,Portage Street,incoming,6246
+2023-06,Portage Street,outgoing,6335
+2023-06,South Westnedge Avenue,incoming,9505
+2023-06,South Westnedge Avenue,outgoing,10189
+2023-06,Stadium Drive,incoming,12026
+2023-06,Stadium Drive,outgoing,12194
+2023-06,West Main Street,incoming,13445
+2023-06,West Main Street,outgoing,13618
+2023-06,West Michigan Avenue,incoming,6992
+2023-06,West Michigan Avenue,outgoing,6590
+2023-07,Amvets Memorial Highway,incoming,7091
+2023-07,Amvets Memorial Highway,outgoing,6062
+2023-07,Bus US-131,incoming,4980
+2023-07,Bus US-131,outgoing,4788
+2023-07,Gull Road,incoming,9673
+2023-07,Gull Road,outgoing,9397
+2023-07,Oakland Drive,incoming,6827
+2023-07,Oakland Drive,outgoing,6605
+2023-07,Portage Street,incoming,6150
+2023-07,Portage Street,outgoing,6226
+2023-07,South Westnedge Avenue,incoming,10912
+2023-07,South Westnedge Avenue,outgoing,11429
+2023-07,Stadium Drive,incoming,12058
+2023-07,Stadium Drive,outgoing,12447
+2023-07,West Main Street,incoming,13366
+2023-07,West Main Street,outgoing,13315
+2023-07,West Michigan Avenue,incoming,7996
+2023-07,West Michigan Avenue,outgoing,7320
+2023-08,Amvets Memorial Highway,incoming,8010
+2023-08,Amvets Memorial Highway,outgoing,6474
+2023-08,Bus US-131,incoming,5327
+2023-08,Bus US-131,outgoing,4991
+2023-08,Gull Road,incoming,9589
+2023-08,Gull Road,outgoing,9207
+2023-08,Oakland Drive,incoming,7549
+2023-08,Oakland Drive,outgoing,6993
+2023-08,Portage Street,incoming,5879
+2023-08,Portage Street,outgoing,5912
+2023-08,South Westnedge Avenue,incoming,11370
+2023-08,South Westnedge Avenue,outgoing,12127
+2023-08,Stadium Drive,incoming,13194
+2023-08,Stadium Drive,outgoing,13629
+2023-08,West Main Street,incoming,14511
+2023-08,West Main Street,outgoing,14497
+2023-08,West Michigan Avenue,incoming,8991
+2023-08,West Michigan Avenue,outgoing,8400
+2023-09,Amvets Memorial Highway,incoming,7841
+2023-09,Amvets Memorial Highway,outgoing,6910
+2023-09,Bus US-131,incoming,5177
+2023-09,Bus US-131,outgoing,5132
+2023-09,Gull Road,incoming,10260
+2023-09,Gull Road,outgoing,9918
+2023-09,Oakland Drive,incoming,8649
+2023-09,Oakland Drive,outgoing,7838
+2023-09,Portage Street,incoming,6008
+2023-09,Portage Street,outgoing,6063
+2023-09,South Westnedge Avenue,incoming,12046
+2023-09,South Westnedge Avenue,outgoing,12887
+2023-09,Stadium Drive,incoming,13920
+2023-09,Stadium Drive,outgoing,14909
+2023-09,West Main Street,incoming,16117
+2023-09,West Main Street,outgoing,16183
+2023-09,West Michigan Avenue,incoming,13344
+2023-09,West Michigan Avenue,outgoing,12401
+2023-10,Amvets Memorial Highway,incoming,8049
+2023-10,Amvets Memorial Highway,outgoing,7705
+2023-10,Bus US-131,incoming,5495
+2023-10,Bus US-131,outgoing,3905
+2023-10,Gull Road,incoming,8583
+2023-10,Gull Road,outgoing,8348
+2023-10,Oakland Drive,incoming,7128
+2023-10,Oakland Drive,outgoing,6568
+2023-10,Portage Street,incoming,5911
+2023-10,Portage Street,outgoing,5976
+2023-10,South Westnedge Avenue,incoming,9946
+2023-10,South Westnedge Avenue,outgoing,10970
+2023-10,Stadium Drive,incoming,13044
+2023-10,Stadium Drive,outgoing,13976
+2023-10,West Main Street,incoming,14207
+2023-10,West Main Street,outgoing,14350
+2023-10,West Michigan Avenue,incoming,10893
+2023-10,West Michigan Avenue,outgoing,10112
+2023-11,Amvets Memorial Highway,incoming,7499
+2023-11,Amvets Memorial Highway,outgoing,7225
+2023-11,Bus US-131,incoming,5022
+2023-11,Bus US-131,outgoing,3301
+2023-11,Gull Road,incoming,8239
+2023-11,Gull Road,outgoing,8038
+2023-11,Oakland Drive,incoming,6293
+2023-11,Oakland Drive,outgoing,6120
+2023-11,Portage Street,incoming,5450
+2023-11,Portage Street,outgoing,5558
+2023-11,South Westnedge Avenue,incoming,9766
+2023-11,South Westnedge Avenue,outgoing,10863
+2023-11,Stadium Drive,incoming,12832
+2023-11,Stadium Drive,outgoing,13318
+2023-11,West Main Street,incoming,13912
+2023-11,West Main Street,outgoing,14076
+2023-11,West Michigan Avenue,incoming,10857
+2023-11,West Michigan Avenue,outgoing,10123
+2023-12,Amvets Memorial Highway,incoming,6398
+2023-12,Amvets Memorial Highway,outgoing,6080
+2023-12,Bus US-131,incoming,4804
+2023-12,Bus US-131,outgoing,4423
+2023-12,Gull Road,incoming,7932
+2023-12,Gull Road,outgoing,7707
+2023-12,Oakland Drive,incoming,5885
+2023-12,Oakland Drive,outgoing,5657
+2023-12,Portage Street,incoming,5306
+2023-12,Portage Street,outgoing,5477
+2023-12,South Westnedge Avenue,incoming,8924
+2023-12,South Westnedge Avenue,outgoing,9807
+2023-12,Stadium Drive,incoming,11458
+2023-12,Stadium Drive,outgoing,11745
+2023-12,West Main Street,incoming,12311
+2023-12,West Main Street,outgoing,12314
+2023-12,West Michigan Avenue,incoming,7827
+2023-12,West Michigan Avenue,outgoing,7356
+2024-01,Amvets Memorial Highway,incoming,6356
+2024-01,Amvets Memorial Highway,outgoing,6010
+2024-01,Bus US-131,incoming,4432
+2024-01,Bus US-131,outgoing,4126
+2024-01,Gull Road,incoming,7507
+2024-01,Gull Road,outgoing,7457
+2024-01,Oakland Drive,incoming,5658
+2024-01,Oakland Drive,outgoing,5526
+2024-01,Portage Street,incoming,5150
+2024-01,Portage Street,outgoing,5319
+2024-01,South Westnedge Avenue,incoming,8588
+2024-01,South Westnedge Avenue,outgoing,9332
+2024-01,Stadium Drive,incoming,11924
+2024-01,Stadium Drive,outgoing,12010
+2024-01,West Main Street,incoming,12852
+2024-01,West Main Street,outgoing,12864
+2024-01,West Michigan Avenue,incoming,9532
+2024-01,West Michigan Avenue,outgoing,8723
+2024-02,Amvets Memorial Highway,incoming,7242
+2024-02,Amvets Memorial Highway,outgoing,6909
+2024-02,Bus US-131,incoming,5174
+2024-02,Bus US-131,outgoing,4868
+2024-02,Gull Road,incoming,8330
+2024-02,Gull Road,outgoing,8159
+2024-02,Oakland Drive,incoming,6608
+2024-02,Oakland Drive,outgoing,6520
+2024-02,Portage Street,incoming,5827
+2024-02,Portage Street,outgoing,6037
+2024-02,South Westnedge Avenue,incoming,9886
+2024-02,South Westnedge Avenue,outgoing,10880
+2024-02,Stadium Drive,incoming,13559
+2024-02,Stadium Drive,outgoing,13700
+2024-02,West Main Street,incoming,14406
+2024-02,West Main Street,outgoing,14795
+2024-02,West Michigan Avenue,incoming,11083
+2024-02,West Michigan Avenue,outgoing,10304
+2024-03,Amvets Memorial Highway,incoming,7090
+2024-03,Amvets Memorial Highway,outgoing,6812
+2024-03,Bus US-131,incoming,4987
+2024-03,Bus US-131,outgoing,4762
+2024-03,Gull Road,incoming,7963
+2024-03,Gull Road,outgoing,7775
+2024-03,Oakland Drive,incoming,7562
+2024-03,Oakland Drive,outgoing,6604
+2024-03,Portage Street,incoming,6366
+2024-03,Portage Street,outgoing,6079
+2024-03,South Westnedge Avenue,incoming,1032
+2024-03,South Westnedge Avenue,outgoing,7296
+2024-03,Stadium Drive,incoming,13393
+2024-03,Stadium Drive,outgoing,13193
+2024-03,West Main Street,incoming,13845
+2024-03,West Main Street,outgoing,14176
+2024-03,West Michigan Avenue,incoming,9699
+2024-03,West Michigan Avenue,outgoing,8862
+2024-04,Amvets Memorial Highway,incoming,7316
+2024-04,Amvets Memorial Highway,outgoing,6975
+2024-04,Bus US-131,incoming,5242
+2024-04,Bus US-131,outgoing,3660
+2024-04,Gull Road,incoming,8284
+2024-04,Gull Road,outgoing,7973
+2024-04,Oakland Drive,incoming,8725
+2024-04,Oakland Drive,outgoing,7590
+2024-04,Portage Street,incoming,6810
+2024-04,Portage Street,outgoing,6602
+2024-04,South Westnedge Avenue,incoming,248
+2024-04,South Westnedge Avenue,outgoing,7845
+2024-04,Stadium Drive,incoming,14572
+2024-04,Stadium Drive,outgoing,14299
+2024-04,West Main Street,incoming,13758
+2024-04,West Main Street,outgoing,14076
+2024-04,West Michigan Avenue,incoming,9456
+2024-04,West Michigan Avenue,outgoing,8767
+2024-05,Amvets Memorial Highway,incoming,7533
+2024-05,Amvets Memorial Highway,outgoing,7091
+2024-05,Bus US-131,incoming,5898
+2024-05,Bus US-131,outgoing,5730
+2024-05,Gull Road,incoming,8671
+2024-05,Gull Road,outgoing,8131
+2024-05,Oakland Drive,incoming,8036
+2024-05,Oakland Drive,outgoing,7713
+2024-05,Portage Street,incoming,6963
+2024-05,Portage Street,outgoing,6979
+2024-05,South Westnedge Avenue,incoming,229
+2024-05,South Westnedge Avenue,outgoing,6315
+2024-05,Stadium Drive,incoming,14481
+2024-05,Stadium Drive,outgoing,13704
+2024-05,West Main Street,incoming,13349
+2024-05,West Main Street,outgoing,13808
+2024-05,West Michigan Avenue,incoming,6641
+2024-05,West Michigan Avenue,outgoing,6331
+2024-06,Amvets Memorial Highway,incoming,7690
+2024-06,Amvets Memorial Highway,outgoing,7418
+2024-06,Bus US-131,incoming,5807
+2024-06,Bus US-131,outgoing,5490
+2024-06,Gull Road,incoming,8174
+2024-06,Gull Road,outgoing,8155
+2024-06,Oakland Drive,incoming,7834
+2024-06,Oakland Drive,outgoing,7692
+2024-06,Portage Street,incoming,6847
+2024-06,Portage Street,outgoing,7596
+2024-06,South Westnedge Avenue,incoming,243
+2024-06,South Westnedge Avenue,outgoing,4756
+2024-06,Stadium Drive,incoming,13609
+2024-06,Stadium Drive,outgoing,12097
+2024-06,West Main Street,incoming,13308
+2024-06,West Main Street,outgoing,14221
+2024-06,West Michigan Avenue,incoming,6233
+2024-06,West Michigan Avenue,outgoing,5710
+2024-07,Amvets Memorial Highway,incoming,7493
+2024-07,Amvets Memorial Highway,outgoing,6554
+2024-07,Bus US-131,incoming,5361
+2024-07,Bus US-131,outgoing,4085
+2024-07,Gull Road,incoming,9190
+2024-07,Gull Road,outgoing,9149
+2024-07,Oakland Drive,incoming,7386
+2024-07,Oakland Drive,outgoing,7103
+2024-07,Portage Street,incoming,7146
+2024-07,Portage Street,outgoing,7998
+2024-07,South Westnedge Avenue,incoming,227
+2024-07,South Westnedge Avenue,outgoing,4266
+2024-07,Stadium Drive,incoming,13833
+2024-07,Stadium Drive,outgoing,12429
+2024-07,West Main Street,incoming,12487
+2024-07,West Main Street,outgoing,13361
+2024-07,West Michigan Avenue,incoming,7122
+2024-07,West Michigan Avenue,outgoing,6902
+2024-08,Amvets Memorial Highway,incoming,7468
+2024-08,Amvets Memorial Highway,outgoing,6870
+2024-08,Bus US-131,incoming,4932
+2024-08,Bus US-131,outgoing,3993
+2024-08,Gull Road,incoming,9470
+2024-08,Gull Road,outgoing,9215
+2024-08,Oakland Drive,incoming,7388
+2024-08,Oakland Drive,outgoing,7484
+2024-08,Portage Street,incoming,7340
+2024-08,Portage Street,outgoing,7675
+2024-08,South Westnedge Avenue,incoming,246
+2024-08,South Westnedge Avenue,outgoing,3813
+2024-08,Stadium Drive,incoming,13760
+2024-08,Stadium Drive,outgoing,12618
+2024-08,West Main Street,incoming,13920
+2024-08,West Main Street,outgoing,14850
+2024-08,West Michigan Avenue,incoming,8067
+2024-08,West Michigan Avenue,outgoing,7761
+2024-09,Amvets Memorial Highway,incoming,7252
+2024-09,Amvets Memorial Highway,outgoing,7108
+2024-09,Bus US-131,incoming,4455
+2024-09,Bus US-131,outgoing,3802
+2024-09,Gull Road,incoming,8927
+2024-09,Gull Road,outgoing,8830
+2024-09,Oakland Drive,incoming,8933
+2024-09,Oakland Drive,outgoing,9126
+2024-09,Portage Street,incoming,7950
+2024-09,Portage Street,outgoing,8062
+2024-09,South Westnedge Avenue,incoming,218
+2024-09,South Westnedge Avenue,outgoing,4118
+2024-09,Stadium Drive,incoming,15387
+2024-09,Stadium Drive,outgoing,14606
+2024-09,West Main Street,incoming,14605
+2024-09,West Main Street,outgoing,15471
+2024-09,West Michigan Avenue,incoming,10947
+2024-09,West Michigan Avenue,outgoing,10154
+2024-10,Amvets Memorial Highway,incoming,7676
+2024-10,Amvets Memorial Highway,outgoing,7429
+2024-10,Bus US-131,incoming,4664
+2024-10,Bus US-131,outgoing,3968
+2024-10,Gull Road,incoming,9114
+2024-10,Gull Road,outgoing,8994
+2024-10,Oakland Drive,incoming,8937
+2024-10,Oakland Drive,outgoing,9392
+2024-10,Portage Street,incoming,7957
+2024-10,Portage Street,outgoing,8379
+2024-10,South Westnedge Avenue,incoming,3208
+2024-10,South Westnedge Avenue,outgoing,5359
+2024-10,Stadium Drive,incoming,15566
+2024-10,Stadium Drive,outgoing,15429
+2024-10,West Main Street,incoming,15231
+2024-10,West Main Street,outgoing,16105
+2024-10,West Michigan Avenue,incoming,10861
+2024-10,West Michigan Avenue,outgoing,10060
+2024-11,Amvets Memorial Highway,incoming,6991
+2024-11,Amvets Memorial Highway,outgoing,7098
+2024-11,Bus US-131,incoming,4611
+2024-11,Bus US-131,outgoing,4414
+2024-11,Gull Road,incoming,8546
+2024-11,Gull Road,outgoing,8539
+2024-11,Oakland Drive,incoming,7685
+2024-11,Oakland Drive,outgoing,8184
+2024-11,Portage Street,incoming,6897
+2024-11,Portage Street,outgoing,8155
+2024-11,South Westnedge Avenue,incoming,7909
+2024-11,South Westnedge Avenue,outgoing,7290
+2024-11,Stadium Drive,incoming,14188
+2024-11,Stadium Drive,outgoing,14394
+2024-11,West Main Street,incoming,14108
+2024-11,West Main Street,outgoing,14887
+2024-11,West Michigan Avenue,incoming,9904
+2024-11,West Michigan Avenue,outgoing,9143
+2024-12,Amvets Memorial Highway,incoming,5656
+2024-12,Amvets Memorial Highway,outgoing,5637
+2024-12,Bus US-131,incoming,4092
+2024-12,Bus US-131,outgoing,4059
+2024-12,Gull Road,incoming,8213
+2024-12,Gull Road,outgoing,8154
+2024-12,Oakland Drive,incoming,6326
+2024-12,Oakland Drive,outgoing,6515
+2024-12,Portage Street,incoming,6049
+2024-12,Portage Street,outgoing,6445
+2024-12,South Westnedge Avenue,incoming,8044
+2024-12,South Westnedge Avenue,outgoing,8012
+2024-12,Stadium Drive,incoming,12649
+2024-12,Stadium Drive,outgoing,12621
+2024-12,West Main Street,incoming,13168
+2024-12,West Main Street,outgoing,13810
+2024-12,West Michigan Avenue,incoming,6961
+2024-12,West Michigan Avenue,outgoing,6361
+2025-01,Amvets Memorial Highway,incoming,5837
+2025-01,Amvets Memorial Highway,outgoing,6099
+2025-01,Bus US-131,incoming,3961
+2025-01,Bus US-131,outgoing,3930
+2025-01,Gull Road,incoming,8363
+2025-01,Gull Road,outgoing,8278
+2025-01,Oakland Drive,incoming,6807
+2025-01,Oakland Drive,outgoing,6958
+2025-01,Portage Street,incoming,5876
+2025-01,Portage Street,outgoing,6295
+2025-01,South Westnedge Avenue,incoming,8661
+2025-01,South Westnedge Avenue,outgoing,8852
+2025-01,Stadium Drive,incoming,13657
+2025-01,Stadium Drive,outgoing,13735
+2025-01,West Main Street,incoming,13639
+2025-01,West Main Street,outgoing,14309
+2025-01,West Michigan Avenue,incoming,9095
+2025-01,West Michigan Avenue,outgoing,8356
+2025-02,Amvets Memorial Highway,incoming,6316
+2025-02,Amvets Memorial Highway,outgoing,6294
+2025-02,Bus US-131,incoming,4398
+2025-02,Bus US-131,outgoing,4317
+2025-02,Gull Road,incoming,8778
+2025-02,Gull Road,outgoing,8644
+2025-02,Oakland Drive,incoming,7195
+2025-02,Oakland Drive,outgoing,7290
+2025-02,Portage Street,incoming,6178
+2025-02,Portage Street,outgoing,6393
+2025-02,South Westnedge Avenue,incoming,9452
+2025-02,South Westnedge Avenue,outgoing,9994
+2025-02,Stadium Drive,incoming,14602
+2025-02,Stadium Drive,outgoing,14864
+2025-02,West Main Street,incoming,13727
+2025-02,West Main Street,outgoing,14483
+2025-02,West Michigan Avenue,incoming,9693
+2025-02,West Michigan Avenue,outgoing,8929
+2025-03,Amvets Memorial Highway,incoming,6948
+2025-03,Amvets Memorial Highway,outgoing,6930
+2025-03,Bus US-131,incoming,4658
+2025-03,Bus US-131,outgoing,4702
+2025-03,Gull Road,incoming,9284
+2025-03,Gull Road,outgoing,9082
+2025-03,Oakland Drive,incoming,7102
+2025-03,Oakland Drive,outgoing,7223
+2025-03,Portage Street,incoming,7036
+2025-03,Portage Street,outgoing,7104
+2025-03,South Westnedge Avenue,incoming,10389
+2025-03,South Westnedge Avenue,outgoing,10842
+2025-03,Stadium Drive,incoming,15270
+2025-03,Stadium Drive,outgoing,14863
+2025-03,West Main Street,incoming,13688
+2025-03,West Main Street,outgoing,14896
+2025-03,West Michigan Avenue,incoming,9179
+2025-03,West Michigan Avenue,outgoing,8432
+2025-04,Amvets Memorial Highway,incoming,7377
+2025-04,Amvets Memorial Highway,outgoing,7401
+2025-04,Bus US-131,incoming,5000
+2025-04,Bus US-131,outgoing,5310
+2025-04,Gull Road,incoming,9264
+2025-04,Gull Road,outgoing,9270
+2025-04,Oakland Drive,incoming,7578
+2025-04,Oakland Drive,outgoing,7624
+2025-04,Portage Street,incoming,7034
+2025-04,Portage Street,outgoing,7157
+2025-04,South Westnedge Avenue,incoming,11041
+2025-04,South Westnedge Avenue,outgoing,11819
+2025-04,Stadium Drive,incoming,15296
+2025-04,Stadium Drive,outgoing,14952
+2025-04,West Main Street,incoming,13798
+2025-04,West Main Street,outgoing,13803
+2025-04,West Michigan Avenue,incoming,9053
+2025-04,West Michigan Avenue,outgoing,8484
+2025-05,Amvets Memorial Highway,incoming,6926
+2025-05,Amvets Memorial Highway,outgoing,7236
+2025-05,Bus US-131,incoming,4716
+2025-05,Bus US-131,outgoing,5257
+2025-05,Gull Road,incoming,9507
+2025-05,Gull Road,outgoing,9533
+2025-05,Oakland Drive,incoming,6448
+2025-05,Oakland Drive,outgoing,6642
+2025-05,Portage Street,incoming,6985
+2025-05,Portage Street,outgoing,7153
+2025-05,South Westnedge Avenue,incoming,10741
+2025-05,South Westnedge Avenue,outgoing,11242
+2025-05,Stadium Drive,incoming,14024
+2025-05,Stadium Drive,outgoing,13544
+2025-05,West Main Street,incoming,12580
+2025-05,West Main Street,outgoing,11903
+2025-05,West Michigan Avenue,incoming,6040
+2025-05,West Michigan Avenue,outgoing,5643
+2025-06,Amvets Memorial Highway,incoming,7080
+2025-06,Amvets Memorial Highway,outgoing,7300
+2025-06,Bus US-131,incoming,4921
+2025-06,Bus US-131,outgoing,5400
+2025-06,Gull Road,incoming,9258
+2025-06,Gull Road,outgoing,9165
+2025-06,Oakland Drive,incoming,6419
+2025-06,Oakland Drive,outgoing,6763
+2025-06,Portage Street,incoming,7026
+2025-06,Portage Street,outgoing,7402
+2025-06,South Westnedge Avenue,incoming,10648
+2025-06,South Westnedge Avenue,outgoing,10733
+2025-06,Stadium Drive,incoming,13594
+2025-06,Stadium Drive,outgoing,13311
+2025-06,West Main Street,incoming,12627
+2025-06,West Main Street,outgoing,11978
+2025-06,West Michigan Avenue,incoming,5810
+2025-06,West Michigan Avenue,outgoing,5506
+2025-07,Amvets Memorial Highway,incoming,7078
+2025-07,Amvets Memorial Highway,outgoing,7193
+2025-07,Bus US-131,incoming,4363
+2025-07,Bus US-131,outgoing,5338
+2025-07,Gull Road,incoming,8928
+2025-07,Gull Road,outgoing,8959
+2025-07,Oakland Drive,incoming,6229
+2025-07,Oakland Drive,outgoing,6684
+2025-07,Portage Street,incoming,6784
+2025-07,Portage Street,outgoing,7689
+2025-07,South Westnedge Avenue,incoming,10575
+2025-07,South Westnedge Avenue,outgoing,9736
+2025-07,Stadium Drive,incoming,13645
+2025-07,Stadium Drive,outgoing,13638
+2025-07,West Main Street,incoming,11948
+2025-07,West Main Street,outgoing,11400
+2025-07,West Michigan Avenue,incoming,5691
+2025-07,West Michigan Avenue,outgoing,5392
+2025-08,Amvets Memorial Highway,incoming,6777
+2025-08,Amvets Memorial Highway,outgoing,6825
+2025-08,Bus US-131,incoming,4092
+2025-08,Bus US-131,outgoing,4745
+2025-08,Gull Road,incoming,9100
+2025-08,Gull Road,outgoing,9013
+2025-08,Oakland Drive,incoming,6611
+2025-08,Oakland Drive,outgoing,6973
+2025-08,Portage Street,incoming,6148
+2025-08,Portage Street,outgoing,6917
+2025-08,South Westnedge Avenue,incoming,10694
+2025-08,South Westnedge Avenue,outgoing,9980
+2025-08,Stadium Drive,incoming,14020
+2025-08,Stadium Drive,outgoing,14063
+2025-08,West Main Street,incoming,11989
+2025-08,West Main Street,outgoing,12414
+2025-08,West Michigan Avenue,incoming,7505
+2025-08,West Michigan Avenue,outgoing,7071
+2025-09,Amvets Memorial Highway,incoming,6981
+2025-09,Amvets Memorial Highway,outgoing,7338
+2025-09,Bus US-131,incoming,4204
+2025-09,Bus US-131,outgoing,5204
+2025-09,Gull Road,incoming,9662
+2025-09,Gull Road,outgoing,9513
+2025-09,Oakland Drive,incoming,7776
+2025-09,Oakland Drive,outgoing,8124
+2025-09,Portage Street,incoming,6599
+2025-09,Portage Street,outgoing,7551
+2025-09,South Westnedge Avenue,incoming,11731
+2025-09,South Westnedge Avenue,outgoing,11504
+2025-09,Stadium Drive,incoming,16276
+2025-09,Stadium Drive,outgoing,16024
+2025-09,West Main Street,incoming,12832
+2025-09,West Main Street,outgoing,13703
+2025-09,West Michigan Avenue,incoming,10668
+2025-09,West Michigan Avenue,outgoing,9882
+2025-10,Amvets Memorial Highway,incoming,7091
+2025-10,Amvets Memorial Highway,outgoing,7215
+2025-10,Bus US-131,incoming,4069
+2025-10,Bus US-131,outgoing,5344
+2025-10,Gull Road,incoming,9916
+2025-10,Gull Road,outgoing,9816
+2025-10,Oakland Drive,incoming,7405
+2025-10,Oakland Drive,outgoing,7644
+2025-10,Portage Street,incoming,6426
+2025-10,Portage Street,outgoing,7286
+2025-10,South Westnedge Avenue,incoming,12176
+2025-10,South Westnedge Avenue,outgoing,11747
+2025-10,Stadium Drive,incoming,14517
+2025-10,Stadium Drive,outgoing,14393
+2025-10,West Main Street,incoming,13314
+2025-10,West Main Street,outgoing,14299
+2025-10,West Michigan Avenue,incoming,9908
+2025-10,West Michigan Avenue,outgoing,9080
+2025-11,Amvets Memorial Highway,incoming,6088
+2025-11,Amvets Memorial Highway,outgoing,6360
+2025-11,Bus US-131,incoming,4027
+2025-11,Bus US-131,outgoing,4944
+2025-11,Gull Road,incoming,9421
+2025-11,Gull Road,outgoing,9342
+2025-11,Oakland Drive,incoming,6690
+2025-11,Oakland Drive,outgoing,6767
+2025-11,Portage Street,incoming,5975
+2025-11,Portage Street,outgoing,6656
+2025-11,South Westnedge Avenue,incoming,10963
+2025-11,South Westnedge Avenue,outgoing,10924
+2025-11,Stadium Drive,incoming,13150
+2025-11,Stadium Drive,outgoing,13178
+2025-11,West Main Street,incoming,12244
+2025-11,West Main Street,outgoing,13411
+2025-11,West Michigan Avenue,incoming,8393
+2025-11,West Michigan Avenue,outgoing,7790
+2025-12,Amvets Memorial Highway,incoming,5606
+2025-12,Amvets Memorial Highway,outgoing,5658
+2025-12,Bus US-131,incoming,4077
+2025-12,Bus US-131,outgoing,4629
+2025-12,Gull Road,incoming,9027
+2025-12,Gull Road,outgoing,8980
+2025-12,Oakland Drive,incoming,5890
+2025-12,Oakland Drive,outgoing,5817
+2025-12,Portage Street,incoming,5647
+2025-12,Portage Street,outgoing,6211
+2025-12,South Westnedge Avenue,incoming,10635
+2025-12,South Westnedge Avenue,outgoing,10910
+2025-12,Stadium Drive,incoming,11353
+2025-12,Stadium Drive,outgoing,11459
+2025-12,West Main Street,incoming,11892
+2025-12,West Main Street,outgoing,13012
+2025-12,West Michigan Avenue,incoming,5893
+2025-12,West Michigan Avenue,outgoing,5467
+2026-01,Amvets Memorial Highway,incoming,5474
+2026-01,Amvets Memorial Highway,outgoing,5734
+2026-01,Bus US-131,incoming,3870
+2026-01,Bus US-131,outgoing,4296
+2026-01,Gull Road,incoming,8809
+2026-01,Gull Road,outgoing,9061
+2026-01,Oakland Drive,incoming,5937
+2026-01,Oakland Drive,outgoing,5846
+2026-01,Portage Street,incoming,5619
+2026-01,Portage Street,outgoing,6119
+2026-01,South Westnedge Avenue,incoming,10288
+2026-01,South Westnedge Avenue,outgoing,10902
+2026-01,Stadium Drive,incoming,11195
+2026-01,Stadium Drive,outgoing,11302
+2026-01,West Main Street,incoming,11282
+2026-01,West Main Street,outgoing,12191
+2026-01,West Michigan Avenue,incoming,6934
+2026-01,West Michigan Avenue,outgoing,6318
+2026-02,Amvets Memorial Highway,incoming,6303
+2026-02,Amvets Memorial Highway,outgoing,6450
+2026-02,Bus US-131,incoming,4650
+2026-02,Bus US-131,outgoing,5177
+2026-02,Gull Road,incoming,9793
+2026-02,Gull Road,outgoing,9925
+2026-02,Oakland Drive,incoming,7041
+2026-02,Oakland Drive,outgoing,6923
+2026-02,Portage Street,incoming,6535
+2026-02,Portage Street,outgoing,7013
+2026-02,South Westnedge Avenue,incoming,11485
+2026-02,South Westnedge Avenue,outgoing,12374
+2026-02,Stadium Drive,incoming,13179
+2026-02,Stadium Drive,outgoing,13347
+2026-02,West Main Street,incoming,13560
+2026-02,West Main Street,outgoing,14734
+2026-02,West Michigan Avenue,incoming,8992
+2026-02,West Michigan Avenue,outgoing,8204
+2026-03,Amvets Memorial Highway,incoming,6481
+2026-03,Amvets Memorial Highway,outgoing,6759
+2026-03,Bus US-131,incoming,4908
+2026-03,Bus US-131,outgoing,5350
+2026-03,Gull Road,incoming,9962
+2026-03,Gull Road,outgoing,10123
+2026-03,Oakland Drive,incoming,6926
+2026-03,Oakland Drive,outgoing,6862
+2026-03,Portage Street,incoming,6695
+2026-03,Portage Street,outgoing,7253
+2026-03,South Westnedge Avenue,incoming,12045
+2026-03,South Westnedge Avenue,outgoing,12608
+2026-03,Stadium Drive,incoming,12965
+2026-03,Stadium Drive,outgoing,13218
+2026-03,West Main Street,incoming,13199
+2026-03,West Main Street,outgoing,14112
+2026-03,West Michigan Avenue,incoming,7403
+2026-03,West Michigan Avenue,outgoing,6779
+2026-04,Amvets Memorial Highway,incoming,7159
+2026-04,Amvets Memorial Highway,outgoing,6993
+2026-04,Bus US-131,incoming,5063
+2026-04,Bus US-131,outgoing,5913
+2026-04,Gull Road,incoming,10478
+2026-04,Gull Road,outgoing,10532
+2026-04,Oakland Drive,incoming,7989
+2026-04,Oakland Drive,outgoing,6965
+2026-04,Portage Street,incoming,6964
+2026-04,Portage Street,outgoing,7411
+2026-04,South Westnedge Avenue,incoming,13556
+2026-04,South Westnedge Avenue,outgoing,13498
+2026-04,Stadium Drive,incoming,13245
+2026-04,Stadium Drive,outgoing,14246
+2026-04,West Main Street,incoming,13333
+2026-04,West Main Street,outgoing,14833
+2026-04,West Michigan Avenue,incoming,8230
+2026-04,West Michigan Avenue,outgoing,7753
+2026-05,Amvets Memorial Highway,incoming,6672
+2026-05,Amvets Memorial Highway,outgoing,6733
+2026-05,Bus US-131,incoming,4796
+2026-05,Bus US-131,outgoing,5887
+2026-05,Gull Road,incoming,10348
+2026-05,Gull Road,outgoing,10439
+2026-05,Oakland Drive,incoming,6807
+2026-05,Oakland Drive,outgoing,6351
+2026-05,Portage Street,incoming,6980
+2026-05,Portage Street,outgoing,7476
+2026-05,South Westnedge Avenue,incoming,13003
+2026-05,South Westnedge Avenue,outgoing,13180
+2026-05,Stadium Drive,incoming,12246
+2026-05,Stadium Drive,outgoing,12776
+2026-05,West Main Street,incoming,13122
+2026-05,West Main Street,outgoing,14297
+2026-05,West Michigan Avenue,incoming,5283
+2026-05,West Michigan Avenue,outgoing,5040
+2026-06,Amvets Memorial Highway,incoming,7432
+2026-06,Amvets Memorial Highway,outgoing,7076
+2026-06,Bus US-131,incoming,5144
+2026-06,Bus US-131,outgoing,6745
+2026-06,Gull Road,incoming,10521
+2026-06,Gull Road,outgoing,10503
+2026-06,Oakland Drive,incoming,6371
+2026-06,Oakland Drive,outgoing,5816
+2026-06,Portage Street,incoming,6827
+2026-06,Portage Street,outgoing,7285
+2026-06,South Westnedge Avenue,incoming,13222
+2026-06,South Westnedge Avenue,outgoing,13261
+2026-06,Stadium Drive,incoming,11849
+2026-06,Stadium Drive,outgoing,12516
+2026-06,West Main Street,incoming,13145
+2026-06,West Main Street,outgoing,14395
+2026-06,West Michigan Avenue,incoming,5125
+2026-06,West Michigan Avenue,outgoing,4803

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transit — Downtown Kalamazoo Vitality Data</title>
+<meta name="description" content="Bus boardings and alightings at 54 downtown Kalamazoo stops, monthly since January 2023.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@600;700;800&family=Overpass+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <div class="brand">
+      <a class="t" href="index.html">Downtown Kalamazoo Economic Vitality Study</a>
+      <span class="sub">Western Michigan University · City of Kalamazoo</span>
+    </div>
+    <nav class="main" aria-label="Sections">
+      <a href="index.html">Overview</a>
+      <a href="traffic.html">Traffic</a>
+      <a href="people.html">People</a>
+      <a href="parking.html">Parking</a>
+      <a href="transit.html">Transit</a>
+      <a href="data.html">Data</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <p class="updated" data-coverage></p>
+    <h1>Transit</h1>
+    <p class="lede">People getting on and off buses at the downtown stops. These are passenger movements, not people: a rider who transfers at the Transit Center is counted twice.</p>
+  </div>
+
+  <section>
+    <div class="figs two">
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title">Ons and offs by quarter</div><div class="fig-sub">Transit Center and the other stops</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-quarter"></div>
+        <ul class="legend">
+          <li><span class="sw" style="background:var(--s1)"></span>Transit Center</li>
+          <li><span class="sw" style="background:var(--s2)"></span>Other stops</li>
+        </ul>
+        <div class="tv" hidden></div>
+      </figure>
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title">Street stops by month</div><div class="fig-sub">All stops except the Transit Center</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-street"></div>
+        <div class="tv" hidden></div>
+      </figure>
+    </div>
+    <p class="note"><b>The Transit Center is the network downtown.</b> Close to nine in ten ons and offs happen at stops 1004 and 1011. The fall in street-stop activity is mostly one stop: Rose at Water, which has no recorded activity after October 2024.</p>
+  </section>
+
+  <section>
+    <h2>Stops</h2>
+    <p class="prose" id="stop-intro"></p>
+    <div class="tbl-wrap needs-data">
+      <table id="stops">
+        <thead><tr><th scope="col">Stop</th><th scope="col">ID</th><th scope="col">Ons + offs</th><th scope="col"></th><th scope="col">Boardings</th><th scope="col">Alightings</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="fig-note">Showing the 20 busiest stops. The full list for every month is in <code>data/transit_monthly.csv</code>.</p>
+  </section>
+
+  <section>
+    <h2>Notes</h2>
+    <div class="prose">
+      <p><b>Ons + offs, not riders.</b> The study's reports label this "transit users", which overstates it: a round trip counts at least twice, and so does a transfer.</p>
+      <p><b>Service changes move these numbers.</b> Stop 1 (Rose at Water) and stop 1079 (Rose at Butler) have been out of service since November 2024. Several Westnedge-area stops went quiet in August and September 2024 during construction and returned in 2025.</p>
+      <p><b>The Transit Center switched sides in spring 2026.</b> Activity moved from the Rose side (stop 1004) to the Burdick side (stop 1011) from April 2026, while the combined total barely changed. The two sides are labelled inconsistently in the source workbook, so this site reports them by stop number.</p>
+      <p><b>A blank month is not a zero.</b> Where a stop has no figure, it was not reported or not served, and it is left out of the calculation rather than counted as nothing.</p>
+      <p><b>Source.</b> Kalamazoo Metro (K-Metro).</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
+    <p><a href="data.html">Method, downloads and known issues</a></p>
+  </div>
+</footer>
+
+<script src="assets/charts.js"></script>
+<script src="assets/site.js"></script>
+<script>
+Site.ready(async () => {
+  const d = await Site.loadAll(["transit_monthly.csv"]);
+  const rows = d.transit;
+  const months = [...new Set(rows.map(r => r.month))].sort();
+  Site.stamp(months);
+
+  const qu = Site.transitQuarterly(rows);
+  const mo = Site.transitMonthly(rows);
+
+  const hostQ = document.getElementById("c-quarter"), figQ = hostQ.closest("figure");
+  Chart.register(hostQ, () => Chart.column(hostQ, {
+    cats: qu.map(q => q.q), height: 250, stacked: true,
+    catLabel: c => c.slice(5) === "Q1" ? [c.slice(5), c.slice(0, 4)] : [c.slice(5)],
+    series: [
+      { name: "Transit Center", key: "s1", values: qu.map(q => q.centre) },
+      { name: "other stops", key: "s2", values: qu.map(q => q.street) },
+    ],
+    tipTitle: Site.qLabel,
+    tipRows: i => [
+      { key: "s1", name: "Transit Center", value: Site.fmtN(qu[i].centre) },
+      { key: "s2", name: "other stops", value: Site.fmtN(qu[i].street) },
+      { name: "total", value: Site.fmtN(qu[i].total) },
+      { name: "at the Transit Center", value: Math.round(qu[i].centre / qu[i].total * 100) + "%" },
+    ],
+    aria: "Quarterly boardings plus alightings, about 320,000 to 350,000 a quarter, mostly at the Transit Center.",
+  }));
+  Chart.table(figQ, ["Quarter", "Transit Center", "Other stops", "Total"],
+    qu.map(q => [Site.qLabel(q.q), Site.fmtN(q.centre), Site.fmtN(q.street), Site.fmtN(q.total)]));
+
+  const hostS = document.getElementById("c-street"), figS = hostS.closest("figure");
+  Chart.register(hostS, () => Chart.line(hostS, {
+    labels: mo.map(m => m.month), height: 250, area: true,
+    series: [{ name: "ons + offs", key: "s2", values: mo.map(m => m.street) }],
+    xTick: l => l.endsWith("-01") ? l.slice(0, 4) : null,
+    tipTitle: Site.monthLabel,
+    aria: "Monthly boardings plus alightings at stops other than the Transit Center, falling through 2024.",
+  }));
+  Chart.table(figS, ["Month", "Street stops", "Transit Center", "Total"],
+    mo.map(m => [Site.monthLabel(m.month), Site.fmtN(m.street), Site.fmtN(m.centre), Site.fmtN(m.total)]));
+
+  // busiest stops over the last four quarters
+  const quarters = qu.map(q => q.q).slice(-4);
+  document.getElementById("stop-intro").textContent =
+    `Total over the last four quarters (${Site.qLabel(quarters[0])} to ${Site.qLabel(quarters[quarters.length - 1])}).`;
+  const stops = Site.transitStops(rows, quarters).slice(0, 20);
+  const max = stops.length ? stops[0].total : 1;
+  const tb = document.querySelector("#stops tbody");
+  for (const s of stops) {
+    const tr = tb.insertRow();
+    const th = document.createElement("th");
+    th.scope = "row";
+    th.textContent = s.name || "(unnamed)";
+    tr.appendChild(th);
+    const id = tr.insertCell();
+    id.textContent = s.stop_id;
+    id.style.color = "var(--muted)";
+    tr.insertCell().textContent = Site.fmtN(s.total);
+    const barCell = tr.insertCell();
+    barCell.style.width = "26%";
+    const wrap = document.createElement("div");
+    wrap.className = "barrow";
+    const bar = document.createElement("i");
+    bar.style.width = (s.total / max * 100).toFixed(1) + "%";
+    if (Site.TC_STOPS.has(s.stop_id)) bar.style.background = "var(--s1)";
+    else bar.style.background = "var(--s2)";
+    wrap.appendChild(bar);
+    barCell.appendChild(wrap);
+    tr.insertCell().textContent = Site.fmtN(s.boardings);
+    tr.insertCell().textContent = Site.fmtN(s.alightings);
+  }
+});
+</script>
+</body>
+</html>

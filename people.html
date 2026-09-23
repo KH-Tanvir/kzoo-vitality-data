@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>People — Downtown Kalamazoo Vitality Data</title>
+<meta name="description" content="Visits to downtown Kalamazoo by visitors, employees and residents, monthly since January 2023.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@600;700;800&family=Overpass+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <div class="brand">
+      <a class="t" href="index.html">Downtown Kalamazoo Economic Vitality Study</a>
+      <span class="sub">Western Michigan University · City of Kalamazoo</span>
+    </div>
+    <nav class="main" aria-label="Sections">
+      <a href="index.html">Overview</a>
+      <a href="traffic.html">Traffic</a>
+      <a href="people.html">People</a>
+      <a href="parking.html">Parking</a>
+      <a href="transit.html">Transit</a>
+      <a href="data.html">Data</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <p class="updated" data-coverage></p>
+    <h1>People downtown</h1>
+    <p class="lede">Trips into the downtown study area each month, split into people who live there, work there, and everyone else. A visit is a trip, not a person: one person can make many.</p>
+  </div>
+
+  <section>
+    <div class="controls">
+      <div class="field">
+        <label for="segment">Group</label>
+        <select id="segment">
+          <option value="visitors">Visitors</option>
+          <option value="employees">Employees</option>
+          <option value="residents">Residents</option>
+        </select>
+      </div>
+    </div>
+    <div class="figs two">
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title" id="t1">Visits per month</div><div class="fig-sub">Trips into the study area</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-visits"></div>
+        <p class="fig-note">Shaded from January 2025, when the study area boundary changed.</p>
+        <div class="tv" hidden></div>
+      </figure>
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title" id="t2">Unique people per month</div><div class="fig-sub">Distinct people seen in the month</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-people"></div>
+        <div class="tv" hidden></div>
+      </figure>
+    </div>
+    <p class="note"><b>Read year-to-year change from the source's own comparison, not from the totals.</b> The study area was redrawn after the City's Q3-2024 feedback, so visit counts before and after January 2025 do not cover the same ground. The chart below uses the year-over-year field supplied with the data, which compares like with like.</p>
+  </section>
+
+  <section>
+    <h2>Change against the year before</h2>
+    <figure class="fig">
+      <div class="fig-head">
+        <div><div class="fig-title" id="t3">Year-over-year change in visits</div><div class="fig-sub">Quarterly average of the source's monthly comparison</div></div>
+        <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+      </div>
+      <div class="host" id="c-yoy"></div>
+      <div class="tv" hidden></div>
+    </figure>
+  </section>
+
+  <section>
+    <h2>By quarter</h2>
+    <div class="tbl-wrap needs-data">
+      <table id="q-table">
+        <thead><tr><th scope="col">Quarter</th><th scope="col">Visits</th><th scope="col">Unique people (monthly avg)</th><th scope="col">Visits per person</th><th scope="col">Avg. dwell (minutes)</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Notes</h2>
+    <div class="prose">
+      <p><b>Visits add up, people do not.</b> A quarter's visits are the sum of its months. Unique people and dwell time are monthly averages, because the same person appears in more than one month.</p>
+      <p><b>Dwell time shifts in January 2025</b> along with the boundary change: visitor dwell drops from about 186 to 130 minutes, while resident and employee dwell rise. Treat it as a break in the series, not a change in behaviour.</p>
+      <p><b>Panel visits are not published here.</b> The source's raw device sample grows two to four times over the period as the panel grows, which makes it useless as a trend. It stays in <code>data/people_monthly.csv</code> for reference.</p>
+      <p><b>Source.</b> Placer.ai, accessed through Discover Kalamazoo.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
+    <p><a href="data.html">Method, downloads and known issues</a></p>
+  </div>
+</footer>
+
+<script src="assets/charts.js"></script>
+<script src="assets/site.js"></script>
+<script>
+Site.ready(async () => {
+  const d = await Site.loadAll(["people_monthly.csv"]);
+  const rows = d.people;
+  const months = [...new Set(rows.map(r => r.month))].sort();
+  Site.stamp(months);
+
+  const sel = document.getElementById("segment");
+  const hostV = document.getElementById("c-visits");
+  const hostP = document.getElementById("c-people");
+  const hostY = document.getElementById("c-yoy");
+  const figV = hostV.closest("figure"), figP = hostP.closest("figure"), figY = hostY.closest("figure");
+  const NAME = { visitors: "Visitors", employees: "Employees", residents: "Residents" };
+
+  function build(segment) {
+    const mo = Site.peopleMonthly(rows, segment);
+    const qu = Site.peopleQuarterly(rows, segment);
+    const label = NAME[segment];
+    document.getElementById("t1").textContent = label + ": visits per month";
+    document.getElementById("t2").textContent = label + ": unique people per month";
+    document.getElementById("t3").textContent = label + ": change against the year before";
+
+    const band = mo.some(m => m.month >= "2025-01")
+      ? { from: "2025-01", to: mo[mo.length - 1].month, label: "study area redrawn" } : null;
+
+    Chart.register(hostV, () => Chart.line(hostV, {
+      labels: mo.map(m => m.month), height: 240, area: true, band,
+      series: [{ name: "visits", key: "s1", values: mo.map(m => m.visits) }],
+      xTick: l => l.endsWith("-01") ? l.slice(0, 4) : null,
+      tipTitle: Site.monthLabel,
+      aria: `${label}: visits per month since 2023.`,
+    }));
+    Chart.register(hostP, () => Chart.line(hostP, {
+      labels: mo.map(m => m.month), height: 240, area: true, band,
+      series: [{ name: "people", key: "s3", values: mo.map(m => m.people) }],
+      xTick: l => l.endsWith("-01") ? l.slice(0, 4) : null,
+      tipTitle: Site.monthLabel,
+      aria: `${label}: unique people per month since 2023.`,
+    }));
+    const yq = qu.filter(q => q.yoy != null);
+    Chart.register(hostY, () => Chart.column(hostY, {
+      cats: yq.map(q => q.q), height: 240,
+      catLabel: c => c.slice(5) === "Q1" ? [c.slice(5), c.slice(0, 4)] : [c.slice(5)],
+      series: [{ name: "change", key: "s2", values: yq.map(q => q.yoy * 100) }],
+      fmtY: v => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v) + "%",
+      tipTitle: Site.qLabel,
+      tipRows: i => [{ key: "s2", name: "vs same quarter a year earlier", value: (yq[i].yoy * 100).toFixed(1) + "%" }],
+      aria: `${label}: year-over-year change in visits, by quarter.`,
+    }));
+
+    Chart.table(figV, ["Month", "Visits"], mo.map(m => [Site.monthLabel(m.month), Site.fmtN(m.visits)]));
+    Chart.table(figP, ["Month", "Unique people", "Visits per person", "Avg. dwell (min)"],
+      mo.map(m => [Site.monthLabel(m.month), Site.fmtN(m.people), Site.fmt1(m.freq), Site.fmtN(m.dwell)]));
+    Chart.table(figY, ["Quarter", "Change vs year earlier"],
+      yq.map(q => [Site.qLabel(q.q), (q.yoy * 100).toFixed(1) + "%"]));
+
+    const tb = document.querySelector("#q-table tbody");
+    tb.replaceChildren();
+    for (const q of qu) {
+      const tr = tb.insertRow();
+      const th = document.createElement("th");
+      th.scope = "row";
+      th.textContent = Site.qLabel(q.q) + (q.months < 3 ? " (partial)" : "");
+      tr.appendChild(th);
+      tr.insertCell().textContent = Site.fmtN(q.visits);
+      tr.insertCell().textContent = Site.fmtN(q.people);
+      tr.insertCell().textContent = Site.fmt1(q.freq);
+      tr.insertCell().textContent = Site.fmtN(q.dwell);
+    }
+  }
+  build(sel.value);
+  sel.addEventListener("change", () => build(sel.value));
+});
+</script>
+</body>
+</html>

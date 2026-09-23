@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data — Downtown Kalamazoo Vitality Data</title>
+<meta name="description" content="Data dictionary, downloads, method notes and known issues for the Downtown Kalamazoo Economic Vitality Study dataset.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@600;700;800&family=Overpass+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <div class="brand">
+      <a class="t" href="index.html">Downtown Kalamazoo Economic Vitality Study</a>
+      <span class="sub">Western Michigan University · City of Kalamazoo</span>
+    </div>
+    <nav class="main" aria-label="Sections">
+      <a href="index.html">Overview</a>
+      <a href="traffic.html">Traffic</a>
+      <a href="people.html">People</a>
+      <a href="parking.html">Parking</a>
+      <a href="transit.html">Transit</a>
+      <a href="data.html">Data</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <p class="updated" data-coverage></p>
+    <h1>The data</h1>
+    <p class="lede">Every figure on this site is calculated in the browser from these files. They are plain CSV, they live in the repository, and they are the study's accumulated record.</p>
+  </div>
+
+  <section>
+    <h2>Files</h2>
+    <div class="tbl-wrap">
+      <table class="plain">
+        <thead><tr><th scope="col">File</th><th scope="col">One row per</th><th scope="col">Columns</th><th scope="col">Rows</th></tr></thead>
+        <tbody>
+          <tr>
+            <th scope="row"><a href="data/traffic_monthly.csv">traffic_monthly.csv</a></th>
+            <td>corridor × direction × month</td>
+            <td><code>month</code>, <code>corridor</code>, <code>direction</code> (incoming/outgoing), <code>vehicles_per_day</code></td>
+            <td data-rows="traffic_monthly.csv">…</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="data/people_monthly.csv">people_monthly.csv</a></th>
+            <td>group × month</td>
+            <td><code>month</code>, <code>segment</code> (visitors/employees/residents), <code>visits</code>, <code>people</code>, <code>visits_per_person</code>, <code>avg_dwell_minutes</code>, <code>panel_visits</code>, <code>visits_yoy</code>, <code>corrected</code></td>
+            <td data-rows="people_monthly.csv">…</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="data/parking_monthly.csv">parking_monthly.csv</a></th>
+            <td>facility × time window × month</td>
+            <td><code>month</code>, <code>time_window</code>, <code>facility_type</code>, <code>facility</code>, <code>spaces</code>, <code>occupied</code></td>
+            <td data-rows="parking_monthly.csv">…</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="data/transit_monthly.csv">transit_monthly.csv</a></th>
+            <td>stop × month</td>
+            <td><code>month</code>, <code>stop_id</code>, <code>stop_name</code>, <code>boardings</code>, <code>alightings</code></td>
+            <td data-rows="transit_monthly.csv">…</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="data/metrics_extra.csv">metrics_extra.csv</a></th>
+            <td>quarter</td>
+            <td><code>quarter</code>, <code>businesses</code>, <code>floor_space_sf</code>, <code>space_occupancy_rate</code>, <code>travel_time_delay_pct</code>, <code>source</code> — the report metrics that come from outside this dataset</td>
+            <td data-rows="metrics_extra.csv">…</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="fig-note"><code>month</code> is <code>YYYY-MM</code>. Empty means not reported or not in service, which is not the same as zero. Unit definitions are in <code>data/README.md</code>.</p>
+  </section>
+
+  <section>
+    <h2>How each figure is calculated</h2>
+    <div class="tbl-wrap">
+      <table class="plain">
+        <thead><tr><th scope="col">Figure</th><th scope="col">Method</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Traffic, quarterly</th><td>Vehicles per day are summed across corridors within a month, then the quarter is the average of its months. In + out counts a round trip twice.</td></tr>
+          <tr><th scope="row">Visits, quarterly</th><td>The sum of the quarter's months. Unique people, visits per person and dwell time are monthly averages, because the same person recurs across months.</td></tr>
+          <tr><th scope="row">Parking occupancy</th><td>Each facility type is its occupied spaces divided by its spaces. A time window is the average of the three types; the quarter is the average of its months; the headline figure is the average of the three time windows. Facilities with no count that month are excluded from both sides.</td></tr>
+          <tr><th scope="row">Transit</th><td>Boardings plus alightings, summed across stops. Stops 1004 and 1011 are the Transit Center.</td></tr>
+          <tr><th scope="row">Change columns</th><td>Against the previous quarter and the same quarter a year earlier. Only quarters with a full three months of traffic data appear as "latest".</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Corrections applied</h2>
+    <p class="prose">The workbooks are left untouched. These changes are made in the export, and listed here so any figure can be traced back.</p>
+    <div class="tbl-wrap">
+      <table class="plain">
+        <thead><tr><th scope="col">Where</th><th scope="col">What</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          <tr><th scope="row"><code>Employees!H24</code></th><td>July 2025 employees exported as 15,598 instead of 2</td><td>The workbook's own copy of the same figure, at <code>H56</code>, reads 15,598. Left uncorrected it drags the Q3-2025 average from about 14,950 down to 9,752.</td></tr>
+          <tr><th scope="row">Outgoing traffic sheet</th><td>Corridor "Bus US-31" exported as "Bus US-131"</td><td>The incoming sheet spells it US-131; without this the two directions do not join.</td></tr>
+          <tr><th scope="row">Parking, Jan 2023</th><td>Weekend-evening Zone 1 left empty</td><td>The cell contains the letter "P" instead of a count. That zone is left out of January 2023's weekend figure rather than guessed at.</td></tr>
+          <tr><th scope="row">Lot 20, 2026</th><td>Excluded from 2026 while it has no counts</td><td>The reports keep its 36 spaces in the denominator, which makes 2026 surface-lot occupancy read about three points low.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Where this site differs from the published reports</h2>
+    <div class="prose">
+      <p><b>Parking, about one point.</b> The reports' quarterly parking figures come from formulas that, in several quarters, average the wrong months or keep Lot 20 in the denominator. This site recalculates from the counts, so 2026 quarters read about a point higher.</p>
+      <p><b>Transit, 2023 only.</b> The reports' summary sheet counts the non-Transit-Center stops twice in Q3 and Q4 2023, adding about 55,000 to each. This site counts them once: those quarters read 336,007 and 339,101 rather than 391,113 and 394,207.</p>
+      <p><b>Everything else matches.</b> Visits, employees, Transit Center users, bus passengers and traffic volume reproduce the published quarterly figures exactly.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Known issues in the source workbooks</h2>
+    <div class="prose">
+      <p>These do not affect the figures on this site, because everything here is recalculated from the monthly cells. They matter if you work from the workbooks directly.</p>
+      <p><b>Study area change.</b> The boundary was redrawn after the City's Q3-2024 feedback, so visit figures step up in January 2025. Use the year-over-year column across that line.</p>
+      <p><b>Quarterly formulas.</b> Several parking quarterly averages cover the wrong months; one Employees quarterly label reads Q2-2025 where the formula covers Q2-2026.</p>
+      <p><b>Transit summary.</b> The Q4-2024 figure on the summary sheet (345,870) cannot be reproduced from the stop data, which gives 340,186.</p>
+      <p><b>Panel visits.</b> The raw device sample grows two to four times over the period. It is not a demand measure.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Updating the data</h2>
+    <div class="prose">
+      <p>Each quarter, after the report goes out:</p>
+      <p><b>1.</b> Run <code>python tools/export_from_excel.py --source "…/Final data KZOO"</code> against the updated workbooks. It only reads them.</p>
+      <p><b>2.</b> Check the changed CSVs, then commit and push. The site picks the new numbers up on its next load; nothing is rebuilt and no page is edited.</p>
+      <p><b>3.</b> Add the quarter's outside figures to <code>data/metrics_extra.csv</code> (businesses, floor space, occupancy rate, travel time).</p>
+      <p>Full instructions, including how to update a CSV by hand without running the script, are in the repository's <code>README.md</code>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
+    <p>Sources: StreetLight (traffic), Placer.ai via Discover Kalamazoo (visits), City of Kalamazoo (parking), Kalamazoo Metro (transit).</p>
+  </div>
+</footer>
+
+<script src="assets/charts.js"></script>
+<script src="assets/site.js"></script>
+<script>
+Site.ready(async () => {
+  // row counts, so the page reflects what is actually in the repository
+  const cells = [...document.querySelectorAll("[data-rows]")];
+  let months = null;
+  for (const cell of cells) {
+    const name = cell.getAttribute("data-rows");
+    try {
+      const rows = await Site.load(name);
+      cell.textContent = Site.fmtN(rows.length);
+      if (name === "traffic_monthly.csv") months = [...new Set(rows.map(r => r.month))].sort();
+    } catch (e) {
+      cell.textContent = "not found";
+      cell.style.color = "var(--muted)";
+    }
+  }
+  if (months) Site.stamp(months);
+});
+</script>
+</body>
+</html>

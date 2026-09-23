@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traffic — Downtown Kalamazoo Vitality Data</title>
+<meta name="description" content="Vehicles per day entering and leaving downtown Kalamazoo on nine gateway corridors, monthly since January 2023.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@600;700;800&family=Overpass+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <div class="brand">
+      <a class="t" href="index.html">Downtown Kalamazoo Economic Vitality Study</a>
+      <span class="sub">Western Michigan University · City of Kalamazoo</span>
+    </div>
+    <nav class="main" aria-label="Sections">
+      <a href="index.html">Overview</a>
+      <a href="traffic.html">Traffic</a>
+      <a href="people.html">People</a>
+      <a href="parking.html">Parking</a>
+      <a href="transit.html">Transit</a>
+      <a href="data.html">Data</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <p class="updated" data-coverage></p>
+    <h1>Traffic</h1>
+    <p class="lede">Average vehicles per day on the nine main roads into downtown, counted separately toward downtown (incoming) and away from it (outgoing).</p>
+  </div>
+
+  <section>
+    <div class="controls">
+      <div class="field">
+        <label for="corridor">Show</label>
+        <select id="corridor"></select>
+      </div>
+    </div>
+    <div class="figs two">
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title" id="t1">Monthly traffic</div><div class="fig-sub">Vehicles per day</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-month"></div>
+        <ul class="legend"><li><span class="lk" style="background:var(--s1)"></span>Incoming</li><li><span class="lk" style="background:var(--s2)"></span>Outgoing</li></ul>
+        <div class="tv" hidden></div>
+      </figure>
+      <figure class="fig">
+        <div class="fig-head">
+          <div><div class="fig-title" id="t2">By quarter</div><div class="fig-sub">Vehicles per day, in + out</div></div>
+          <button class="tv-btn" type="button" aria-expanded="false">Show table</button>
+        </div>
+        <div class="host" id="c-quarter"></div>
+        <div class="tv" hidden></div>
+      </figure>
+    </div>
+    <p class="note"><b>The 2024 dip is one road.</b> Incoming traffic on South Westnedge Avenue fell from about 9,500 vehicles a day to roughly 230 between April and September 2024. The City reported that this traffic was diverted to Burdick, Oakland and Portage, not lost. Choose that corridor above to see it.</p>
+  </section>
+
+  <section>
+    <h2>Corridors</h2>
+    <p class="prose" id="rank-intro"></p>
+    <div class="tbl-wrap needs-data">
+      <table id="rank">
+        <thead><tr><th scope="col">Corridor</th><th scope="col">Vehicles/day</th><th scope="col"></th><th scope="col">Incoming</th><th scope="col">Outgoing</th><th scope="col">vs year earlier</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Notes</h2>
+    <div class="prose">
+      <p><b>What a quarter means here.</b> Each month holds an average day's traffic, so a quarter is the average of its three months, not a sum.</p>
+      <p><b>Seasonal shape.</b> Six of the nine corridors peak in September. West Michigan Avenue runs about a quarter below its yearly average in May, June and July and well above it in September, which follows the Western Michigan University calendar.</p>
+      <p><b>Source.</b> StreetLight network performance exports, run monthly by the study team under the City's subscription.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
+    <p><a href="data.html">Method, downloads and known issues</a></p>
+  </div>
+</footer>
+
+<script src="assets/charts.js"></script>
+<script src="assets/site.js"></script>
+<script>
+Site.ready(async () => {
+  const d = await Site.loadAll(["traffic_monthly.csv"]);
+  const rows = d.traffic;
+  const months = [...new Set(rows.map(r => r.month))].sort();
+  Site.stamp(months);
+
+  const corridors = Site.trafficCorridors(rows);
+  const westnedge = corridors.find(c => /westnedge/i.test(c));
+  const sel = document.getElementById("corridor");
+  const options = [["__all", "All nine corridors"]];
+  if (westnedge) options.push(["__ex", "All except " + westnedge]);
+  corridors.forEach(c => options.push([c, c]));
+  options.forEach(([v, t]) => sel.add(new Option(t, v)));
+
+  const state = { sel: "__all" };
+  const opts = () => state.sel === "__all" ? {} : state.sel === "__ex" ? { exclude: westnedge } : { only: state.sel };
+  const name = () => state.sel === "__all" ? "All nine corridors" : state.sel === "__ex" ? "All except " + westnedge : state.sel;
+
+  const hostM = document.getElementById("c-month");
+  const hostQ = document.getElementById("c-quarter");
+  const figM = hostM.closest("figure"), figQ = hostQ.closest("figure");
+
+  function build() {
+    const mo = Site.trafficMonthly(rows, opts());
+    const qu = Site.trafficQuarterly(rows, opts());
+    document.getElementById("t1").textContent = name() + ", by month";
+    document.getElementById("t2").textContent = name() + ", by quarter";
+
+    const drawM = () => Chart.line(hostM, {
+      labels: mo.map(m => m.month), height: 240,
+      series: [
+        { name: "incoming", key: "s1", values: mo.map(m => m.incoming) },
+        { name: "outgoing", key: "s2", values: mo.map(m => m.outgoing) },
+      ],
+      xTick: l => l.endsWith("-01") ? l.slice(0, 4) : null,
+      tipTitle: Site.monthLabel,
+      aria: `Monthly vehicles per day, ${name()}, incoming and outgoing.`,
+    });
+    const drawQ = () => Chart.column(hostQ, {
+      cats: qu.map(q => q.q), height: 240,
+      catLabel: c => c.slice(5) === "Q1" ? [c.slice(5), c.slice(0, 4)] : [c.slice(5)],
+      series: [{ name: "vehicles per day", key: "s1", values: qu.map(q => q.total) }],
+      tipTitle: Site.qLabel,
+      tipRows: i => [
+        { key: "s1", name: "in + out", value: Site.fmtN(qu[i].total) },
+        { name: "incoming", value: Site.fmtN(qu[i].incoming) },
+        { name: "outgoing", value: Site.fmtN(qu[i].outgoing) },
+      ],
+      aria: `Quarterly average daily traffic, ${name()}.`,
+    });
+    Chart.register(hostM, drawM);
+    Chart.register(hostQ, drawQ);
+    Chart.table(figM, ["Month", "Incoming", "Outgoing", "Total"],
+      mo.map(m => [Site.monthLabel(m.month), Site.fmtN(m.incoming), Site.fmtN(m.outgoing), Site.fmtN(m.total)]));
+    Chart.table(figQ, ["Quarter", "Incoming", "Outgoing", "Total"],
+      qu.map(q => [Site.qLabel(q.q), Site.fmtN(q.incoming), Site.fmtN(q.outgoing), Site.fmtN(q.total)]));
+  }
+  build();
+  sel.addEventListener("change", () => { state.sel = sel.value; build(); });
+
+  // corridor ranking over the last four complete quarters
+  const all = Site.trafficQuarterly(rows).filter(q => q.months === 3).map(q => q.q);
+  const recent = all.slice(-4), yearBefore = recent.map(q => Site.qYearAgo(q));
+  const now = Site.trafficByCorridor(rows, recent);
+  const before = Site.trafficByCorridor(rows, yearBefore);
+  document.getElementById("rank-intro").textContent =
+    `Average day over the last four quarters (${Site.qLabel(recent[0])} to ${Site.qLabel(recent[recent.length - 1])}), compared with the same four quarters a year earlier.`;
+  const max = Math.max(...now.map(c => c.total));
+  const tb = document.querySelector("#rank tbody");
+  for (const c of now) {
+    const was = before.find(b => b.corridor === c.corridor);
+    const tr = tb.insertRow();
+    const th = document.createElement("th");
+    th.scope = "row";
+    th.textContent = c.corridor;
+    tr.appendChild(th);
+    tr.insertCell().textContent = Site.fmtN(c.total);
+    const barCell = tr.insertCell();
+    barCell.style.width = "34%";
+    const wrap = document.createElement("div");
+    wrap.className = "barrow";
+    const bar = document.createElement("i");
+    bar.style.width = (c.total / max * 100).toFixed(1) + "%";
+    wrap.appendChild(bar);
+    barCell.appendChild(wrap);
+    tr.insertCell().textContent = Site.fmtN(c.incoming);
+    tr.insertCell().textContent = Site.fmtN(c.outgoing);
+    Site.changeCell(tr.insertCell(), c.total, was ? was.total : null);
+  }
+});
+</script>
+</body>
+</html>

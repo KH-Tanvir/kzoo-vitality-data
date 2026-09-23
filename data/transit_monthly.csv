@@ -1,0 +1,2191 @@
+month,stop_id,stop_name,boardings,alightings
+2023-01,1,Rose at Water (NW Corner),2848,2538
+2023-01,2,Rose at Michigan (SW side),213,73
+2023-01,3,Rose at South (SW Corner),161,240
+2023-01,4,Lovell at St. Johns (NE Corner),23,19
+2023-01,5,Westnedge at Lovell (SW side),185,75
+2023-01,6,Westnedge at Walnut (NW corner),118,102
+2023-01,7,Westnedge at Vine (NW Corner),576,516
+2023-01,51,Park at W. Vine (SE Corner),407,412
+2023-01,52,Park at 519 Walnut,153,234
+2023-01,53,Park at Lovell (SE Corner),27,124
+2023-01,54,Park at South (NE Corner),50,405
+2023-01,96,Portage at Walnut (SE Corner),81,169
+2023-01,137,Kalamazoo & Park Street,95,78
+2023-01,182,Michigan &,69,258
+2023-01,184,Rose & Water,99,462
+2023-01,210,Burdick & North,33,57
+2023-01,260,North & N. Park,44,173
+2023-01,261,North & Westnedge,50,167
+2023-01,262,North & Simpson,25,72
+2023-01,263,North & Woodward,7,87
+2023-01,264,North St & Hawley street,36,267
+2023-01,295,North & Stewart/Hawley,254,52
+2023-01,296,North & Woodward,52,20
+2023-01,297,North & Simpson,54,40
+2023-01,298,North & Westnedge,85,94
+2023-01,299,Ransom & Church,47,158
+2023-01,300,Ransom & N. Rose,4,9
+2023-01,515,Rose & Vine,1,4
+2023-01,516,Rose & Walnut,4,0
+2023-01,517,Rose & South,75,119
+2023-01,518,Walnut & Burdick,212,479
+2023-01,562,Walnut & Burdick,397,154
+2023-01,563,Kalamazoo & Greenwich,34,26
+2023-01,564,Kalamazoo & Elm,90,141
+2023-01,565,Kalamazoo & Stuart,122,163
+2023-01,605,W. Main & Catherine,69,97
+2023-01,606,W. Main & RR Tracks,53,103
+2023-01,607,North & Park,6,36
+2023-01,628,Lovell & Westnedge,115,55
+2023-01,629,Lovell & Oak,101,209
+2023-01,630,Lovell & Davis,112,109
+2023-01,640,South & Oak,221,140
+2023-01,641,South & Westnedge,6,56
+2023-01,776,Portage at South (NW Corner),40,14
+2023-01,785,Oakland & Academy,49,58
+2023-01,788,Ransom & N. Park,777,943
+2023-01,799,Rose & Walnut,4,7
+2023-01,1004,Kalamazoo Transit Center,46827,44145
+2023-01,1011,Kalamazoo Transit Center,2931,2719
+2023-01,1062,E. Michigan & S. Pitcher,73,43
+2023-01,1067,W. Michigan & Academy,109,125
+2023-01,1079,Rose St & Butler,2,77
+2023-01,1082,S Rose St & Vine,10,15
+2023-01,1084,Lovell & S. Burdick,7,31
+2023-02,1,Rose at Water (NW Corner),2700,2480
+2023-02,2,Rose at Michigan (SW side),229,140
+2023-02,3,Rose at South (SW Corner),152,215
+2023-02,4,Lovell at St. Johns (NE Corner),16,24
+2023-02,5,Westnedge at Lovell (SW side),188,84
+2023-02,6,Westnedge at Walnut (NW corner),100,94
+2023-02,7,Westnedge at Vine (NW Corner),485,463
+2023-02,51,Park at W. Vine (SE Corner),428,382
+2023-02,52,Park at 519 Walnut,108,181
+2023-02,53,Park at Lovell (SE Corner),23,112
+2023-02,54,Park at South (NE Corner),66,415
+2023-02,96,Portage at Walnut (SE Corner),88,173
+2023-02,137,Kalamazoo & Park Street,52,79
+2023-02,182,Michigan &,61,247
+2023-02,184,Rose & Water,58,462
+2023-02,210,Burdick & North,26,39
+2023-02,260,North & N. Park,33,140
+2023-02,261,North & Westnedge,42,156
+2023-02,262,North & Simpson,24,59
+2023-02,263,North & Woodward,10,91
+2023-02,264,North St & Hawley street,29,239
+2023-02,295,North & Stewart/Hawley,231,33
+2023-02,296,North & Woodward,52,30
+2023-02,297,North & Simpson,35,14
+2023-02,298,North & Westnedge,73,102
+2023-02,299,Ransom & Church,73,156
+2023-02,300,Ransom & N. Rose,1,11
+2023-02,515,Rose & Vine,10,8
+2023-02,516,Rose & Walnut,2,2
+2023-02,517,Rose & South,93,124
+2023-02,518,Walnut & Burdick,199,483
+2023-02,562,Walnut & Burdick,398,136
+2023-02,563,Kalamazoo & Greenwich,40,23
+2023-02,564,Kalamazoo & Elm,75,106
+2023-02,565,Kalamazoo & Stuart,123,127
+2023-02,605,W. Main & Catherine,38,61
+2023-02,606,W. Main & RR Tracks,64,98
+2023-02,607,North & Park,13,29
+2023-02,628,Lovell & Westnedge,126,48
+2023-02,629,Lovell & Oak,82,193
+2023-02,630,Lovell & Davis,97,92
+2023-02,640,South & Oak,193,122
+2023-02,641,South & Westnedge,5,73
+2023-02,776,Portage at South (NW Corner),43,9
+2023-02,785,Oakland & Academy,39,56
+2023-02,788,Ransom & N. Park,840,947
+2023-02,799,Rose & Walnut,0,5
+2023-02,1004,Kalamazoo Transit Center,45107,41733
+2023-02,1011,Kalamazoo Transit Center,2739,2550
+2023-02,1062,E. Michigan & S. Pitcher,89,57
+2023-02,1067,W. Michigan & Academy,146,166
+2023-02,1079,Rose St & Butler,0,80
+2023-02,1082,S Rose St & Vine,15,15
+2023-02,1084,Lovell & S. Burdick,7,31
+2023-03,1,Rose at Water (NW Corner),3354,3155
+2023-03,2,Rose at Michigan (SW side),280,117
+2023-03,3,Rose at South (SW Corner),197,256
+2023-03,4,Lovell at St. Johns (NE Corner),14,20
+2023-03,5,Westnedge at Lovell (SW side),253,107
+2023-03,6,Westnedge at Walnut (NW corner),130,106
+2023-03,7,Westnedge at Vine (NW Corner),527,549
+2023-03,51,Park at W. Vine (SE Corner),441,398
+2023-03,52,Park at 519 Walnut,127,215
+2023-03,53,Park at Lovell (SE Corner),20,115
+2023-03,54,Park at South (NE Corner),75,507
+2023-03,96,Portage at Walnut (SE Corner),113,197
+2023-03,137,Kalamazoo & Park Street,119,97
+2023-03,182,Michigan &,64,248
+2023-03,184,Rose & Water,80,530
+2023-03,210,Burdick & North,13,18
+2023-03,260,North & N. Park,41,166
+2023-03,261,North & Westnedge,35,193
+2023-03,262,North & Simpson,29,115
+2023-03,263,North & Woodward,10,98
+2023-03,264,North St & Hawley street,36,308
+2023-03,295,North & Stewart/Hawley,266,37
+2023-03,296,North & Woodward,36,36
+2023-03,297,North & Simpson,62,17
+2023-03,298,North & Westnedge,96,101
+2023-03,299,Ransom & Church,72,205
+2023-03,300,Ransom & N. Rose,4,5
+2023-03,515,Rose & Vine,4,14
+2023-03,516,Rose & Walnut,2,5
+2023-03,517,Rose & South,121,159
+2023-03,518,Walnut & Burdick,241,516
+2023-03,562,Walnut & Burdick,427,152
+2023-03,563,Kalamazoo & Greenwich,34,21
+2023-03,564,Kalamazoo & Elm,103,154
+2023-03,565,Kalamazoo & Stuart,129,128
+2023-03,605,W. Main & Catherine,44,90
+2023-03,606,W. Main & RR Tracks,78,162
+2023-03,607,North & Park,6,35
+2023-03,628,Lovell & Westnedge,158,65
+2023-03,629,Lovell & Oak,67,231
+2023-03,630,Lovell & Davis,125,99
+2023-03,640,South & Oak,220,102
+2023-03,641,South & Westnedge,5,64
+2023-03,776,Portage at South (NW Corner),58,10
+2023-03,785,Oakland & Academy,49,35
+2023-03,788,Ransom & N. Park,1068,1062
+2023-03,799,Rose & Walnut,0,2
+2023-03,1004,Kalamazoo Transit Center,51377,47177
+2023-03,1011,Kalamazoo Transit Center,2255,2354
+2023-03,1062,E. Michigan & S. Pitcher,87,60
+2023-03,1067,W. Michigan & Academy,151,132
+2023-03,1079,Rose St & Butler,4,120
+2023-03,1082,S Rose St & Vine,21,15
+2023-03,1084,Lovell & S. Burdick,16,29
+2023-04,1,Rose at Water (NW Corner),3095,2887
+2023-04,2,Rose at Michigan (SW side),262,114
+2023-04,3,Rose at South (SW Corner),154,153
+2023-04,4,Lovell at St. Johns (NE Corner),15,15
+2023-04,5,Westnedge at Lovell (SW side),205,114
+2023-04,6,Westnedge at Walnut (NW corner),146,100
+2023-04,7,Westnedge at Vine (NW Corner),576,503
+2023-04,51,Park at W. Vine (SE Corner),397,412
+2023-04,52,Park at 519 Walnut,119,227
+2023-04,53,Park at Lovell (SE Corner),26,104
+2023-04,54,Park at South (NE Corner),62,478
+2023-04,96,Portage at Walnut (SE Corner),104,148
+2023-04,137,Kalamazoo & Park Street,40,64
+2023-04,182,Michigan &,39,243
+2023-04,184,Rose & Water,66,484
+2023-04,210,Burdick & North,11,17
+2023-04,260,North & N. Park,28,141
+2023-04,261,North & Westnedge,47,162
+2023-04,262,North & Simpson,12,130
+2023-04,263,North & Woodward,10,69
+2023-04,264,North St & Hawley street,35,237
+2023-04,295,North & Stewart/Hawley,219,17
+2023-04,296,North & Woodward,19,26
+2023-04,297,North & Simpson,86,15
+2023-04,298,North & Westnedge,59,102
+2023-04,299,Ransom & Church,40,165
+2023-04,300,Ransom & N. Rose,3,10
+2023-04,515,Rose & Vine,6,12
+2023-04,516,Rose & Walnut,1,1
+2023-04,517,Rose & South,77,149
+2023-04,518,Walnut & Burdick,231,537
+2023-04,562,Walnut & Burdick,492,161
+2023-04,563,Kalamazoo & Greenwich,44,15
+2023-04,564,Kalamazoo & Elm,102,127
+2023-04,565,Kalamazoo & Stuart,153,113
+2023-04,605,W. Main & Catherine,34,91
+2023-04,606,W. Main & RR Tracks,80,140
+2023-04,607,North & Park,6,24
+2023-04,628,Lovell & Westnedge,149,63
+2023-04,629,Lovell & Oak,81,185
+2023-04,630,Lovell & Davis,102,93
+2023-04,640,South & Oak,206,122
+2023-04,641,South & Westnedge,7,68
+2023-04,776,Portage at South (NW Corner),60,13
+2023-04,785,Oakland & Academy,6,10
+2023-04,788,Ransom & N. Park,897,1134
+2023-04,799,Rose & Walnut,0,2
+2023-04,1004,Kalamazoo Transit Center,46656,42912
+2023-04,1011,Kalamazoo Transit Center,2120,2228
+2023-04,1062,E. Michigan & S. Pitcher,112,42
+2023-04,1067,W. Michigan & Academy,1,2
+2023-04,1079,Rose St & Butler,1,61
+2023-04,1082,S Rose St & Vine,8,20
+2023-04,1084,Lovell & S. Burdick,3,35
+2023-05,1,Rose at Water (NW Corner),3165,3098
+2023-05,2,Rose at Michigan (SW side),281,133
+2023-05,3,Rose at South (SW Corner),168,171
+2023-05,4,Lovell at St. Johns (NE Corner),47,48
+2023-05,5,Westnedge at Lovell (SW side),199,97
+2023-05,6,Westnedge at Walnut (NW corner),124,111
+2023-05,7,Westnedge at Vine (NW Corner),677,596
+2023-05,51,Park at W. Vine (SE Corner),504,464
+2023-05,52,Park at 519 Walnut,99,199
+2023-05,53,Park at Lovell (SE Corner),30,151
+2023-05,54,Park at South (NE Corner),61,460
+2023-05,96,Portage at Walnut (SE Corner),104,193
+2023-05,137,Kalamazoo & Park Street,49,82
+2023-05,182,Michigan &,16,127
+2023-05,184,Rose & Water,57,548
+2023-05,210,Burdick & North,7,13
+2023-05,260,North & N. Park,30,121
+2023-05,261,North & Westnedge,89,208
+2023-05,262,North & Simpson,34,160
+2023-05,263,North & Woodward,4,106
+2023-05,264,North St & Hawley street,39,272
+2023-05,295,North & Stewart/Hawley,281,43
+2023-05,296,North & Woodward,44,20
+2023-05,297,North & Simpson,109,17
+2023-05,298,North & Westnedge,76,132
+2023-05,299,Ransom & Church,41,233
+2023-05,300,Ransom & N. Rose,2,11
+2023-05,515,Rose & Vine,6,6
+2023-05,516,Rose & Walnut,1,1
+2023-05,517,Rose & South,81,156
+2023-05,518,Walnut & Burdick,235,456
+2023-05,562,Walnut & Burdick,481,172
+2023-05,563,Kalamazoo & Greenwich,78,19
+2023-05,564,Kalamazoo & Elm,76,134
+2023-05,565,Kalamazoo & Stuart,146,98
+2023-05,605,W. Main & Catherine,57,82
+2023-05,606,W. Main & RR Tracks,118,150
+2023-05,607,North & Park,1,13
+2023-05,628,Lovell & Westnedge,179,130
+2023-05,629,Lovell & Oak,78,187
+2023-05,630,Lovell & Davis,73,107
+2023-05,640,South & Oak,261,71
+2023-05,641,South & Westnedge,16,88
+2023-05,776,Portage at South (NW Corner),69,20
+2023-05,785,Oakland & Academy,2,20
+2023-05,788,Ransom & N. Park,637,701
+2023-05,799,Rose & Walnut,1,4
+2023-05,1004,Kalamazoo Transit Center,49936,45938
+2023-05,1011,Kalamazoo Transit Center,2388,2395
+2023-05,1062,E. Michigan & S. Pitcher,107,90
+2023-05,1067,W. Michigan & Academy,18,40
+2023-05,1079,Rose St & Butler,2,101
+2023-05,1082,S Rose St & Vine,5,19
+2023-05,1084,Lovell & S. Burdick,5,35
+2023-06,1,Rose at Water (NW Corner),2983,2765
+2023-06,2,Rose at Michigan (SW side),246,94
+2023-06,3,Rose at South (SW Corner),147,147
+2023-06,4,Lovell at St. Johns (NE Corner),24,10
+2023-06,5,Westnedge at Lovell (SW side),209,98
+2023-06,6,Westnedge at Walnut (NW corner),144,92
+2023-06,7,Westnedge at Vine (NW Corner),588,531
+2023-06,51,Park at W. Vine (SE Corner),449,481
+2023-06,52,Park at 519 Walnut,81,215
+2023-06,53,Park at Lovell (SE Corner),27,137
+2023-06,54,Park at South (NE Corner),69,433
+2023-06,96,Portage at Walnut (SE Corner),163,187
+2023-06,137,Kalamazoo & Park Street,87,70
+2023-06,182,Michigan &,23,198
+2023-06,184,Rose & Water,52,477
+2023-06,210,Burdick & North,8,18
+2023-06,260,North & N. Park,24,139
+2023-06,261,North & Westnedge,44,182
+2023-06,262,North & Simpson,27,146
+2023-06,263,North & Woodward,21,42
+2023-06,264,North St & Hawley street,32,291
+2023-06,295,North & Stewart/Hawley,207,25
+2023-06,296,North & Woodward,41,24
+2023-06,297,North & Simpson,118,12
+2023-06,298,North & Westnedge,53,84
+2023-06,299,Ransom & Church,87,206
+2023-06,300,Ransom & N. Rose,10,17
+2023-06,515,Rose & Vine,8,4
+2023-06,516,Rose & Walnut,3,1
+2023-06,517,Rose & South,57,111
+2023-06,518,Walnut & Burdick,232,461
+2023-06,562,Walnut & Burdick,467,173
+2023-06,563,Kalamazoo & Greenwich,51,13
+2023-06,564,Kalamazoo & Elm,124,103
+2023-06,565,Kalamazoo & Stuart,140,124
+2023-06,605,W. Main & Catherine,50,79
+2023-06,606,W. Main & RR Tracks,134,214
+2023-06,607,North & Park,4,13
+2023-06,628,Lovell & Westnedge,144,132
+2023-06,629,Lovell & Oak,69,161
+2023-06,630,Lovell & Davis,64,111
+2023-06,640,South & Oak,230,84
+2023-06,641,South & Westnedge,11,93
+2023-06,776,Portage at South (NW Corner),93,25
+2023-06,785,Oakland & Academy,7,17
+2023-06,788,Ransom & N. Park,842,897
+2023-06,799,Rose & Walnut,1,2
+2023-06,1004,Kalamazoo Transit Center,47734,43538
+2023-06,1011,Kalamazoo Transit Center,2241,2257
+2023-06,1062,E. Michigan & S. Pitcher,109,87
+2023-06,1067,W. Michigan & Academy,28,91
+2023-06,1079,Rose St & Butler,2,95
+2023-06,1082,S Rose St & Vine,13,4
+2023-06,1084,Lovell & S. Burdick,3,23
+2023-07,1,Rose at Water (NW Corner),3031,2705
+2023-07,2,Rose at Michigan (SW side),228,84
+2023-07,3,Rose at South (SW Corner),143,144
+2023-07,4,Lovell at St. Johns (NE Corner),23,11
+2023-07,5,Westnedge at Lovell (SW side),178,110
+2023-07,6,Westnedge at Walnut (NW corner),132,72
+2023-07,7,Westnedge at Vine (NW Corner),479,436
+2023-07,51,Park at W. Vine (SE Corner),347,401
+2023-07,52,Park at 519 Walnut,116,161
+2023-07,53,Park at Lovell (SE Corner),37,122
+2023-07,54,Park at South (NE Corner),53,394
+2023-07,96,Portage at Walnut (SE Corner),126,186
+2023-07,137,Kalamazoo & Park Street,93,77
+2023-07,182,Michigan &,101,247
+2023-07,184,Rose & Water,61,417
+2023-07,210,Burdick & North,4,21
+2023-07,260,North & N. Park,37,133
+2023-07,261,North & Westnedge,75,161
+2023-07,262,North & Simpson,30,188
+2023-07,263,North & Woodward,12,57
+2023-07,264,North St & Hawley street,35,280
+2023-07,295,North & Stewart/Hawley,197,17
+2023-07,296,North & Woodward,20,11
+2023-07,297,North & Simpson,84,19
+2023-07,298,North & Westnedge,71,75
+2023-07,299,Ransom & Church,61,193
+2023-07,300,Ransom & N. Rose,2,8
+2023-07,515,Rose & Vine,6,2
+2023-07,516,Rose & Walnut,10,1
+2023-07,517,Rose & South,65,153
+2023-07,518,Walnut & Burdick,233,394
+2023-07,562,Walnut & Burdick,399,151
+2023-07,563,Kalamazoo & Greenwich,30,16
+2023-07,564,Kalamazoo & Elm,69,47
+2023-07,565,Kalamazoo & Stuart,55,50
+2023-07,605,W. Main & Catherine,52,64
+2023-07,606,W. Main & RR Tracks,112,182
+2023-07,607,North & Park,15,17
+2023-07,628,Lovell & Westnedge,195,125
+2023-07,629,Lovell & Oak,50,195
+2023-07,630,Lovell & Davis,43,118
+2023-07,640,South & Oak,212,79
+2023-07,641,South & Westnedge,23,112
+2023-07,776,Portage at South (NW Corner),72,21
+2023-07,785,Oakland & Academy,20,23
+2023-07,788,Ransom & N. Park,835,993
+2023-07,799,Rose & Walnut,1,1
+2023-07,1004,Kalamazoo Transit Center,44212,39752
+2023-07,1011,Kalamazoo Transit Center,1899,2136
+2023-07,1062,E. Michigan & S. Pitcher,57,61
+2023-07,1067,W. Michigan & Academy,136,207
+2023-07,1079,Rose St & Butler,1,58
+2023-07,1082,S Rose St & Vine,8,5
+2023-07,1084,Lovell & S. Burdick,8,31
+2023-08,1,Rose at Water (NW Corner),2805,2441
+2023-08,2,Rose at Michigan (SW side),260,86
+2023-08,3,Rose at South (SW Corner),155,143
+2023-08,4,Lovell at St. Johns (NE Corner),28,7
+2023-08,5,Westnedge at Lovell (SW side),194,76
+2023-08,6,Westnedge at Walnut (NW corner),140,100
+2023-08,7,Westnedge at Vine (NW Corner),491,409
+2023-08,51,Park at W. Vine (SE Corner),396,403
+2023-08,52,Park at 519 Walnut,126,186
+2023-08,53,Park at Lovell (SE Corner),21,151
+2023-08,54,Park at South (NE Corner),65,507
+2023-08,96,Portage at Walnut (SE Corner),146,204
+2023-08,137,Kalamazoo & Park Street,75,84
+2023-08,182,Michigan &,27,122
+2023-08,184,Rose & Water,81,543
+2023-08,210,Burdick & North,7,14
+2023-08,260,North & N. Park,36,209
+2023-08,261,North & Westnedge,68,155
+2023-08,262,North & Simpson,32,156
+2023-08,263,North & Woodward,26,58
+2023-08,264,North St & Hawley street,23,255
+2023-08,295,North & Stewart/Hawley,222,27
+2023-08,296,North & Woodward,39,21
+2023-08,297,North & Simpson,92,17
+2023-08,298,North & Westnedge,67,96
+2023-08,299,Ransom & Church,86,215
+2023-08,300,Ransom & N. Rose,6,21
+2023-08,515,Rose & Vine,10,2
+2023-08,516,Rose & Walnut,0,1
+2023-08,517,Rose & South,75,178
+2023-08,518,Walnut & Burdick,195,435
+2023-08,562,Walnut & Burdick,397,125
+2023-08,563,Kalamazoo & Greenwich,67,12
+2023-08,564,Kalamazoo & Elm,149,110
+2023-08,565,Kalamazoo & Stuart,83,132
+2023-08,605,W. Main & Catherine,41,48
+2023-08,606,W. Main & RR Tracks,102,219
+2023-08,607,North & Park,6,22
+2023-08,628,Lovell & Westnedge,152,110
+2023-08,629,Lovell & Oak,99,179
+2023-08,630,Lovell & Davis,77,78
+2023-08,640,South & Oak,148,103
+2023-08,641,South & Westnedge,5,68
+2023-08,776,Portage at South (NW Corner),84,18
+2023-08,785,Oakland & Academy,23,48
+2023-08,788,Ransom & N. Park,824,817
+2023-08,799,Rose & Walnut,1,0
+2023-08,1004,Kalamazoo Transit Center,49253,43977
+2023-08,1011,Kalamazoo Transit Center,2254,2383
+2023-08,1062,E. Michigan & S. Pitcher,6,14
+2023-08,1067,W. Michigan & Academy,158,154
+2023-08,1079,Rose St & Butler,1,57
+2023-08,1082,S Rose St & Vine,9,10
+2023-08,1084,Lovell & S. Burdick,2,8
+2023-09,1,Rose at Water (NW Corner),3125,2760
+2023-09,2,Rose at Michigan (SW side),218,107
+2023-09,3,Rose at South (SW Corner),139,145
+2023-09,4,Lovell at St. Johns (NE Corner),12,12
+2023-09,5,Westnedge at Lovell (SW side),183,71
+2023-09,6,Westnedge at Walnut (NW corner),112,96
+2023-09,7,Westnedge at Vine (NW Corner),586,461
+2023-09,51,Park at W. Vine (SE Corner),348,528
+2023-09,52,Park at 519 Walnut,114,187
+2023-09,53,Park at Lovell (SE Corner),22,121
+2023-09,54,Park at South (NE Corner),48,403
+2023-09,96,Portage at Walnut (SE Corner),95,160
+2023-09,137,Kalamazoo & Park Street,80,65
+2023-09,182,Michigan &,23,206
+2023-09,184,Rose & Water,59,524
+2023-09,210,Burdick & North,3,9
+2023-09,260,North & N. Park,26,170
+2023-09,261,North & Westnedge,76,134
+2023-09,262,North & Simpson,13,109
+2023-09,263,North & Woodward,12,51
+2023-09,264,North St & Hawley street,30,239
+2023-09,295,North & Stewart/Hawley,254,50
+2023-09,296,North & Woodward,41,12
+2023-09,297,North & Simpson,48,12
+2023-09,298,North & Westnedge,53,79
+2023-09,299,Ransom & Church,55,189
+2023-09,300,Ransom & N. Rose,1,7
+2023-09,515,Rose & Vine,15,9
+2023-09,516,Rose & Walnut,3,1
+2023-09,517,Rose & South,88,165
+2023-09,518,Walnut & Burdick,222,466
+2023-09,562,Walnut & Burdick,404,150
+2023-09,563,Kalamazoo & Greenwich,64,10
+2023-09,564,Kalamazoo & Elm,107,95
+2023-09,565,Kalamazoo & Stuart,99,103
+2023-09,605,W. Main & Catherine,36,68
+2023-09,606,W. Main & RR Tracks,84,218
+2023-09,607,North & Park,15,43
+2023-09,628,Lovell & Westnedge,268,182
+2023-09,629,Lovell & Oak,62,158
+2023-09,630,Lovell & Davis,64,96
+2023-09,640,South & Oak,200,90
+2023-09,641,South & Westnedge,6,53
+2023-09,776,Portage at South (NW Corner),56,23
+2023-09,785,Oakland & Academy,33,56
+2023-09,788,Ransom & N. Park,712,922
+2023-09,799,Rose & Walnut,0,1
+2023-09,1004,Kalamazoo Transit Center,47727,42508
+2023-09,1011,Kalamazoo Transit Center,2237,2563
+2023-09,1062,E. Michigan & S. Pitcher,79,82
+2023-09,1067,W. Michigan & Academy,199,112
+2023-09,1079,Rose St & Butler,0,45
+2023-09,1082,S Rose St & Vine,12,6
+2023-09,1084,Lovell & S. Burdick,8,32
+2023-10,1,Rose at Water (NW Corner),2953,2950
+2023-10,2,Rose at Michigan (SW side),237,103
+2023-10,3,Rose at South (SW Corner),159,174
+2023-10,4,Lovell at St. Johns (NE Corner),10,16
+2023-10,5,Westnedge at Lovell (SW side),158,46
+2023-10,6,Westnedge at Walnut (NW corner),84,115
+2023-10,7,Westnedge at Vine (NW Corner),596,528
+2023-10,51,Park at W. Vine (SE Corner),340,479
+2023-10,52,Park at 519 Walnut,133,162
+2023-10,53,Park at Lovell (SE Corner),20,103
+2023-10,54,Park at South (NE Corner),50,425
+2023-10,96,Portage at Walnut (SE Corner),127,172
+2023-10,137,Kalamazoo & Park Street,65,62
+2023-10,182,Michigan &,61,204
+2023-10,184,Rose & Water,67,594
+2023-10,210,Burdick & North,3,11
+2023-10,260,North & N. Park,25,164
+2023-10,261,North & Westnedge,72,127
+2023-10,262,North & Simpson,40,154
+2023-10,263,North & Woodward,16,74
+2023-10,264,North St & Hawley street,32,259
+2023-10,295,North & Stewart/Hawley,167,28
+2023-10,296,North & Woodward,31,22
+2023-10,297,North & Simpson,48,23
+2023-10,298,North & Westnedge,53,116
+2023-10,299,Ransom & Church,62,207
+2023-10,300,Ransom & N. Rose,0,10
+2023-10,515,Rose & Vine,22,13
+2023-10,516,Rose & Walnut,10,0
+2023-10,517,Rose & South,95,142
+2023-10,518,Walnut & Burdick,218,560
+2023-10,562,Walnut & Burdick,477,160
+2023-10,563,Kalamazoo & Greenwich,52,5
+2023-10,564,Kalamazoo & Elm,111,87
+2023-10,565,Kalamazoo & Stuart,87,128
+2023-10,605,W. Main & Catherine,34,52
+2023-10,606,W. Main & RR Tracks,55,193
+2023-10,607,North & Park,9,30
+2023-10,628,Lovell & Westnedge,177,112
+2023-10,629,Lovell & Oak,79,193
+2023-10,630,Lovell & Davis,85,72
+2023-10,640,South & Oak,240,84
+2023-10,641,South & Westnedge,1,78
+2023-10,776,Portage at South (NW Corner),52,17
+2023-10,785,Oakland & Academy,44,33
+2023-10,788,Ransom & N. Park,972,973
+2023-10,799,Rose & Walnut,0,9
+2023-10,1004,Kalamazoo Transit Center,50606,45060
+2023-10,1011,Kalamazoo Transit Center,2134,2521
+2023-10,1062,E. Michigan & S. Pitcher,92,50
+2023-10,1067,W. Michigan & Academy,150,135
+2023-10,1079,Rose St & Butler,0,58
+2023-10,1082,S Rose St & Vine,10,18
+2023-10,1084,Lovell & S. Burdick,8,32
+2023-11,1,Rose at Water (NW Corner),3128,2722
+2023-11,2,Rose at Michigan (SW side),223,110
+2023-11,3,Rose at South (SW Corner),130,152
+2023-11,4,Lovell at St. Johns (NE Corner),8,11
+2023-11,5,Westnedge at Lovell (SW side),197,100
+2023-11,6,Westnedge at Walnut (NW corner),90,96
+2023-11,7,Westnedge at Vine (NW Corner),622,494
+2023-11,51,Park at W. Vine (SE Corner),366,490
+2023-11,52,Park at 519 Walnut,99,168
+2023-11,53,Park at Lovell (SE Corner),21,128
+2023-11,54,Park at South (NE Corner),69,365
+2023-11,96,Portage at Walnut (SE Corner),96,158
+2023-11,137,Kalamazoo & Park Street,64,32
+2023-11,182,Michigan &,52,228
+2023-11,184,Rose & Water,44,487
+2023-11,210,Burdick & North,14,10
+2023-11,260,North & N. Park,29,171
+2023-11,261,North & Westnedge,61,144
+2023-11,262,North & Simpson,22,80
+2023-11,263,North & Woodward,9,69
+2023-11,264,North St & Hawley street,33,248
+2023-11,295,North & Stewart/Hawley,136,24
+2023-11,296,North & Woodward,26,19
+2023-11,297,North & Simpson,51,19
+2023-11,298,North & Westnedge,68,70
+2023-11,299,Ransom & Church,71,206
+2023-11,300,Ransom & N. Rose,0,6
+2023-11,515,Rose & Vine,12,5
+2023-11,516,Rose & Walnut,6,1
+2023-11,517,Rose & South,56,135
+2023-11,518,Walnut & Burdick,264,503
+2023-11,562,Walnut & Burdick,465,126
+2023-11,563,Kalamazoo & Greenwich,24,7
+2023-11,564,Kalamazoo & Elm,49,66
+2023-11,565,Kalamazoo & Stuart,56,88
+2023-11,605,W. Main & Catherine,24,45
+2023-11,606,W. Main & RR Tracks,43,197
+2023-11,607,North & Park,4,24
+2023-11,628,Lovell & Westnedge,177,138
+2023-11,629,Lovell & Oak,96,145
+2023-11,630,Lovell & Davis,63,70
+2023-11,640,South & Oak,222,107
+2023-11,641,South & Westnedge,1,52
+2023-11,776,Portage at South (NW Corner),46,26
+2023-11,785,Oakland & Academy,25,30
+2023-11,788,Ransom & N. Park,761,821
+2023-11,799,Rose & Walnut,0,2
+2023-11,1004,Kalamazoo Transit Center,45735,42006
+2023-11,1011,Kalamazoo Transit Center,2088,2493
+2023-11,1062,E. Michigan & S. Pitcher,100,68
+2023-11,1067,W. Michigan & Academy,168,143
+2023-11,1079,Rose St & Butler,1,49
+2023-11,1082,S Rose St & Vine,7,27
+2023-11,1084,Lovell & S. Burdick,3,28
+2023-12,1,Rose at Water (NW Corner),3000,2651
+2023-12,2,Rose at Michigan (SW side),224,101
+2023-12,3,Rose at South (SW Corner),158,185
+2023-12,4,Lovell at St. Johns (NE Corner),10,11
+2023-12,5,Westnedge at Lovell (SW side),214,107
+2023-12,6,Westnedge at Walnut (NW corner),117,109
+2023-12,7,Westnedge at Vine (NW Corner),686,614
+2023-12,51,Park at W. Vine (SE Corner),447,482
+2023-12,52,Park at 519 Walnut,128,209
+2023-12,53,Park at Lovell (SE Corner),22,131
+2023-12,54,Park at South (NE Corner),38,370
+2023-12,96,Portage at Walnut (SE Corner),64,151
+2023-12,137,Kalamazoo & Park Street,75,39
+2023-12,182,Michigan &,41,205
+2023-12,184,Rose & Water,50,453
+2023-12,210,Burdick & North,12,30
+2023-12,260,North & N. Park,38,150
+2023-12,261,North & Westnedge,55,124
+2023-12,262,North & Simpson,17,94
+2023-12,263,North & Woodward,15,69
+2023-12,264,North St & Hawley street,37,219
+2023-12,295,North & Stewart/Hawley,143,18
+2023-12,296,North & Woodward,41,25
+2023-12,297,North & Simpson,40,18
+2023-12,298,North & Westnedge,73,79
+2023-12,299,Ransom & Church,74,165
+2023-12,300,Ransom & N. Rose,2,10
+2023-12,515,Rose & Vine,15,17
+2023-12,516,Rose & Walnut,4,5
+2023-12,517,Rose & South,56,161
+2023-12,518,Walnut & Burdick,247,464
+2023-12,562,Walnut & Burdick,452,146
+2023-12,563,Kalamazoo & Greenwich,21,9
+2023-12,564,Kalamazoo & Elm,51,67
+2023-12,565,Kalamazoo & Stuart,46,54
+2023-12,605,W. Main & Catherine,30,51
+2023-12,606,W. Main & RR Tracks,45,151
+2023-12,607,North & Park,9,25
+2023-12,628,Lovell & Westnedge,150,127
+2023-12,629,Lovell & Oak,54,145
+2023-12,630,Lovell & Davis,36,66
+2023-12,640,South & Oak,222,105
+2023-12,641,South & Westnedge,9,48
+2023-12,776,Portage at South (NW Corner),24,12
+2023-12,785,Oakland & Academy,37,35
+2023-12,788,Ransom & N. Park,729,751
+2023-12,799,Rose & Walnut,0,1
+2023-12,1004,Kalamazoo Transit Center,45154,41337
+2023-12,1011,Kalamazoo Transit Center,2283,2484
+2023-12,1062,E. Michigan & S. Pitcher,99,74
+2023-12,1067,W. Michigan & Academy,93,132
+2023-12,1079,Rose St & Butler,1,54
+2023-12,1082,S Rose St & Vine,15,23
+2023-12,1084,Lovell & S. Burdick,7,22
+2024-01,1,Rose at Water (NW Corner),2849,2622
+2024-01,2,Rose at Michigan (SW side),242,66
+2024-01,3,Rose at South (SW Corner),154,224
+2024-01,4,Lovell at St. Johns (NE Corner),15,16
+2024-01,5,Westnedge at Lovell (SW side),249,110
+2024-01,6,Westnedge at Walnut (NW corner),92,105
+2024-01,7,Westnedge at Vine (NW Corner),611,541
+2024-01,51,Park at W. Vine (SE Corner),466,480
+2024-01,52,Park at 519 Walnut,135,186
+2024-01,53,Park at Lovell (SE Corner),21,152
+2024-01,54,Park at South (NE Corner),75,388
+2024-01,96,Portage at Walnut (SE Corner),77,142
+2024-01,137,Kalamazoo & Park Street,148,56
+2024-01,182,Michigan &,63,152
+2024-01,184,Rose & Water,54,527
+2024-01,210,Burdick & North,15,37
+2024-01,260,North & N. Park,43,179
+2024-01,261,North & Westnedge,72,138
+2024-01,262,North & Simpson,17,87
+2024-01,263,North & Woodward,17,67
+2024-01,264,North St & Hawley street,32,179
+2024-01,295,North & Stewart/Hawley,98,15
+2024-01,296,North & Woodward,52,39
+2024-01,297,North & Simpson,48,17
+2024-01,298,North & Westnedge,58,80
+2024-01,299,Ransom & Church,70,220
+2024-01,300,Ransom & N. Rose,0,5
+2024-01,515,Rose & Vine,20,4
+2024-01,516,Rose & Walnut,2,7
+2024-01,517,Rose & South,89,123
+2024-01,518,Walnut & Burdick,236,385
+2024-01,562,Walnut & Burdick,384,98
+2024-01,563,Kalamazoo & Greenwich,45,13
+2024-01,564,Kalamazoo & Elm,71,108
+2024-01,565,Kalamazoo & Stuart,64,104
+2024-01,605,W. Main & Catherine,39,65
+2024-01,606,W. Main & RR Tracks,56,118
+2024-01,607,North & Park,7,39
+2024-01,628,Lovell & Westnedge,157,199
+2024-01,629,Lovell & Oak,83,188
+2024-01,630,Lovell & Davis,58,79
+2024-01,640,South & Oak,268,128
+2024-01,641,South & Westnedge,7,44
+2024-01,776,Portage at South (NW Corner),45,11
+2024-01,785,Oakland & Academy,33,32
+2024-01,788,Ransom & N. Park,729,787
+2024-01,799,Rose & Walnut,0,0
+2024-01,1004,Kalamazoo Transit Center,44198,40937
+2024-01,1011,Kalamazoo Transit Center,2127,2196
+2024-01,1062,E. Michigan & S. Pitcher,109,68
+2024-01,1067,W. Michigan & Academy,118,207
+2024-01,1079,Rose St & Butler,0,102
+2024-01,1082,S Rose St & Vine,14,18
+2024-01,1084,Lovell & S. Burdick,6,18
+2024-02,1,Rose at Water (NW Corner),3307,2848
+2024-02,2,Rose at Michigan (SW side),291,105
+2024-02,3,Rose at South (SW Corner),162,219
+2024-02,4,Lovell at St. Johns (NE Corner),26,18
+2024-02,5,Westnedge at Lovell (SW side),269,101
+2024-02,6,Westnedge at Walnut (NW corner),124,127
+2024-02,7,Westnedge at Vine (NW Corner),821,747
+2024-02,51,Park at W. Vine (SE Corner),589,636
+2024-02,52,Park at 519 Walnut,133,204
+2024-02,53,Park at Lovell (SE Corner),19,179
+2024-02,54,Park at South (NE Corner),93,506
+2024-02,96,Portage at Walnut (SE Corner),112,149
+2024-02,137,Kalamazoo & Park Street,119,73
+2024-02,182,Michigan &,59,234
+2024-02,184,Rose & Water,76,524
+2024-02,210,Burdick & North,10,18
+2024-02,260,North & N. Park,33,178
+2024-02,261,North & Westnedge,91,123
+2024-02,262,North & Simpson,24,94
+2024-02,263,North & Woodward,30,55
+2024-02,264,North St & Hawley street,37,209
+2024-02,295,North & Stewart/Hawley,145,27
+2024-02,296,North & Woodward,52,27
+2024-02,297,North & Simpson,52,32
+2024-02,298,North & Westnedge,86,113
+2024-02,299,Ransom & Church,76,245
+2024-02,300,Ransom & N. Rose,3,9
+2024-02,515,Rose & Vine,32,10
+2024-02,516,Rose & Walnut,3,2
+2024-02,517,Rose & South,101,125
+2024-02,518,Walnut & Burdick,209,432
+2024-02,562,Walnut & Burdick,405,115
+2024-02,563,Kalamazoo & Greenwich,19,8
+2024-02,564,Kalamazoo & Elm,85,117
+2024-02,565,Kalamazoo & Stuart,83,142
+2024-02,605,W. Main & Catherine,48,48
+2024-02,606,W. Main & RR Tracks,76,94
+2024-02,607,North & Park,7,49
+2024-02,628,Lovell & Westnedge,186,231
+2024-02,629,Lovell & Oak,67,168
+2024-02,630,Lovell & Davis,31,77
+2024-02,640,South & Oak,243,120
+2024-02,641,South & Westnedge,9,47
+2024-02,776,Portage at South (NW Corner),52,9
+2024-02,785,Oakland & Academy,21,24
+2024-02,788,Ransom & N. Park,809,786
+2024-02,799,Rose & Walnut,0,0
+2024-02,1004,Kalamazoo Transit Center,48223,44302
+2024-02,1011,Kalamazoo Transit Center,2832,2678
+2024-02,1062,E. Michigan & S. Pitcher,103,72
+2024-02,1067,W. Michigan & Academy,193,226
+2024-02,1079,Rose St & Butler,0,70
+2024-02,1082,S Rose St & Vine,27,22
+2024-02,1084,Lovell & S. Burdick,8,29
+2024-03,1,Rose at Water (NW Corner),3786,3066
+2024-03,2,Rose at Michigan (SW side),258,110
+2024-03,3,Rose at South (SW Corner),185,251
+2024-03,4,Lovell at St. Johns (NE Corner),21,21
+2024-03,5,Westnedge at Lovell (SW side),279,89
+2024-03,6,Westnedge at Walnut (NW corner),95,117
+2024-03,7,Westnedge at Vine (NW Corner),606,614
+2024-03,51,Park at W. Vine (SE Corner),480,510
+2024-03,52,Park at 519 Walnut,133,173
+2024-03,53,Park at Lovell (SE Corner),28,152
+2024-03,54,Park at South (NE Corner),70,493
+2024-03,96,Portage at Walnut (SE Corner),140,164
+2024-03,137,Kalamazoo & Park Street,217,53
+2024-03,182,Michigan &,84,265
+2024-03,184,Rose & Water,71,572
+2024-03,210,Burdick & North,128,126
+2024-03,260,North & N. Park,32,186
+2024-03,261,North & Westnedge,56,107
+2024-03,262,North & Simpson,26,87
+2024-03,263,North & Woodward,29,63
+2024-03,264,North St & Hawley street,33,217
+2024-03,295,North & Stewart/Hawley,167,27
+2024-03,296,North & Woodward,63,40
+2024-03,297,North & Simpson,43,31
+2024-03,298,North & Westnedge,83,77
+2024-03,299,Ransom & Church,81,260
+2024-03,300,Ransom & N. Rose,2,17
+2024-03,515,Rose & Vine,30,8
+2024-03,516,Rose & Walnut,2,5
+2024-03,517,Rose & South,119,140
+2024-03,518,Walnut & Burdick,235,394
+2024-03,562,Walnut & Burdick,418,155
+2024-03,563,Kalamazoo & Greenwich,18,12
+2024-03,564,Kalamazoo & Elm,91,140
+2024-03,565,Kalamazoo & Stuart,72,106
+2024-03,605,W. Main & Catherine,55,72
+2024-03,606,W. Main & RR Tracks,82,82
+2024-03,607,North & Park,8,55
+2024-03,628,Lovell & Westnedge,197,188
+2024-03,629,Lovell & Oak,75,174
+2024-03,630,Lovell & Davis,33,103
+2024-03,640,South & Oak,246,123
+2024-03,641,South & Westnedge,21,71
+2024-03,776,Portage at South (NW Corner),93,19
+2024-03,785,Oakland & Academy,39,25
+2024-03,788,Ransom & N. Park,921,949
+2024-03,799,Rose & Walnut,0,1
+2024-03,1004,Kalamazoo Transit Center,46400,42645
+2024-03,1011,Kalamazoo Transit Center,1364,1316
+2024-03,1062,E. Michigan & S. Pitcher,1924,1658
+2024-03,1067,W. Michigan & Academy,255,211
+2024-03,1079,Rose St & Butler,0,74
+2024-03,1082,S Rose St & Vine,23,31
+2024-03,1084,Lovell & S. Burdick,10,47
+2024-04,1,Rose at Water (NW Corner),3110,2753
+2024-04,2,Rose at Michigan (SW side),233,112
+2024-04,3,Rose at South (SW Corner),181,277
+2024-04,4,Lovell at St. Johns (NE Corner),39,30
+2024-04,5,Westnedge at Lovell (SW side),287,123
+2024-04,6,Westnedge at Walnut (NW corner),118,110
+2024-04,7,Westnedge at Vine (NW Corner),729,692
+2024-04,51,Park at W. Vine (SE Corner),620,651
+2024-04,52,Park at 519 Walnut,147,214
+2024-04,53,Park at Lovell (SE Corner),39,180
+2024-04,54,Park at South (NE Corner),82,464
+2024-04,96,Portage at Walnut (SE Corner),129,175
+2024-04,137,Kalamazoo & Park Street,193,84
+2024-04,182,Michigan &,91,299
+2024-04,184,Rose & Water,70,612
+2024-04,210,Burdick & North,164,166
+2024-04,260,North & N. Park,22,132
+2024-04,261,North & Westnedge,82,155
+2024-04,262,North & Simpson,27,103
+2024-04,263,North & Woodward,24,83
+2024-04,264,North St & Hawley street,28,228
+2024-04,295,North & Stewart/Hawley,201,25
+2024-04,296,North & Woodward,84,39
+2024-04,297,North & Simpson,60,20
+2024-04,298,North & Westnedge,86,98
+2024-04,299,Ransom & Church,68,232
+2024-04,300,Ransom & N. Rose,5,18
+2024-04,515,Rose & Vine,19,11
+2024-04,516,Rose & Walnut,4,3
+2024-04,517,Rose & South,128,113
+2024-04,518,Walnut & Burdick,280,443
+2024-04,562,Walnut & Burdick,434,160
+2024-04,563,Kalamazoo & Greenwich,32,13
+2024-04,564,Kalamazoo & Elm,105,102
+2024-04,565,Kalamazoo & Stuart,73,79
+2024-04,605,W. Main & Catherine,49,106
+2024-04,606,W. Main & RR Tracks,71,121
+2024-04,607,North & Park,4,41
+2024-04,628,Lovell & Westnedge,245,223
+2024-04,629,Lovell & Oak,75,188
+2024-04,630,Lovell & Davis,59,89
+2024-04,640,South & Oak,273,96
+2024-04,641,South & Westnedge,10,79
+2024-04,776,Portage at South (NW Corner),88,29
+2024-04,785,Oakland & Academy,50,23
+2024-04,788,Ransom & N. Park,816,999
+2024-04,799,Rose & Walnut,0,0
+2024-04,1004,Kalamazoo Transit Center,48970,44259
+2024-04,1011,Kalamazoo Transit Center,2248,1996
+2024-04,1062,E. Michigan & S. Pitcher,2510,2253
+2024-04,1067,W. Michigan & Academy,278,207
+2024-04,1079,Rose St & Butler,3,62
+2024-04,1082,S Rose St & Vine,41,32
+2024-04,1084,Lovell & S. Burdick,11,45
+2024-05,1,Rose at Water (NW Corner),3092,2917
+2024-05,2,Rose at Michigan (SW side),289,117
+2024-05,3,Rose at South (SW Corner),177,222
+2024-05,4,Lovell at St. Johns (NE Corner),30,23
+2024-05,5,Westnedge at Lovell (SW side),221,79
+2024-05,6,Westnedge at Walnut (NW corner),133,117
+2024-05,7,Westnedge at Vine (NW Corner),804,643
+2024-05,51,Park at W. Vine (SE Corner),547,693
+2024-05,52,Park at 519 Walnut,125,196
+2024-05,53,Park at Lovell (SE Corner),39,174
+2024-05,54,Park at South (NE Corner),111,525
+2024-05,96,Portage at Walnut (SE Corner),147,181
+2024-05,137,Kalamazoo & Park Street,145,85
+2024-05,182,Michigan &,61,271
+2024-05,184,Rose & Water,61,567
+2024-05,210,Burdick & North,137,126
+2024-05,260,North & N. Park,1248,1118
+2024-05,261,North & Westnedge,103,119
+2024-05,262,North & Simpson,19,97
+2024-05,263,North & Woodward,20,60
+2024-05,264,North St & Hawley street,33,199
+2024-05,295,North & Stewart/Hawley,153,15
+2024-05,296,North & Woodward,59,14
+2024-05,297,North & Simpson,64,25
+2024-05,298,North & Westnedge,119,146
+2024-05,299,Ransom & Church,31,100
+2024-05,300,Ransom & N. Rose,1,1
+2024-05,515,Rose & Vine,13,5
+2024-05,516,Rose & Walnut,8,7
+2024-05,517,Rose & South,100,148
+2024-05,518,Walnut & Burdick,255,493
+2024-05,562,Walnut & Burdick,464,173
+2024-05,563,Kalamazoo & Greenwich,25,14
+2024-05,564,Kalamazoo & Elm,106,77
+2024-05,565,Kalamazoo & Stuart,92,78
+2024-05,605,W. Main & Catherine,44,89
+2024-05,606,W. Main & RR Tracks,82,159
+2024-05,607,North & Park,283,444
+2024-05,628,Lovell & Westnedge,70,65
+2024-05,629,Lovell & Oak,242,263
+2024-05,630,Lovell & Davis,30,56
+2024-05,640,South & Oak,220,111
+2024-05,641,South & Westnedge,23,100
+2024-05,776,Portage at South (NW Corner),100,24
+2024-05,785,Oakland & Academy,30,34
+2024-05,788,Ransom & N. Park,408,447
+2024-05,799,Rose & Walnut,0,1
+2024-05,1004,Kalamazoo Transit Center,44016,39793
+2024-05,1011,Kalamazoo Transit Center,1159,977
+2024-05,1062,E. Michigan & S. Pitcher,1174,1139
+2024-05,1067,W. Michigan & Academy,263,208
+2024-05,1079,Rose St & Butler,2,31
+2024-05,1082,S Rose St & Vine,36,33
+2024-05,1084,Lovell & S. Burdick,15,46
+2024-06,1,Rose at Water (NW Corner),1212,1023
+2024-06,2,Rose at Michigan (SW side),295,98
+2024-06,3,Rose at South (SW Corner),189,194
+2024-06,4,Lovell at St. Johns (NE Corner),21,12
+2024-06,5,Westnedge at Lovell (SW side),215,77
+2024-06,6,Westnedge at Walnut (NW corner),130,71
+2024-06,7,Westnedge at Vine (NW Corner),529,443
+2024-06,51,Park at W. Vine (SE Corner),355,411
+2024-06,52,Park at 519 Walnut,114,225
+2024-06,53,Park at Lovell (SE Corner),46,175
+2024-06,54,Park at South (NE Corner),130,437
+2024-06,96,Portage at Walnut (SE Corner),161,171
+2024-06,137,Kalamazoo & Park Street,709,536
+2024-06,182,Michigan &,52,239
+2024-06,184,Rose & Water,112,636
+2024-06,210,Burdick & North,51,154
+2024-06,260,North & N. Park,2577,2283
+2024-06,261,North & Westnedge,97,111
+2024-06,262,North & Simpson,26,93
+2024-06,263,North & Woodward,21,73
+2024-06,264,North St & Hawley street,99,375
+2024-06,295,North & Stewart/Hawley,115,12
+2024-06,296,North & Woodward,316,100
+2024-06,297,North & Simpson,56,28
+2024-06,298,North & Westnedge,77,86
+2024-06,299,Ransom & Church,0,2
+2024-06,300,Ransom & N. Rose,13,17
+2024-06,515,Rose & Vine,1,2
+2024-06,516,Rose & Walnut,1,3
+2024-06,517,Rose & South,104,102
+2024-06,518,Walnut & Burdick,220,396
+2024-06,562,Walnut & Burdick,379,144
+2024-06,563,Kalamazoo & Greenwich,20,11
+2024-06,564,Kalamazoo & Elm,67,74
+2024-06,565,Kalamazoo & Stuart,84,55
+2024-06,605,W. Main & Catherine,39,86
+2024-06,606,W. Main & RR Tracks,44,89
+2024-06,607,North & Park,253,348
+2024-06,628,Lovell & Westnedge,35,15
+2024-06,629,Lovell & Oak,227,229
+2024-06,630,Lovell & Davis,24,40
+2024-06,640,South & Oak,172,65
+2024-06,641,South & Westnedge,20,67
+2024-06,776,Portage at South (NW Corner),103,64
+2024-06,785,Oakland & Academy,23,11
+2024-06,788,Ransom & N. Park,0,0
+2024-06,799,Rose & Walnut,0,0
+2024-06,1004,Kalamazoo Transit Center,43068,39171
+2024-06,1011,Kalamazoo Transit Center,2237,2063
+2024-06,1062,E. Michigan & S. Pitcher,97,42
+2024-06,1067,W. Michigan & Academy,77,35
+2024-06,1079,Rose St & Butler,0,0
+2024-06,1082,S Rose St & Vine,5,11
+2024-06,1084,Lovell & S. Burdick,9,34
+2024-07,1,Rose at Water (NW Corner),1222,784
+2024-07,2,Rose at Michigan (SW side),280,76
+2024-07,3,Rose at South (SW Corner),206,220
+2024-07,4,Lovell at St. Johns (NE Corner),25,27
+2024-07,5,Westnedge at Lovell (SW side),150,82
+2024-07,6,Westnedge at Walnut (NW corner),99,94
+2024-07,7,Westnedge at Vine (NW Corner),517,508
+2024-07,51,Park at W. Vine (SE Corner),360,428
+2024-07,52,Park at 519 Walnut,143,182
+2024-07,53,Park at Lovell (SE Corner),35,132
+2024-07,54,Park at South (NE Corner),134,455
+2024-07,96,Portage at Walnut (SE Corner),144,168
+2024-07,137,Kalamazoo & Park Street,220,89
+2024-07,182,Michigan &,40,257
+2024-07,184,Rose & Water,102,682
+2024-07,210,Burdick & North,282,367
+2024-07,260,North & N. Park,0,0
+2024-07,261,North & Westnedge,150,282
+2024-07,262,North & Simpson,16,72
+2024-07,263,North & Woodward,8,41
+2024-07,264,North St & Hawley street,71,310
+2024-07,295,North & Stewart/Hawley,176,13
+2024-07,296,North & Woodward,119,39
+2024-07,297,North & Simpson,33,30
+2024-07,298,North & Westnedge,79,76
+2024-07,299,Ransom & Church,0,0
+2024-07,300,Ransom & N. Rose,0,0
+2024-07,515,Rose & Vine,0,2
+2024-07,516,Rose & Walnut,19,1
+2024-07,517,Rose & South,95,157
+2024-07,518,Walnut & Burdick,261,474
+2024-07,562,Walnut & Burdick,449,192
+2024-07,563,Kalamazoo & Greenwich,16,18
+2024-07,564,Kalamazoo & Elm,86,58
+2024-07,565,Kalamazoo & Stuart,110,91
+2024-07,605,W. Main & Catherine,47,107
+2024-07,606,W. Main & RR Tracks,45,157
+2024-07,607,North & Park,0,0
+2024-07,628,Lovell & Westnedge,2,0
+2024-07,629,Lovell & Oak,306,229
+2024-07,630,Lovell & Davis,20,41
+2024-07,640,South & Oak,206,87
+2024-07,641,South & Westnedge,39,75
+2024-07,776,Portage at South (NW Corner),60,64
+2024-07,785,Oakland & Academy,18,13
+2024-07,788,Ransom & N. Park,0,0
+2024-07,799,Rose & Walnut,0,0
+2024-07,1004,Kalamazoo Transit Center,49261,44362
+2024-07,1011,Kalamazoo Transit Center,3153,3017
+2024-07,1062,E. Michigan & S. Pitcher,114,41
+2024-07,1067,W. Michigan & Academy,0,0
+2024-07,1079,Rose St & Butler,1,4
+2024-07,1082,S Rose St & Vine,12,17
+2024-07,1084,Lovell & S. Burdick,11,49
+2024-08,1,Rose at Water (NW Corner),2478,1857
+2024-08,2,Rose at Michigan (SW side),266,73
+2024-08,3,Rose at South (SW Corner),201,174
+2024-08,4,Lovell at St. Johns (NE Corner),30,36
+2024-08,5,Westnedge at Lovell (SW side),3,2
+2024-08,6,Westnedge at Walnut (NW corner),1,4
+2024-08,7,Westnedge at Vine (NW Corner),0,0
+2024-08,51,Park at W. Vine (SE Corner),524,385
+2024-08,52,Park at 519 Walnut,141,181
+2024-08,53,Park at Lovell (SE Corner),24,137
+2024-08,54,Park at South (NE Corner),122,366
+2024-08,96,Portage at Walnut (SE Corner),123,182
+2024-08,137,Kalamazoo & Park Street,181,60
+2024-08,182,Michigan &,32,267
+2024-08,184,Rose & Water,89,671
+2024-08,210,Burdick & North,404,655
+2024-08,260,North & N. Park,0,0
+2024-08,261,North & Westnedge,210,357
+2024-08,262,North & Simpson,28,96
+2024-08,263,North & Woodward,10,75
+2024-08,264,North St & Hawley street,39,264
+2024-08,295,North & Stewart/Hawley,172,23
+2024-08,296,North & Woodward,44,13
+2024-08,297,North & Simpson,35,25
+2024-08,298,North & Westnedge,74,102
+2024-08,299,Ransom & Church,0,0
+2024-08,300,Ransom & N. Rose,0,0
+2024-08,515,Rose & Vine,2,8
+2024-08,516,Rose & Walnut,13,10
+2024-08,517,Rose & South,88,164
+2024-08,518,Walnut & Burdick,284,536
+2024-08,562,Walnut & Burdick,491,149
+2024-08,563,Kalamazoo & Greenwich,19,18
+2024-08,564,Kalamazoo & Elm,90,59
+2024-08,565,Kalamazoo & Stuart,155,105
+2024-08,605,W. Main & Catherine,43,113
+2024-08,606,W. Main & RR Tracks,76,176
+2024-08,607,North & Park,0,0
+2024-08,628,Lovell & Westnedge,1,0
+2024-08,629,Lovell & Oak,281,231
+2024-08,630,Lovell & Davis,28,45
+2024-08,640,South & Oak,140,82
+2024-08,641,South & Westnedge,29,42
+2024-08,776,Portage at South (NW Corner),63,30
+2024-08,785,Oakland & Academy,20,17
+2024-08,788,Ransom & N. Park,0,0
+2024-08,799,Rose & Walnut,1,1
+2024-08,1004,Kalamazoo Transit Center,50906,45334
+2024-08,1011,Kalamazoo Transit Center,3229,3041
+2024-08,1062,E. Michigan & S. Pitcher,112,49
+2024-08,1067,W. Michigan & Academy,0,0
+2024-08,1079,Rose St & Butler,0,0
+2024-08,1082,S Rose St & Vine,22,7
+2024-08,1084,Lovell & S. Burdick,3,25
+2024-09,1,Rose at Water (NW Corner),7777,5930
+2024-09,2,Rose at Michigan (SW side),258,72
+2024-09,4,Lovell at St. Johns (NE Corner),20,19
+2024-09,5,Westnedge at Lovell (SW side),3,7
+2024-09,6,Westnedge at Walnut (NW corner),1,1
+2024-09,7,Westnedge at Vine (NW Corner),8,12
+2024-09,51,Park at W. Vine (SE Corner),542,458
+2024-09,52,Park at 519 Walnut,153,146
+2024-09,53,Park at Lovell (SE Corner),40,167
+2024-09,54,Park at South (NE Corner),64,378
+2024-09,96,Portage at Walnut (SE Corner),113,165
+2024-09,137,Kalamazoo & Park Street,168,60
+2024-09,182,Michigan &,31,234
+2024-09,184,Rose & Water,89,741
+2024-09,210,Burdick & North,601,996
+2024-09,260,North & N. Park,9,9
+2024-09,261,North & Westnedge,262,301
+2024-09,262,North & Simpson,0,0
+2024-09,263,North & Woodward,0,0
+2024-09,264,North St & Hawley street,0,0
+2024-09,295,North & Stewart/Hawley,0,0
+2024-09,296,North & Woodward,0,0
+2024-09,297,North & Simpson,73,28
+2024-09,298,North & Westnedge,73,90
+2024-09,299,Ransom & Church,0,0
+2024-09,300,Ransom & N. Rose,0,0
+2024-09,515,Rose & Vine,4,1
+2024-09,516,Rose & Walnut,9,2
+2024-09,517,Rose & South,,0
+2024-09,518,Walnut & Burdick,308,546
+2024-09,562,Walnut & Burdick,462,173
+2024-09,563,Kalamazoo & Greenwich,23,22
+2024-09,564,Kalamazoo & Elm,80,43
+2024-09,565,Kalamazoo & Stuart,143,100
+2024-09,605,W. Main & Catherine,34,93
+2024-09,606,W. Main & RR Tracks,76,152
+2024-09,607,North & Park,,0
+2024-09,628,Lovell & Westnedge,1,1
+2024-09,629,Lovell & Oak,267,159
+2024-09,630,Lovell & Davis,29,33
+2024-09,640,South & Oak,,0
+2024-09,641,South & Westnedge,14,45
+2024-09,776,Portage at South (NW Corner),72,34
+2024-09,785,Oakland & Academy,21,31
+2024-09,788,Ransom & N. Park,,0
+2024-09,799,Rose & Walnut,1,2
+2024-09,1004,Kalamazoo Transit Center,42588,39659
+2024-09,1011,Kalamazoo Transit Center,3048,2931
+2024-09,1062,E. Michigan & S. Pitcher,125,41
+2024-09,1067,W. Michigan & Academy,,0
+2024-09,1079,Rose St & Butler,0,0
+2024-09,1082,S Rose St & Vine,12,12
+2024-09,1084,Lovell & S. Burdick,3,22
+2024-10,1,Rose at Water (NW Corner),4678,3808
+2024-10,2,Rose at Michigan (SW side),264,121
+2024-10,4,Lovell at St. Johns (NE Corner),14,27
+2024-10,5,Westnedge at Lovell (SW side),142,48
+2024-10,6,Westnedge at Walnut (NW corner),3,8
+2024-10,7,Westnedge at Vine (NW Corner),21,37
+2024-10,51,Park at W. Vine (SE Corner),495,484
+2024-10,52,Park at 519 Walnut,175,196
+2024-10,53,Park at Lovell (SE Corner),36,202
+2024-10,54,Park at South (NE Corner),88,497
+2024-10,96,Portage at Walnut (SE Corner),134,163
+2024-10,137,Kalamazoo & Park Street,231,63
+2024-10,182,Michigan &,34,275
+2024-10,184,Rose & Water,63,663
+2024-10,210,Burdick & North,649,880
+2024-10,260,North & N. Park,75,51
+2024-10,261,North & Westnedge,231,238
+2024-10,262,North & Simpson,0,0
+2024-10,263,North & Woodward,0,0
+2024-10,264,North St & Hawley street,0,0
+2024-10,295,North & Stewart/Hawley,0,0
+2024-10,296,North & Woodward,0,0
+2024-10,297,North & Simpson,81,42
+2024-10,298,North & Westnedge,86,94
+2024-10,299,Ransom & Church,,0
+2024-10,300,Ransom & N. Rose,,0
+2024-10,515,Rose & Vine,7,3
+2024-10,516,Rose & Walnut,5,2
+2024-10,517,Rose & South,,0
+2024-10,518,Walnut & Burdick,280,535
+2024-10,562,Walnut & Burdick,516,195
+2024-10,563,Kalamazoo & Greenwich,27,15
+2024-10,564,Kalamazoo & Elm,50,58
+2024-10,565,Kalamazoo & Stuart,149,133
+2024-10,605,W. Main & Catherine,5,87
+2024-10,606,W. Main & RR Tracks,84,166
+2024-10,607,North & Park,,0
+2024-10,628,Lovell & Westnedge,107,111
+2024-10,629,Lovell & Oak,179,157
+2024-10,630,Lovell & Davis,49,71
+2024-10,640,South & Oak,,0
+2024-10,641,South & Westnedge,40,53
+2024-10,776,Portage at South (NW Corner),630,393
+2024-10,785,Oakland & Academy,43,41
+2024-10,788,Ransom & N. Park,,0
+2024-10,799,Rose & Walnut,1,0
+2024-10,1004,Kalamazoo Transit Center,51409,47349
+2024-10,1011,Kalamazoo Transit Center,3413,3152
+2024-10,1062,E. Michigan & S. Pitcher,400,242
+2024-10,1067,W. Michigan & Academy,,0
+2024-10,1079,Rose St & Butler,0,3
+2024-10,1082,S Rose St & Vine,20,7
+2024-10,1084,Lovell & S. Burdick,15,35
+2024-11,2,Rose at Michigan (SW side),487,267
+2024-11,4,Lovell at St. Johns (NE Corner),206,30
+2024-11,5,Westnedge at Lovell (SW side),0,0
+2024-11,6,Westnedge at Walnut (NW corner),0,0
+2024-11,7,Westnedge at Vine (NW Corner),1170,846
+2024-11,51,Park at W. Vine (SE Corner),68,435
+2024-11,52,Park at 519 Walnut,449,368
+2024-11,53,Park at Lovell (SE Corner),50,233
+2024-11,54,Park at South (NE Corner),33,155
+2024-11,96,Portage at Walnut (SE Corner),155,170
+2024-11,137,Kalamazoo & Park Street,33,83
+2024-11,182,Michigan &,37,35
+2024-11,184,Rose & Water,88,573
+2024-11,210,Burdick & North,369,361
+2024-11,260,North & N. Park,234,204
+2024-11,261,North & Westnedge,39,83
+2024-11,262,North & Simpson,0,0
+2024-11,263,North & Woodward,0,0
+2024-11,264,North St & Hawley street,0,0
+2024-11,295,North & Stewart/Hawley,0,0
+2024-11,296,North & Woodward,0,0
+2024-11,297,North & Simpson,554,980
+2024-11,298,North & Westnedge,28,23
+2024-11,299,Ransom & Church,,0
+2024-11,300,Ransom & N. Rose,,0
+2024-11,515,Rose & Vine,9,3
+2024-11,516,Rose & Walnut,478,173
+2024-11,517,Rose & South,,0
+2024-11,518,Walnut & Burdick,27,39
+2024-11,562,Walnut & Burdick,221,511
+2024-11,563,Kalamazoo & Greenwich,58,69
+2024-11,564,Kalamazoo & Elm,22,35
+2024-11,565,Kalamazoo & Stuart,129,124
+2024-11,605,W. Main & Catherine,37,84
+2024-11,606,W. Main & RR Tracks,67,164
+2024-11,607,North & Park,,0
+2024-11,628,Lovell & Westnedge,109,92
+2024-11,629,Lovell & Oak,42,50
+2024-11,630,Lovell & Davis,109,92
+2024-11,640,South & Oak,,0
+2024-11,641,South & Westnedge,126,80
+2024-11,776,Portage at South (NW Corner),0,4
+2024-11,785,Oakland & Academy,37,35
+2024-11,788,Ransom & N. Park,,0
+2024-11,799,Rose & Walnut,9,1
+2024-11,1004,Kalamazoo Transit Center,47591,43312
+2024-11,1011,Kalamazoo Transit Center,3011,2861
+2024-11,1062,E. Michigan & S. Pitcher,65,81
+2024-11,1067,W. Michigan & Academy,,0
+2024-11,1079,Rose St & Butler,120,160
+2024-11,1082,S Rose St & Vine,14,14
+2024-11,1084,Lovell & S. Burdick,129,124
+2024-12,2,Rose at Michigan (SW side),74,491
+2024-12,4,Lovell at St. Johns (NE Corner),202,35
+2024-12,5,Westnedge at Lovell (SW side),442,575
+2024-12,6,Westnedge at Walnut (NW corner),0,0
+2024-12,7,Westnedge at Vine (NW Corner),1241,991
+2024-12,51,Park at W. Vine (SE Corner),124,105
+2024-12,52,Park at 519 Walnut,7,9
+2024-12,53,Park at Lovell (SE Corner),121,210
+2024-12,54,Park at South (NE Corner),131,153
+2024-12,96,Portage at Walnut (SE Corner),13,8
+2024-12,137,Kalamazoo & Park Street,297,304
+2024-12,182,Michigan &,443,370
+2024-12,184,Rose & Water,13,13
+2024-12,210,Burdick & North,269,251
+2024-12,260,North & N. Park,20,145
+2024-12,261,North & Westnedge,28,176
+2024-12,262,North & Simpson,0,0
+2024-12,263,North & Woodward,0,0
+2024-12,264,North St & Hawley street,0,0
+2024-12,295,North & Stewart/Hawley,0,0
+2024-12,296,North & Woodward,0,0
+2024-12,297,North & Simpson,40,68
+2024-12,298,North & Westnedge,65,108
+2024-12,299,Ransom & Church,,0
+2024-12,300,Ransom & N. Rose,,0
+2024-12,515,Rose & Vine,0,2
+2024-12,516,Rose & Walnut,81,144
+2024-12,517,Rose & South,,0
+2024-12,518,Walnut & Burdick,71,87
+2024-12,562,Walnut & Burdick,575,442
+2024-12,563,Kalamazoo & Greenwich,93,75
+2024-12,564,Kalamazoo & Elm,1,1
+2024-12,565,Kalamazoo & Stuart,131,153
+2024-12,605,W. Main & Catherine,71,87
+2024-12,606,W. Main & RR Tracks,81,144
+2024-12,607,North & Park,,0
+2024-12,628,Lovell & Westnedge,82,63
+2024-12,629,Lovell & Oak,8,25
+2024-12,630,Lovell & Davis,82,63
+2024-12,640,South & Oak,,0
+2024-12,641,South & Westnedge,13,13
+2024-12,776,Portage at South (NW Corner),0,1
+2024-12,785,Oakland & Academy,65,108
+2024-12,788,Ransom & N. Park,,0
+2024-12,799,Rose & Walnut,250,521
+2024-12,1004,Kalamazoo Transit Center,45600,42025
+2024-12,1011,Kalamazoo Transit Center,2779,2716
+2024-12,1062,E. Michigan & S. Pitcher,28,52
+2024-12,1067,W. Michigan & Academy,,0
+2024-12,1079,Rose St & Butler,0,0
+2024-12,1082,S Rose St & Vine,500,129
+2024-12,1084,Lovell & S. Burdick,131,153
+2025-01,2,Rose at Michigan (SW side),233,162
+2025-01,3,Rose at South (SW Corner),99,239
+2025-01,5,Westnedge at Lovell (SW side),498,333
+2025-01,6,Westnedge at Walnut (NW corner),97,87
+2025-01,7,Westnedge at Vine (NW Corner),560,632
+2025-01,51,Park at W. Vine (SE Corner),458,394
+2025-01,52,Park at 519 Walnut,160,170
+2025-01,53,Park at Lovell (SE Corner),26,139
+2025-01,54,Park at South (NE Corner),63,432
+2025-01,96,Portage at Walnut (SE Corner),138,142
+2025-01,137,Kalamazoo & Park Street,210,50
+2025-01,184,Rose & Water,66,478
+2025-01,210,Burdick & North,21,30
+2025-01,260,North & N. Park,27,113
+2025-01,261,North & Westnedge,32,66
+2025-01,262,North & Simpson,13,75
+2025-01,263,North & Woodward,4,78
+2025-01,296,North & Woodward,46,18
+2025-01,297,North & Simpson,62,6
+2025-01,298,North & Westnedge,11,79
+2025-01,299,Ransom & Church,16,164
+2025-01,300,Ransom & N. Rose,1,3
+2025-01,515,Rose & Vine,0,3
+2025-01,516,Rose & Walnut,0,0
+2025-01,517,Rose & South,108,130
+2025-01,563,Kalamazoo & Greenwich,18,21
+2025-01,564,Kalamazoo & Elm,107,101
+2025-01,565,Kalamazoo & Stuart,122,148
+2025-01,605,W. Main & Catherine,89,89
+2025-01,607,North & Park,5,36
+2025-01,628,Lovell & Westnedge,82,27
+2025-01,629,Lovell & Oak,63,96
+2025-01,630,Lovell & Davis,49,90
+2025-01,640,South & Oak,147,74
+2025-01,641,South & Westnedge,31,30
+2025-01,785,Oakland & Academy,65,119
+2025-01,788,Ransom & N. Park,1027,1246
+2025-01,799,Rose & Walnut,8,2
+2025-01,1004,Kalamazoo Transit Center,47627,43953
+2025-01,1011,Kalamazoo Transit Center,2828,2833
+2025-01,1062,E. Michigan & S. Pitcher,466,410
+2025-01,1067,W. Michigan & Academy,130,174
+2025-01,1082,S Rose St & Vine,9,9
+2025-01,1084,Lovell & S. Burdick,10,35
+2025-02,2,Rose at Michigan (SW side),171,100
+2025-02,3,Rose at South (SW Corner),83,170
+2025-02,5,Westnedge at Lovell (SW side),564,364
+2025-02,6,Westnedge at Walnut (NW corner),95,86
+2025-02,7,Westnedge at Vine (NW Corner),655,650
+2025-02,51,Park at W. Vine (SE Corner),460,415
+2025-02,52,Park at 519 Walnut,150,140
+2025-02,53,Park at Lovell (SE Corner),20,156
+2025-02,54,Park at South (NE Corner),38,412
+2025-02,96,Portage at Walnut (SE Corner),119,172
+2025-02,137,Kalamazoo & Park Street,205,54
+2025-02,184,Rose & Water,54,481
+2025-02,210,Burdick & North,18,22
+2025-02,260,North & N. Park,53,160
+2025-02,261,North & Westnedge,50,98
+2025-02,262,North & Simpson,19,127
+2025-02,263,North & Woodward,16,87
+2025-02,296,North & Woodward,88,31
+2025-02,297,North & Simpson,134,17
+2025-02,298,North & Westnedge,20,98
+2025-02,299,Ransom & Church,34,221
+2025-02,300,Ransom & N. Rose,2,7
+2025-02,515,Rose & Vine,1,16
+2025-02,516,Rose & Walnut,9,1
+2025-02,517,Rose & South,154,137
+2025-02,563,Kalamazoo & Greenwich,10,24
+2025-02,564,Kalamazoo & Elm,107,81
+2025-02,565,Kalamazoo & Stuart,94,146
+2025-02,605,W. Main & Catherine,60,71
+2025-02,607,North & Park,1,30
+2025-02,628,Lovell & Westnedge,96,12
+2025-02,629,Lovell & Oak,34,83
+2025-02,630,Lovell & Davis,46,46
+2025-02,640,South & Oak,72,41
+2025-02,641,South & Westnedge,16,48
+2025-02,785,Oakland & Academy,75,103
+2025-02,788,Ransom & N. Park,989,1006
+2025-02,799,Rose & Walnut,0,0
+2025-02,1004,Kalamazoo Transit Center,45053,41195
+2025-02,1011,Kalamazoo Transit Center,2408,2535
+2025-02,1062,E. Michigan & S. Pitcher,297,296
+2025-02,1067,W. Michigan & Academy,84,128
+2025-02,1082,S Rose St & Vine,11,30
+2025-02,1084,Lovell & S. Burdick,11,30
+2025-03,2,Rose at Michigan (SW side),323,120
+2025-03,3,Rose at South (SW Corner),143,183
+2025-03,5,Westnedge at Lovell (SW side),461,248
+2025-03,6,Westnedge at Walnut (NW corner),102,63
+2025-03,7,Westnedge at Vine (NW Corner),695,698
+2025-03,51,Park at W. Vine (SE Corner),543,454
+2025-03,52,Park at 519 Walnut,139,159
+2025-03,53,Park at Lovell (SE Corner),30,162
+2025-03,54,Park at South (NE Corner),71,395
+2025-03,96,Portage at Walnut (SE Corner),151,183
+2025-03,137,Kalamazoo & Park Street,115,13
+2025-03,184,Rose & Water,49,444
+2025-03,210,Burdick & North,17,5
+2025-03,260,North & N. Park,34,100
+2025-03,261,North & Westnedge,56,90
+2025-03,262,North & Simpson,13,80
+2025-03,263,North & Woodward,24,78
+2025-03,296,North & Woodward,55,25
+2025-03,297,North & Simpson,72,24
+2025-03,298,North & Westnedge,45,68
+2025-03,299,Ransom & Church,24,140
+2025-03,300,Ransom & N. Rose,6,12
+2025-03,515,Rose & Vine,7,16
+2025-03,516,Rose & Walnut,3,2
+2025-03,517,Rose & South,123,164
+2025-03,563,Kalamazoo & Greenwich,19,15
+2025-03,564,Kalamazoo & Elm,69,61
+2025-03,565,Kalamazoo & Stuart,76,129
+2025-03,605,W. Main & Catherine,53,60
+2025-03,607,North & Park,5,33
+2025-03,628,Lovell & Westnedge,107,8
+2025-03,629,Lovell & Oak,45,109
+2025-03,630,Lovell & Davis,61,71
+2025-03,640,South & Oak,151,72
+2025-03,641,South & Westnedge,14,55
+2025-03,785,Oakland & Academy,76,123
+2025-03,788,Ransom & N. Park,748,735
+2025-03,799,Rose & Walnut,0,2
+2025-03,1004,Kalamazoo Transit Center,49236,44626
+2025-03,1011,Kalamazoo Transit Center,2723,2697
+2025-03,1062,E. Michigan & S. Pitcher,239,159
+2025-03,1067,W. Michigan & Academy,168,174
+2025-03,1082,S Rose St & Vine,13,35
+2025-03,1084,Lovell & S. Burdick,14,46
+2025-04,1,Rose at Water (NW Corner),3,1
+2025-04,2,Rose at Michigan (SW side),163,102
+2025-04,3,Rose at South (SW Corner),122,191
+2025-04,5,Westnedge at Lovell (SW side),548,292
+2025-04,6,Westnedge at Walnut (NW corner),114,60
+2025-04,7,Westnedge at Vine (NW Corner),756,671
+2025-04,51,Park at W. Vine (SE Corner),528,438
+2025-04,52,Park at 519 Walnut,151,177
+2025-04,53,Park at Lovell (SE Corner),57,182
+2025-04,54,Park at South (NE Corner),76,500
+2025-04,96,Portage at Walnut (SE Corner),130,218
+2025-04,137,Kalamazoo & Park Street,50,11
+2025-04,184,Rose & Water,56,518
+2025-04,210,Burdick & North,18,14
+2025-04,260,North & N. Park,36,96
+2025-04,261,North & Westnedge,46,81
+2025-04,262,North & Simpson,19,70
+2025-04,263,North & Woodward,10,83
+2025-04,296,North & Woodward,96,44
+2025-04,297,North & Simpson,56,13
+2025-04,298,North & Westnedge,49,71
+2025-04,299,Ransom & Church,41,185
+2025-04,300,Ransom & N. Rose,1,1
+2025-04,515,Rose & Vine,7,4
+2025-04,516,Rose & Walnut,3,1
+2025-04,517,Rose & South,137,169
+2025-04,518,Walnut & Burdick,255,579
+2025-04,562,Walnut & Burdick,430,149
+2025-04,563,Kalamazoo & Greenwich,23,22
+2025-04,564,Kalamazoo & Elm,78,52
+2025-04,565,Kalamazoo & Stuart,83,127
+2025-04,605,W. Main & Catherine,40,53
+2025-04,607,North & Park,11,33
+2025-04,628,Lovell & Westnedge,150,18
+2025-04,629,Lovell & Oak,52,123
+2025-04,630,Lovell & Davis,84,70
+2025-04,640,South & Oak,212,80
+2025-04,641,South & Westnedge,11,69
+2025-04,785,Oakland & Academy,80,122
+2025-04,788,Ransom & N. Park,420,278
+2025-04,799,Rose & Walnut,2,1
+2025-04,1004,Kalamazoo Transit Center,52386,48185
+2025-04,1011,Kalamazoo Transit Center,2706,2575
+2025-04,1062,E. Michigan & S. Pitcher,295,186
+2025-04,1067,W. Michigan & Academy,149,201
+2025-04,1082,S Rose St & Vine,15,34
+2025-04,1084,Lovell & S. Burdick,15,34
+2025-05,2,Rose at Michigan (SW side),194,101
+2025-05,3,Rose at South (SW Corner),139,169
+2025-05,5,Westnedge at Lovell (SW side),612,359
+2025-05,6,Westnedge at Walnut (NW corner),105,75
+2025-05,7,Westnedge at Vine (NW Corner),660,688
+2025-05,51,Park at W. Vine (SE Corner),483,436
+2025-05,52,Park at 519 Walnut,141,174
+2025-05,53,Park at Lovell (SE Corner),60,204
+2025-05,54,Park at South (NE Corner),43,402
+2025-05,96,Portage at Walnut (SE Corner),131,184
+2025-05,137,Kalamazoo & Park Street,51,6
+2025-05,184,Rose & Water,53,492
+2025-05,210,Burdick & North,15,14
+2025-05,260,North & N. Park,25,97
+2025-05,261,North & Westnedge,59,102
+2025-05,262,North & Simpson,26,55
+2025-05,263,North & Woodward,8,86
+2025-05,296,North & Woodward,73,27
+2025-05,297,North & Simpson,45,30
+2025-05,298,North & Westnedge,57,81
+2025-05,299,Ransom & Church,53,234
+2025-05,300,Ransom & N. Rose,1,3
+2025-05,515,Rose & Vine,9,13
+2025-05,516,Rose & Walnut,0,0
+2025-05,517,Rose & South,125,181
+2025-05,518,Walnut & Burdick,261,602
+2025-05,562,Walnut & Burdick,537,156
+2025-05,563,Kalamazoo & Greenwich,27,16
+2025-05,564,Kalamazoo & Elm,107,37
+2025-05,565,Kalamazoo & Stuart,80,106
+2025-05,605,W. Main & Catherine,42,64
+2025-05,607,North & Park,6,28
+2025-05,628,Lovell & Westnedge,63,31
+2025-05,629,Lovell & Oak,42,44
+2025-05,630,Lovell & Davis,5,39
+2025-05,640,South & Oak,110,69
+2025-05,641,South & Westnedge,11,52
+2025-05,785,Oakland & Academy,82,116
+2025-05,788,Ransom & N. Park,424,217
+2025-05,799,Rose & Walnut,0,23
+2025-05,1004,Kalamazoo Transit Center,48612,44094
+2025-05,1011,Kalamazoo Transit Center,2840,2762
+2025-05,1062,E. Michigan & S. Pitcher,269,162
+2025-05,1067,W. Michigan & Academy,126,155
+2025-05,1082,S Rose St & Vine,11,15
+2025-05,1084,Lovell & S. Burdick,13,34
+2025-06,2,Rose at Michigan (SW side),426,224
+2025-06,3,Rose at South (SW Corner),203,217
+2025-06,4,Lovell at St. Johns (NE Corner),10,23
+2025-06,5,Westnedge at Lovell (SW side),257,104
+2025-06,6,Westnedge at Walnut (NW corner),119,91
+2025-06,7,Westnedge at Vine (NW Corner),550,549
+2025-06,51,Park at W. Vine (SE Corner),393,335
+2025-06,52,Park at 519 Walnut,147,172
+2025-06,53,Park at Lovell (SE Corner),66,177
+2025-06,54,Park at South (NE Corner),56,346
+2025-06,96,Portage at Walnut (SE Corner),106,145
+2025-06,137,Kalamazoo & Park Street,50,6
+2025-06,182,Michigan &,29,141
+2025-06,184,Rose & Water,53,458
+2025-06,210,Burdick & North,17,7
+2025-06,260,North & N. Park,22,94
+2025-06,261,North & Westnedge,46,83
+2025-06,262,North & Simpson,20,98
+2025-06,263,North & Woodward,11,57
+2025-06,264,North St & Hawley street,22,159
+2025-06,295,North & Stewart/Hawley,145,14
+2025-06,296,North & Woodward,64,62
+2025-06,297,North & Simpson,95,21
+2025-06,298,North & Westnedge,41,86
+2025-06,299,Ransom & Church,31,231
+2025-06,300,Ransom & N. Rose,2,3
+2025-06,515,Rose & Vine,4,11
+2025-06,516,Rose & Walnut,2,1
+2025-06,517,Rose & South,122,192
+2025-06,518,Walnut & Burdick,321,687
+2025-06,562,Walnut & Burdick,570,191
+2025-06,563,Kalamazoo & Greenwich,28,23
+2025-06,564,Kalamazoo & Elm,91,48
+2025-06,565,Kalamazoo & Stuart,62,102
+2025-06,605,W. Main & Catherine,60,56
+2025-06,606,W. Main & RR Tracks,45,110
+2025-06,607,North & Park,8,38
+2025-06,628,Lovell & Westnedge,51,37
+2025-06,629,Lovell & Oak,11,41
+2025-06,630,Lovell & Davis,5,24
+2025-06,640,South & Oak,116,79
+2025-06,641,South & Westnedge,10,36
+2025-06,776,Portage at South (NW Corner),878,678
+2025-06,785,Oakland & Academy,71,158
+2025-06,788,Ransom & N. Park,354,165
+2025-06,799,Rose & Walnut,4,11
+2025-06,1004,Kalamazoo Transit Center,46166,41483
+2025-06,1011,Kalamazoo Transit Center,2617,2529
+2025-06,1062,E. Michigan & S. Pitcher,416,253
+2025-06,1067,W. Michigan & Academy,122,121
+2025-06,1082,S Rose St & Vine,10,11
+2025-06,1084,Lovell & S. Burdick,15,38
+2025-07,2,Rose at Michigan (SW side),492,198
+2025-07,3,Rose at South (SW Corner),318,334
+2025-07,4,Lovell at St. Johns (NE Corner),5,31
+2025-07,5,Westnedge at Lovell (SW side),126,68
+2025-07,6,Westnedge at Walnut (NW corner),85,83
+2025-07,7,Westnedge at Vine (NW Corner),418,452
+2025-07,51,Park at W. Vine (SE Corner),390,253
+2025-07,52,Park at 519 Walnut,115,187
+2025-07,53,Park at Lovell (SE Corner),32,160
+2025-07,54,Park at South (NE Corner),48,388
+2025-07,96,Portage at Walnut (SE Corner),124,212
+2025-07,137,Kalamazoo & Park Street,39,16
+2025-07,182,Michigan &,36,134
+2025-07,184,Rose & Water,63,496
+2025-07,210,Burdick & North,43,19
+2025-07,260,North & N. Park,35,129
+2025-07,261,North & Westnedge,57,129
+2025-07,262,North & Simpson,19,137
+2025-07,263,North & Woodward,10,45
+2025-07,264,North St & Hawley street,30,213
+2025-07,295,North & Stewart/Hawley,208,11
+2025-07,296,North & Woodward,64,32
+2025-07,297,North & Simpson,116,20
+2025-07,298,North & Westnedge,59,90
+2025-07,299,Ransom & Church,46,302
+2025-07,300,Ransom & N. Rose,2,4
+2025-07,515,Rose & Vine,14,11
+2025-07,516,Rose & Walnut,6,2
+2025-07,517,Rose & South,144,203
+2025-07,518,Walnut & Burdick,363,677
+2025-07,562,Walnut & Burdick,620,236
+2025-07,563,Kalamazoo & Greenwich,36,30
+2025-07,564,Kalamazoo & Elm,72,49
+2025-07,565,Kalamazoo & Stuart,93,100
+2025-07,605,W. Main & Catherine,34,47
+2025-07,606,W. Main & RR Tracks,73,115
+2025-07,607,North & Park,3,37
+2025-07,628,Lovell & Westnedge,65,14
+2025-07,629,Lovell & Oak,19,52
+2025-07,630,Lovell & Davis,7,48
+2025-07,640,South & Oak,117,51
+2025-07,641,South & Westnedge,8,31
+2025-07,776,Portage at South (NW Corner),826,672
+2025-07,785,Oakland & Academy,63,130
+2025-07,788,Ransom & N. Park,364,176
+2025-07,799,Rose & Walnut,9,10
+2025-07,1004,Kalamazoo Transit Center,49520,43686
+2025-07,1011,Kalamazoo Transit Center,2514,2535
+2025-07,1062,E. Michigan & S. Pitcher,467,290
+2025-07,1067,W. Michigan & Academy,85,90
+2025-07,1082,S Rose St & Vine,10,4
+2025-07,1084,Lovell & S. Burdick,8,45
+2025-08,2,Rose at Michigan (SW side),530,258
+2025-08,3,Rose at South (SW Corner),253,268
+2025-08,4,Lovell at St. Johns (NE Corner),17,18
+2025-08,5,Westnedge at Lovell (SW side),111,61
+2025-08,6,Westnedge at Walnut (NW corner),84,99
+2025-08,7,Westnedge at Vine (NW Corner),377,455
+2025-08,51,Park at W. Vine (SE Corner),346,282
+2025-08,52,Park at 519 Walnut,132,200
+2025-08,53,Park at Lovell (SE Corner),50,144
+2025-08,54,Park at South (NE Corner),162,387
+2025-08,96,Portage at Walnut (SE Corner),129,180
+2025-08,137,Kalamazoo & Park Street,34,9
+2025-08,182,Michigan &,44,168
+2025-08,184,Rose & Water,52,479
+2025-08,210,Burdick & North,34,7
+2025-08,260,North & N. Park,38,97
+2025-08,261,North & Westnedge,65,107
+2025-08,262,North & Simpson,35,110
+2025-08,263,North & Woodward,5,46
+2025-08,264,North St & Hawley street,30,144
+2025-08,295,North & Stewart/Hawley,135,12
+2025-08,296,North & Woodward,35,22
+2025-08,297,North & Simpson,112,24
+2025-08,298,North & Westnedge,75,82
+2025-08,299,Ransom & Church,48,203
+2025-08,300,Ransom & N. Rose,1,6
+2025-08,515,Rose & Vine,12,7
+2025-08,516,Rose & Walnut,6,0
+2025-08,517,Rose & South,107,153
+2025-08,518,Walnut & Burdick,357,282
+2025-08,562,Walnut & Burdick,599,217
+2025-08,563,Kalamazoo & Greenwich,16,19
+2025-08,564,Kalamazoo & Elm,104,50
+2025-08,565,Kalamazoo & Stuart,81,72
+2025-08,605,W. Main & Catherine,18,53
+2025-08,606,W. Main & RR Tracks,80,76
+2025-08,607,North & Park,1,27
+2025-08,628,Lovell & Westnedge,47,16
+2025-08,629,Lovell & Oak,40,84
+2025-08,630,Lovell & Davis,14,53
+2025-08,640,South & Oak,117,45
+2025-08,641,South & Westnedge,2,13
+2025-08,776,Portage at South (NW Corner),638,431
+2025-08,785,Oakland & Academy,82,114
+2025-08,788,Ransom & N. Park,290,127
+2025-08,799,Rose & Walnut,,7
+2025-08,1004,Kalamazoo Transit Center,44914,40299
+2025-08,1011,Kalamazoo Transit Center,2359,2433
+2025-08,1062,E. Michigan & S. Pitcher,325,179
+2025-08,1067,W. Michigan & Academy,71,102
+2025-08,1082,S Rose St & Vine,8,4
+2025-08,1084,Lovell & S. Burdick,8,32
+2025-09,2,Rose at Michigan (SW side),542,203
+2025-09,3,Rose at South (SW Corner),191,258
+2025-09,4,Lovell at St. Johns (NE Corner),15,17
+2025-09,5,Westnedge at Lovell (SW side),232,125
+2025-09,6,Westnedge at Walnut (NW corner),146,85
+2025-09,7,Westnedge at Vine (NW Corner),532,680
+2025-09,51,Park at W. Vine (SE Corner),462,280
+2025-09,52,Park at 519 Walnut,186,183
+2025-09,53,Park at Lovell (SE Corner),135,200
+2025-09,54,Park at South (NE Corner),111,541
+2025-09,96,Portage at Walnut (SE Corner),115,184
+2025-09,137,Kalamazoo & Park Street,36,9
+2025-09,182,Michigan &,24,151
+2025-09,184,Rose & Water,56,534
+2025-09,210,Burdick & North,20,19
+2025-09,260,North & N. Park,29,109
+2025-09,261,North & Westnedge,54,74
+2025-09,262,North & Simpson,8,84
+2025-09,263,North & Woodward,10,59
+2025-09,264,North St & Hawley street,22,169
+2025-09,295,North & Stewart/Hawley,78,8
+2025-09,296,North & Woodward,43,21
+2025-09,297,North & Simpson,58,14
+2025-09,298,North & Westnedge,32,79
+2025-09,299,Ransom & Church,73,239
+2025-09,300,Ransom & N. Rose,2,9
+2025-09,515,Rose & Vine,8,10
+2025-09,516,Rose & Walnut,5,1
+2025-09,517,Rose & South,115,191
+2025-09,518,Walnut & Burdick,281,595
+2025-09,562,Walnut & Burdick,563,164
+2025-09,563,Kalamazoo & Greenwich,8,18
+2025-09,564,Kalamazoo & Elm,121,49
+2025-09,565,Kalamazoo & Stuart,88,73
+2025-09,605,W. Main & Catherine,18,86
+2025-09,607,North & Park,6,33
+2025-09,628,Lovell & Westnedge,49,27
+2025-09,629,Lovell & Oak,194,139
+2025-09,630,Lovell & Davis,63,89
+2025-09,640,South & Oak,199,106
+2025-09,641,South & Westnedge,8,37
+2025-09,776,Portage at South (NW Corner),677,567
+2025-09,785,Oakland & Academy,125,158
+2025-09,788,Ransom & N. Park,872,848
+2025-09,799,Rose & Walnut,,21
+2025-09,1004,Kalamazoo Transit Center,50771,45972
+2025-09,1011,Kalamazoo Transit Center,2750,2790
+2025-09,1062,E. Michigan & S. Pitcher,470,307
+2025-09,1067,W. Michigan & Academy,189,161
+2025-09,1082,S Rose St & Vine,7,2
+2025-09,1084,Lovell & S. Burdick,6,38
+2025-10,2,Rose at Michigan (SW side),571,231
+2025-10,3,Rose at South (SW Corner),281,297
+2025-10,4,Lovell at St. Johns (NE Corner),2,12
+2025-10,5,Westnedge at Lovell (SW side),241,129
+2025-10,6,Westnedge at Walnut (NW corner),153,127
+2025-10,7,Westnedge at Vine (NW Corner),546,749
+2025-10,51,Park at W. Vine (SE Corner),626,326
+2025-10,52,Park at 519 Walnut,198,239
+2025-10,53,Park at Lovell (SE Corner),42,153
+2025-10,54,Park at South (NE Corner),78,492
+2025-10,96,Portage at Walnut (SE Corner),130,183
+2025-10,137,Kalamazoo & Park Street,32,7
+2025-10,182,Michigan &,42,166
+2025-10,184,Rose & Water,62,566
+2025-10,210,Burdick & North,5,11
+2025-10,260,North & N. Park,46,129
+2025-10,261,North & Westnedge,83,124
+2025-10,262,North & Simpson,33,114
+2025-10,263,North & Woodward,26,106
+2025-10,264,North St & Hawley street,34,219
+2025-10,295,North & Stewart/Hawley,175,15
+2025-10,296,North & Woodward,66,34
+2025-10,297,North & Simpson,80,33
+2025-10,298,North & Westnedge,64,105
+2025-10,299,Ransom & Church,48,264
+2025-10,300,Ransom & N. Rose,9,11
+2025-10,515,Rose & Vine,30,11
+2025-10,516,Rose & Walnut,27,1
+2025-10,517,Rose & South,120,231
+2025-10,518,Walnut & Burdick,359,633
+2025-10,562,Walnut & Burdick,625,213
+2025-10,563,Kalamazoo & Greenwich,14,12
+2025-10,564,Kalamazoo & Elm,118,77
+2025-10,565,Kalamazoo & Stuart,110,77
+2025-10,605,W. Main & Catherine,37,84
+2025-10,606,W. Main & RR Tracks,83,116
+2025-10,607,North & Park,1,30
+2025-10,628,Lovell & Westnedge,1,1
+2025-10,629,Lovell & Oak,243,145
+2025-10,630,Lovell & Davis,68,101
+2025-10,640,South & Oak,169,109
+2025-10,641,South & Westnedge,6,61
+2025-10,776,Portage at South (NW Corner),489,254
+2025-10,785,Oakland & Academy,115,171
+2025-10,788,Ransom & N. Park,992,963
+2025-10,799,Rose & Walnut,2,9
+2025-10,1004,Kalamazoo Transit Center,57132,51301
+2025-10,1011,Kalamazoo Transit Center,2833,2840
+2025-10,1062,E. Michigan & S. Pitcher,420,260
+2025-10,1067,W. Michigan & Academy,283,181
+2025-10,1082,S Rose St & Vine,18,5
+2025-10,1084,Lovell & S. Burdick,11,46
+2025-11,2,Rose at Michigan (SW side),208,117
+2025-11,3,Rose at South (SW Corner),216,220
+2025-11,4,Lovell at St. Johns (NE Corner),6,11
+2025-11,5,Westnedge at Lovell (SW side),176,89
+2025-11,6,Westnedge at Walnut (NW corner),130,80
+2025-11,7,Westnedge at Vine (NW Corner),487,645
+2025-11,51,Park at W. Vine (SE Corner),528,287
+2025-11,52,Park at 519 Walnut,200,219
+2025-11,53,Park at Lovell (SE Corner),27,156
+2025-11,54,Park at South (NE Corner),47,316
+2025-11,96,Portage at Walnut (SE Corner),57,74
+2025-11,137,Kalamazoo & Park Street,11,6
+2025-11,182,Michigan &,37,160
+2025-11,184,Rose & Water,66,560
+2025-11,210,Burdick & North,9,5
+2025-11,260,North & N. Park,39,112
+2025-11,261,North & Westnedge,59,91
+2025-11,262,North & Simpson,10,88
+2025-11,263,North & Woodward,19,100
+2025-11,264,North St & Hawley street,25,155
+2025-11,295,North & Stewart/Hawley,196,15
+2025-11,296,North & Woodward,78,34
+2025-11,297,North & Simpson,71,25
+2025-11,298,North & Westnedge,69,97
+2025-11,299,Ransom & Church,53,273
+2025-11,300,Ransom & N. Rose,18,19
+2025-11,515,Rose & Vine,14,16
+2025-11,516,Rose & Walnut,12,2
+2025-11,517,Rose & South,118,206
+2025-11,518,Walnut & Burdick,303,507
+2025-11,562,Walnut & Burdick,516,227
+2025-11,563,Kalamazoo & Greenwich,13,8
+2025-11,564,Kalamazoo & Elm,94,58
+2025-11,565,Kalamazoo & Stuart,107,105
+2025-11,605,W. Main & Catherine,39,54
+2025-11,606,W. Main & RR Tracks,52,103
+2025-11,607,North & Park,3,20
+2025-11,628,Lovell & Westnedge,25,5
+2025-11,629,Lovell & Oak,36,66
+2025-11,630,Lovell & Davis,35,67
+2025-11,640,South & Oak,77,60
+2025-11,641,South & Westnedge,6,65
+2025-11,776,Portage at South (NW Corner),85,21
+2025-11,785,Oakland & Academy,88,124
+2025-11,788,Ransom & N. Park,255,122
+2025-11,799,Rose & Walnut,15,25
+2025-11,1004,Kalamazoo Transit Center,47982,43440
+2025-11,1011,Kalamazoo Transit Center,2477,2518
+2025-11,1062,E. Michigan & S. Pitcher,129,57
+2025-11,1067,W. Michigan & Academy,127,137
+2025-11,1082,S Rose St & Vine,33,3
+2025-11,1084,Lovell & S. Burdick,2,29
+2025-12,2,Rose at Michigan (SW side),141,105
+2025-12,3,Rose at South (SW Corner),182,249
+2025-12,4,Lovell at St. Johns (NE Corner),5,11
+2025-12,5,Westnedge at Lovell (SW side),182,71
+2025-12,6,Westnedge at Walnut (NW corner),163,94
+2025-12,7,Westnedge at Vine (NW Corner),351,534
+2025-12,51,Park at W. Vine (SE Corner),367,191
+2025-12,52,Park at 519 Walnut,148,177
+2025-12,53,Park at Lovell (SE Corner),17,98
+2025-12,54,Park at South (NE Corner),30,298
+2025-12,96,Portage at Walnut (SE Corner),45,64
+2025-12,137,Kalamazoo & Park Street,13,3
+2025-12,182,Michigan &,36,135
+2025-12,184,Rose & Water,37,390
+2025-12,210,Burdick & North,18,13
+2025-12,260,North & N. Park,22,88
+2025-12,261,North & Westnedge,46,76
+2025-12,262,North & Simpson,13,53
+2025-12,263,North & Woodward,12,40
+2025-12,264,North St & Hawley street,24,178
+2025-12,295,North & Stewart/Hawley,147,8
+2025-12,296,North & Woodward,38,18
+2025-12,297,North & Simpson,47,16
+2025-12,298,North & Westnedge,58,77
+2025-12,299,Ransom & Church,32,145
+2025-12,300,Ransom & N. Rose,7,7
+2025-12,515,Rose & Vine,28,21
+2025-12,516,Rose & Walnut,3,3
+2025-12,517,Rose & South,127,154
+2025-12,518,Walnut & Burdick,237,449
+2025-12,562,Walnut & Burdick,451,140
+2025-12,563,Kalamazoo & Greenwich,14,21
+2025-12,564,Kalamazoo & Elm,73,42
+2025-12,565,Kalamazoo & Stuart,85,110
+2025-12,605,W. Main & Catherine,27,38
+2025-12,606,W. Main & RR Tracks,29,70
+2025-12,607,North & Park,3,23
+2025-12,628,Lovell & Westnedge,18,10
+2025-12,629,Lovell & Oak,20,52
+2025-12,630,Lovell & Davis,24,60
+2025-12,640,South & Oak,95,38
+2025-12,641,South & Westnedge,6,52
+2025-12,776,Portage at South (NW Corner),60,15
+2025-12,785,Oakland & Academy,84,75
+2025-12,788,Ransom & N. Park,220,123
+2025-12,799,Rose & Walnut,0,9
+2025-12,1004,Kalamazoo Transit Center,36494,33392
+2025-12,1011,Kalamazoo Transit Center,1835,1881
+2025-12,1062,E. Michigan & S. Pitcher,98,40
+2025-12,1067,W. Michigan & Academy,56,127
+2025-12,1082,S Rose St & Vine,27,16
+2025-12,1084,Lovell & S. Burdick,2,14
+2026-01,2,Rose at Michigan (SW side),200,110
+2026-01,3,Rose at South (SW Corner),225,362
+2026-01,4,Lovell at St. Johns (NE Corner),4,12
+2026-01,5,Westnedge at Lovell (SW side),245,101
+2026-01,6,Westnedge at Walnut (NW corner),140,131
+2026-01,7,Westnedge at Vine (NW Corner),501,728
+2026-01,51,Park at W. Vine (SE Corner),537,291
+2026-01,52,Park at 519 Walnut,171,158
+2026-01,53,Park at Lovell (SE Corner),17,133
+2026-01,54,Park at South (NE Corner),49,467
+2026-01,96,Portage at Walnut (SE Corner),64,74
+2026-01,137,Kalamazoo & Park Street,19,6
+2026-01,182,Michigan &,27,132
+2026-01,184,Rose & Water,52,484
+2026-01,210,Burdick & North,25,23
+2026-01,260,North & N. Park,30,154
+2026-01,261,North & Westnedge,53,93
+2026-01,262,North & Simpson,49,195
+2026-01,263,North & Woodward,22,35
+2026-01,264,North St & Hawley street,29,223
+2026-01,295,North & Stewart/Hawley,174,22
+2026-01,296,North & Woodward,49,24
+2026-01,297,North & Simpson,128,52
+2026-01,298,North & Westnedge,46,96
+2026-01,299,Ransom & Church,52,274
+2026-01,300,Ransom & N. Rose,16,20
+2026-01,515,Rose & Vine,27,16
+2026-01,516,Rose & Walnut,4,2
+2026-01,517,Rose & South,154,218
+2026-01,518,Walnut & Burdick,292,553
+2026-01,562,Walnut & Burdick,532,133
+2026-01,563,Kalamazoo & Greenwich,9,17
+2026-01,564,Kalamazoo & Elm,84,54
+2026-01,565,Kalamazoo & Stuart,112,174
+2026-01,605,W. Main & Catherine,35,61
+2026-01,606,W. Main & RR Tracks,58,93
+2026-01,607,North & Park,7,35
+2026-01,628,Lovell & Westnedge,1,1
+2026-01,629,Lovell & Oak,82,131
+2026-01,630,Lovell & Davis,73,137
+2026-01,640,South & Oak,208,76
+2026-01,641,South & Westnedge,8,81
+2026-01,776,Portage at South (NW Corner),65,27
+2026-01,785,Oakland & Academy,75,83
+2026-01,788,Ransom & N. Park,344,144
+2026-01,799,Rose & Walnut,5,25
+2026-01,1004,Kalamazoo Transit Center,50233,45738
+2026-01,1011,Kalamazoo Transit Center,2348,2432
+2026-01,1062,E. Michigan & S. Pitcher,93,50
+2026-01,1067,W. Michigan & Academy,51,169
+2026-01,1082,S Rose St & Vine,48,18
+2026-01,1084,Lovell & S. Burdick,7,38
+2026-02,2,Rose at Michigan (SW side),214,123
+2026-02,3,Rose at South (SW Corner),279,329
+2026-02,4,Lovell at St. Johns (NE Corner),14,12
+2026-02,5,Westnedge at Lovell (SW side),241,123
+2026-02,6,Westnedge at Walnut (NW corner),135,127
+2026-02,7,Westnedge at Vine (NW Corner),630,701
+2026-02,51,Park at W. Vine (SE Corner),557,373
+2026-02,52,Park at 519 Walnut,204,209
+2026-02,53,Park at Lovell (SE Corner),15,162
+2026-02,54,Park at South (NE Corner),71,525
+2026-02,96,Portage at Walnut (SE Corner),75,78
+2026-02,137,Kalamazoo & Park Street,15,5
+2026-02,182,Michigan &,38,151
+2026-02,184,Rose & Water,62,527
+2026-02,210,Burdick & North,27,17
+2026-02,260,North & N. Park,33,132
+2026-02,261,North & Westnedge,66,115
+2026-02,262,North & Simpson,24,139
+2026-02,263,North & Woodward,23,27
+2026-02,264,North St & Hawley street,47,218
+2026-02,295,North & Stewart/Hawley,131,21
+2026-02,296,North & Woodward,57,19
+2026-02,297,North & Simpson,97,48
+2026-02,298,North & Westnedge,50,94
+2026-02,299,Ransom & Church,63,293
+2026-02,300,Ransom & N. Rose,13,18
+2026-02,515,Rose & Vine,29,5
+2026-02,516,Rose & Walnut,4,0
+2026-02,517,Rose & South,153,254
+2026-02,518,Walnut & Burdick,362,592
+2026-02,562,Walnut & Burdick,598,220
+2026-02,563,Kalamazoo & Greenwich,23,29
+2026-02,564,Kalamazoo & Elm,84,75
+2026-02,565,Kalamazoo & Stuart,96,149
+2026-02,605,W. Main & Catherine,26,52
+2026-02,606,W. Main & RR Tracks,72,129
+2026-02,607,North & Park,5,48
+2026-02,628,Lovell & Westnedge,27,4
+2026-02,629,Lovell & Oak,102,155
+2026-02,630,Lovell & Davis,112,119
+2026-02,640,South & Oak,247,111
+2026-02,641,South & Westnedge,6,90
+2026-02,776,Portage at South (NW Corner),107,34
+2026-02,785,Oakland & Academy,87,101
+2026-02,788,Ransom & N. Park,357,172
+2026-02,799,Rose & Walnut,1,19
+2026-02,1004,Kalamazoo Transit Center,52539,48116
+2026-02,1011,Kalamazoo Transit Center,2418,2528
+2026-02,1062,E. Michigan & S. Pitcher,141,68
+2026-02,1067,W. Michigan & Academy,78,136
+2026-02,1082,S Rose St & Vine,39,17
+2026-02,1084,Lovell & S. Burdick,5,37
+2026-03,2,Rose at Michigan (SW side),210,136
+2026-03,3,Rose at South (SW Corner),196,316
+2026-03,4,Lovell at St. Johns (NE Corner),9,7
+2026-03,5,Westnedge at Lovell (SW side),189,81
+2026-03,6,Westnedge at Walnut (NW corner),107,51
+2026-03,7,Westnedge at Vine (NW Corner),392,447
+2026-03,51,Park at W. Vine (SE Corner),366,270
+2026-03,52,Park at 519 Walnut,137,153
+2026-03,53,Park at Lovell (SE Corner),25,122
+2026-03,54,Park at South (NE Corner),98,412
+2026-03,96,Portage at Walnut (SE Corner),52,82
+2026-03,137,Kalamazoo & Park Street,9,1
+2026-03,182,Michigan &,41,172
+2026-03,184,Rose & Water,65,537
+2026-03,210,Burdick & North,14,14
+2026-03,260,North & N. Park,29,117
+2026-03,261,North & Westnedge,57,106
+2026-03,262,North & Simpson,27,104
+2026-03,263,North & Woodward,31,34
+2026-03,264,North St & Hawley street,40,213
+2026-03,295,North & Stewart/Hawley,146,37
+2026-03,296,North & Woodward,46,23
+2026-03,297,North & Simpson,59,51
+2026-03,298,North & Westnedge,57,80
+2026-03,299,Ransom & Church,43,268
+2026-03,300,Ransom & N. Rose,7,12
+2026-03,515,Rose & Vine,25,5
+2026-03,516,Rose & Walnut,9,2
+2026-03,517,Rose & South,188,222
+2026-03,518,Walnut & Burdick,298,588
+2026-03,562,Walnut & Burdick,604,200
+2026-03,563,Kalamazoo & Greenwich,31,17
+2026-03,564,Kalamazoo & Elm,92,52
+2026-03,565,Kalamazoo & Stuart,99,155
+2026-03,605,W. Main & Catherine,23,49
+2026-03,606,W. Main & RR Tracks,62,161
+2026-03,607,North & Park,5,34
+2026-03,628,Lovell & Westnedge,129,39
+2026-03,629,Lovell & Oak,75,116
+2026-03,630,Lovell & Davis,85,67
+2026-03,640,South & Oak,210,94
+2026-03,641,South & Westnedge,11,78
+2026-03,776,Portage at South (NW Corner),85,25
+2026-03,785,Oakland & Academy,75,140
+2026-03,788,Ransom & N. Park,298,146
+2026-03,799,Rose & Walnut,3,23
+2026-03,1004,Kalamazoo Transit Center,39653,37540
+2026-03,1011,Kalamazoo Transit Center,4162,3870
+2026-03,1062,E. Michigan & S. Pitcher,146,131
+2026-03,1067,W. Michigan & Academy,22,48
+2026-03,1082,S Rose St & Vine,41,18
+2026-03,1084,Lovell & S. Burdick,7,50
+2026-04,2,Rose at Michigan (SW side),316,120
+2026-04,3,Rose at South (SW Corner),301,318
+2026-04,4,Lovell at St. Johns (NE Corner),8,15
+2026-04,5,Westnedge at Lovell (SW side),247,74
+2026-04,6,Westnedge at Walnut (NW corner),107,96
+2026-04,7,Westnedge at Vine (NW Corner),601,583
+2026-04,51,Park at W. Vine (SE Corner),444,386
+2026-04,52,Park at 519 Walnut,155,219
+2026-04,53,Park at Lovell (SE Corner),34,154
+2026-04,54,Park at South (NE Corner),91,482
+2026-04,96,Portage at Walnut (SE Corner),60,74
+2026-04,137,Kalamazoo & Park Street,14,3
+2026-04,182,Michigan &,59,215
+2026-04,184,Rose & Water,51,543
+2026-04,210,Burdick & North,7,9
+2026-04,260,North & N. Park,37,128
+2026-04,261,North & Westnedge,78,113
+2026-04,262,North & Simpson,40,141
+2026-04,263,North & Woodward,29,42
+2026-04,264,North St & Hawley street,36,209
+2026-04,295,North & Stewart/Hawley,171,14
+2026-04,296,North & Woodward,54,27
+2026-04,297,North & Simpson,94,74
+2026-04,298,North & Westnedge,68,97
+2026-04,299,Ransom & Church,56,239
+2026-04,300,Ransom & N. Rose,8,12
+2026-04,515,Rose & Vine,17,4
+2026-04,516,Rose & Walnut,6,2
+2026-04,517,Rose & South,166,257
+2026-04,518,Walnut & Burdick,303,622
+2026-04,562,Walnut & Burdick,614,211
+2026-04,563,Kalamazoo & Greenwich,40,21
+2026-04,564,Kalamazoo & Elm,109,62
+2026-04,565,Kalamazoo & Stuart,106,110
+2026-04,605,W. Main & Catherine,33,52
+2026-04,606,W. Main & RR Tracks,74,165
+2026-04,607,North & Park,3,23
+2026-04,628,Lovell & Westnedge,202,32
+2026-04,629,Lovell & Oak,88,100
+2026-04,630,Lovell & Davis,94,49
+2026-04,640,South & Oak,185,143
+2026-04,641,South & Westnedge,13,116
+2026-04,776,Portage at South (NW Corner),125,38
+2026-04,785,Oakland & Academy,78,127
+2026-04,788,Ransom & N. Park,348,220
+2026-04,799,Rose & Walnut,6,16
+2026-04,1004,Kalamazoo Transit Center,35061,33910
+2026-04,1011,Kalamazoo Transit Center,18355,14849
+2026-04,1062,E. Michigan & S. Pitcher,188,162
+2026-04,1067,W. Michigan & Academy,4,4
+2026-04,1082,S Rose St & Vine,18,12
+2026-04,1084,Lovell & S. Burdick,5,26
+2026-05,2,Rose at Michigan (SW side),277,118
+2026-05,3,Rose at South (SW Corner),367,288
+2026-05,4,Lovell at St. Johns (NE Corner),17,15
+2026-05,5,Westnedge at Lovell (SW side),239,68
+2026-05,6,Westnedge at Walnut (NW corner),174,147
+2026-05,7,Westnedge at Vine (NW Corner),653,621
+2026-05,51,Park at W. Vine (SE Corner),550,382
+2026-05,52,Park at 519 Walnut,184,246
+2026-05,53,Park at Lovell (SE Corner),27,200
+2026-05,54,Park at South (NE Corner),48,406
+2026-05,96,Portage at Walnut (SE Corner),37,70
+2026-05,137,Kalamazoo & Park Street,14,6
+2026-05,182,Michigan &,44,215
+2026-05,184,Rose & Water,49,472
+2026-05,210,Burdick & North,5,8
+2026-05,260,North & N. Park,37,128
+2026-05,261,North & Westnedge,60,122
+2026-05,262,North & Simpson,11,127
+2026-05,263,North & Woodward,37,34
+2026-05,264,North St & Hawley street,38,178
+2026-05,295,North & Stewart/Hawley,145,23
+2026-05,296,North & Woodward,81,32
+2026-05,297,North & Simpson,74,60
+2026-05,298,North & Westnedge,66,91
+2026-05,299,Ransom & Church,73,289
+2026-05,300,Ransom & N. Rose,5,9
+2026-05,515,Rose & Vine,6,10
+2026-05,516,Rose & Walnut,2,2
+2026-05,517,Rose & South,171,273
+2026-05,518,Walnut & Burdick,276,606
+2026-05,562,Walnut & Burdick,641,249
+2026-05,563,Kalamazoo & Greenwich,31,27
+2026-05,564,Kalamazoo & Elm,146,43
+2026-05,565,Kalamazoo & Stuart,77,67
+2026-05,605,W. Main & Catherine,31,90
+2026-05,606,W. Main & RR Tracks,50,126
+2026-05,607,North & Park,7,28
+2026-05,628,Lovell & Westnedge,134,27
+2026-05,629,Lovell & Oak,28,91
+2026-05,630,Lovell & Davis,19,36
+2026-05,640,South & Oak,177,77
+2026-05,641,South & Westnedge,13,78
+2026-05,776,Portage at South (NW Corner),100,21
+2026-05,785,Oakland & Academy,57,151
+2026-05,788,Ransom & N. Park,343,167
+2026-05,799,Rose & Walnut,6,19
+2026-05,1004,Kalamazoo Transit Center,32874,30739
+2026-05,1011,Kalamazoo Transit Center,19370,15788
+2026-05,1062,E. Michigan & S. Pitcher,182,92
+2026-05,1067,W. Michigan & Academy,52,61
+2026-05,1082,S Rose St & Vine,16,11
+2026-05,1084,Lovell & S. Burdick,4,20
+2026-06,2,Rose at Michigan (SW side),269,140
+2026-06,3,Rose at South (SW Corner),343,301
+2026-06,4,Lovell at St. Johns (NE Corner),10,16
+2026-06,5,Westnedge at Lovell (SW side),156,86
+2026-06,6,Westnedge at Walnut (NW corner),184,135
+2026-06,7,Westnedge at Vine (NW Corner),692,512
+2026-06,51,Park at W. Vine (SE Corner),461,412
+2026-06,52,Park at 519 Walnut,166,273
+2026-06,53,Park at Lovell (SE Corner),39,180
+2026-06,54,Park at South (NE Corner),108,483
+2026-06,96,Portage at Walnut (SE Corner),37,60
+2026-06,137,Kalamazoo & Park Street,18,7
+2026-06,182,Michigan &,43,200
+2026-06,184,Rose & Water,66,561
+2026-06,210,Burdick & North,6,10
+2026-06,260,North & N. Park,50,128
+2026-06,261,North & Westnedge,76,104
+2026-06,262,North & Simpson,11,150
+2026-06,263,North & Woodward,13,36
+2026-06,264,North St & Hawley street,30,207
+2026-06,295,North & Stewart/Hawley,163,20
+2026-06,296,North & Woodward,61,19
+2026-06,297,North & Simpson,88,56
+2026-06,298,North & Westnedge,64,109
+2026-06,299,Ransom & Church,75,296
+2026-06,300,Ransom & N. Rose,6,9
+2026-06,515,Rose & Vine,12,4
+2026-06,516,Rose & Walnut,9,2
+2026-06,517,Rose & South,165,244
+2026-06,518,Walnut & Burdick,335,588
+2026-06,562,Walnut & Burdick,648,259
+2026-06,563,Kalamazoo & Greenwich,22,15
+2026-06,564,Kalamazoo & Elm,127,41
+2026-06,565,Kalamazoo & Stuart,82,78
+2026-06,605,W. Main & Catherine,24,90
+2026-06,606,W. Main & RR Tracks,61,104
+2026-06,607,North & Park,7,22
+2026-06,628,Lovell & Westnedge,97,16
+2026-06,629,Lovell & Oak,29,100
+2026-06,630,Lovell & Davis,22,43
+2026-06,640,South & Oak,158,67
+2026-06,641,South & Westnedge,9,73
+2026-06,776,Portage at South (NW Corner),107,44
+2026-06,785,Oakland & Academy,84,144
+2026-06,788,Ransom & N. Park,337,145
+2026-06,799,Rose & Walnut,7,17
+2026-06,1004,Kalamazoo Transit Center,34337,31457
+2026-06,1011,Kalamazoo Transit Center,14004,11825
+2026-06,1062,E. Michigan & S. Pitcher,142,42
+2026-06,1067,W. Michigan & Academy,94,139
+2026-06,1082,S Rose St & Vine,9,13
+2026-06,1084,Lovell & S. Burdick,3,23
