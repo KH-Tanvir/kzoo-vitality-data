@@ -26,8 +26,8 @@ except ImportError:
     sys.exit("openpyxl is required.  Install it with:  pip install openpyxl")
 
 # --------------------------------------------------------------------------- corrections
-# Documented departures from the raw cells. Each one is listed on the site's
-# Data page and in data/CORRECTIONS.md so the numbers can be traced back.
+# Documented departures from the raw cells. Each one is listed in
+# KNOWN_ISSUES.md at the repository root so the numbers can be traced back.
 EMPLOYEE_FIX = {("2025-07"): 15598}     # Employees!H24 reads 2; the workbook's own copy at H56 has 15,598
 CORRIDOR_RENAME = {"Bus US-31": "Bus US-131"}   # Outgoing sheet spells this corridor differently
 
@@ -120,11 +120,11 @@ def export_people(source, out):
                                                   {"month": ym(year, m), "segment": segment})
                         row[key] = v
                 rr += 1
-    # documented correction
+    # documented correction (see KNOWN_ISSUES.md)
     fix = out_rows.get(("2025-07", "employees"))
     if fix and fix.get("people") != EMPLOYEE_FIX["2025-07"]:
         fix["people"] = EMPLOYEE_FIX["2025-07"]
-        fix["corrected"] = "people"
+        print(f"  corrected employees 2025-07 -> {EMPLOYEE_FIX['2025-07']}")
     rows = []
     for row in out_rows.values():
         rows.append({
@@ -134,12 +134,11 @@ def export_people(source, out):
             "avg_dwell_minutes": fmt(row.get("avg_dwell_minutes"), 0),
             "panel_visits": fmt(row.get("panel_visits"), 0),
             "visits_yoy": fmt(row.get("visits_yoy"), 4),
-            "corrected": row.get("corrected", ""),
         })
     rows.sort(key=lambda d: (d["month"], d["segment"]))
     write(out, "people_monthly.csv",
           ["month", "segment", "visits", "people", "visits_per_person", "avg_dwell_minutes",
-           "panel_visits", "visits_yoy", "corrected"], rows)
+           "panel_visits", "visits_yoy"], rows)
 
 
 # --------------------------------------------------------------------------- parking

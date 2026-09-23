@@ -33,7 +33,7 @@
   <div class="page-head">
     <p class="updated" data-coverage>Loading data…</p>
     <h1>Downtown Kalamazoo, quarter by quarter</h1>
-    <p class="lede">Traffic, visits, parking and bus use for the downtown study area. Every figure on this site is calculated from the monthly data in the repository, so the numbers and the data behind them stay together.</p>
+    <p class="lede">Welcome. This site follows downtown Kalamazoo while the City rebuilds its streets: how many people visit, how much traffic comes and goes, how full the parking gets and how busy the bus stops are. Western Michigan University updates it every quarter for the City of Kalamazoo.</p>
   </div>
 
   <section id="scorecard">
@@ -46,7 +46,7 @@
         </table>
       </div>
     </div>
-    <p class="fig-note">Only complete quarters are shown. Blank rows are metrics the study reports from sources outside this dataset — add them in <code>data/metrics_extra.csv</code>.</p>
+    <p class="fig-note">Only complete quarters are shown. A dash means no figure is available for that quarter.</p>
   </section>
 
   <section id="tiles">
@@ -56,19 +56,43 @@
 
   <section id="says">
     <h2>What the data shows</h2>
-    <div class="prose">
-      <p><b>Traffic is flat, and the 2024 dip was one road.</b> South Westnedge Avenue nearly emptied from March to October 2024. As the City noted at the time, that traffic was diverted to Burdick, Oakland and Portage rather than lost.</p>
-      <p><b>Parking is never close to full.</b> Around a third of the counted spaces are in use at the weekday afternoon peak, and less in the evenings.</p>
-      <p><b>The Transit Center is the bus network downtown.</b> Close to nine in ten boardings and alightings happen there; street-stop activity fell mainly because one stop, Rose at Water, stopped being served in late 2024.</p>
-      <p><b>Compare visits with care.</b> The study area was redrawn after the City's Q3-2024 feedback, and visit figures step up in January 2025 as a result. The year-over-year columns in the source data compare like with like; the raw totals do not.</p>
+    <div class="insights">
+      <article class="insight">
+        <span class="lab">Traffic</span>
+        <h3 id="i-traffic-h">Traffic has changed little</h3>
+        <p id="i-traffic">Apart from one road that was nearly closed for part of 2024, traffic into and out of downtown has stayed close to the same level from year to year.</p>
+        <a href="traffic.html">Traffic in detail →</a>
+      </article>
+      <article class="insight">
+        <span class="lab">People</span>
+        <h3 id="i-people-h">Millions of visits every quarter</h3>
+        <p id="i-people">Downtown draws visitors, the people who work here and the people who live here. Each group is tracked month by month.</p>
+        <a href="people.html">People in detail →</a>
+      </article>
+      <article class="insight">
+        <span class="lab">Parking</span>
+        <h3 id="i-parking-h">There is room to park</h3>
+        <p id="i-parking">Even at the busiest time of day, most of the counted parking spaces downtown are empty. Parking is usually considered full at around 85%.</p>
+        <a href="parking.html">Parking in detail →</a>
+      </article>
+      <article class="insight">
+        <span class="lab">Transit</span>
+        <h3 id="i-transit-h">The Transit Center handles most bus activity</h3>
+        <p id="i-transit">Most people getting on or off a bus downtown do so at the Kalamazoo Transit Center rather than at a street stop.</p>
+        <a href="transit.html">Transit in detail →</a>
+      </article>
     </div>
   </section>
 </main>
 
 <footer class="site-foot">
   <div class="wrap">
-    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
-    <p>Sources: StreetLight (traffic), Placer.ai via Discover Kalamazoo (visits), City of Kalamazoo (parking), Kalamazoo Metro (transit). <a href="data.html">Method, downloads and known issues</a>.</p>
+    <div class="foot-top">
+      <p><span data-coverage>Data since January 2023</span> · Updated every quarter</p>
+      <a class="gh-btn" href="https://github.com/KH-Tanvir/kzoo-vitality-data" target="_blank" rel="noopener">View the repository on GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+    <p>Sources: StreetLight InSight (traffic) · Placer.ai via Discover Kalamazoo (visits, employees, residents) · Discover Kalamazoo (parking) · Kalamazoo Metro (transit) · CoStar via Discover Kalamazoo (businesses, floor space, occupancy) · Google Maps (travel time)</p>
+    <p><a href="data.html">Method, downloads</a> and <a href="https://github.com/KH-Tanvir/kzoo-vitality-data/blob/main/KNOWN_ISSUES.md" target="_blank" rel="noopener">known issues</a></p>
   </div>
 </footer>
 
@@ -79,9 +103,6 @@ Site.ready(async () => {
   const d = await Site.loadAll(["traffic_monthly.csv", "people_monthly.csv", "parking_monthly.csv", "transit_monthly.csv"]);
   let extra = [];
   try { extra = await Site.load("metrics_extra.csv"); } catch (e) { /* optional file */ }
-
-  const months = [...new Set(d.traffic.map(r => r.month))].sort();
-  Site.stamp(months);
 
   const traffic = Site.trafficQuarterly(d.traffic);
   const visitors = Site.peopleQuarterly(d.people, "visitors");
@@ -104,21 +125,21 @@ Site.ready(async () => {
     return v === "" || v == null ? null : +v;
   };
 
+  /* ---------- scorecard ---------- */
   const metrics = [
-    { label: "Number of businesses", get: q => pickExtra(q, "businesses"), fmt: Site.fmtN, src: "CoStar / City" },
+    { label: "Number of businesses", get: q => pickExtra(q, "businesses"), fmt: Site.fmtN, src: "CoStar" },
     { label: "Employees downtown (monthly average)", get: q => pick(employees, q, "people"), fmt: Site.fmtN, src: "Placer.ai" },
     { label: "Total floor space (sq ft)", get: q => pickExtra(q, "floor_space_sf"), fmt: Site.fmtN, src: "CoStar" },
     { label: "Space occupancy rate", get: q => pickExtra(q, "space_occupancy_rate"), fmt: v => Site.pct(v), src: "CoStar" },
     { label: "Downtown visits", get: q => pick(visitors, q, "visits"), fmt: Site.fmtN, src: "Placer.ai" },
     { label: "Unique visitors (monthly average)", get: q => pick(visitors, q, "people"), fmt: Site.fmtN, src: "Placer.ai" },
     { label: "Residents (monthly average)", get: q => pick(residents, q, "people"), fmt: Site.fmtN, src: "Placer.ai" },
-    { label: "Parking utilization", get: q => pick(parking, q, "all"), fmt: v => Site.pct(v), src: "City counts" },
+    { label: "Parking utilization", get: q => pick(parking, q, "all"), fmt: v => Site.pct(v), src: "Discover Kalamazoo" },
     { label: "Transit Center users (ons + offs)", get: q => pick(transit, q, "centre"), fmt: Site.fmtN, src: "K-Metro" },
     { label: "Bus passengers, all stops (ons + offs)", get: q => pick(transit, q, "total"), fmt: Site.fmtN, src: "K-Metro" },
     { label: "Traffic volume (vehicles per day, in + out)", get: q => pick(traffic, q, "total"), fmt: Site.fmtN, src: "StreetLight" },
-    { label: "Travel time delay to downtown", get: q => pickExtra(q, "travel_time_delay_pct"), fmt: v => Site.pct(v), src: "Google API" },
+    { label: "Travel time delay to downtown", get: q => pickExtra(q, "travel_time_delay_pct"), fmt: v => Site.pct(v), src: "Google Maps" },
   ];
-
   const tb = document.querySelector("#score tbody");
   for (const m of metrics) {
     const tr = tb.insertRow();
@@ -137,12 +158,12 @@ Site.ready(async () => {
     s.style.color = "var(--muted)";
   }
 
-  // trend tiles
+  /* ---------- trend tiles ---------- */
   const tiles = [
     { label: "Downtown visits", href: "people.html", series: visitors.map(q => q.visits), qs: visitors.map(q => q.q), fmt: Site.fmtN, key: "s1", cap: "visits per quarter" },
     { label: "Traffic", href: "traffic.html", series: traffic.map(q => q.total), qs: traffic.map(q => q.q), fmt: Site.fmtN, key: "s2", cap: "vehicles per day, in + out" },
     { label: "Parking", href: "parking.html", series: parking.map(q => q.all), qs: parking.map(q => q.q), fmt: v => Site.pct(v), key: "s3", cap: "share of spaces in use" },
-    { label: "Bus ons + offs", href: "transit.html", series: transit.map(q => q.total), qs: transit.map(q => q.q), fmt: Site.fmtN, key: "s1", cap: "per quarter, all 54 stops" },
+    { label: "Bus ons + offs", href: "transit.html", series: transit.map(q => q.total), qs: transit.map(q => q.q), fmt: Site.fmtN, key: "s1", cap: "per quarter, all downtown stops" },
   ];
   const row = document.getElementById("tile-row");
   row.replaceChildren();
@@ -158,6 +179,58 @@ Site.ready(async () => {
     row.appendChild(a);
     const host = a.querySelector(".spark");
     Chart.register(host, () => Chart.spark(host, keep.map(o => o.v), t.key));
+  }
+
+  /* ---------- what the data shows (numbers follow the latest quarter) ---------- */
+  const Q = Site.qLabel(now);
+  const set = (id, head, text) => {
+    document.getElementById(id + "-h").textContent = head;
+    document.getElementById(id).textContent = text;
+  };
+  // "3.2% more than" / "2.5% fewer than" / "about the same as"
+  const versus = (a, b, more, fewer) => {
+    if (a == null || !b) return null;
+    const c = (a - b) / b;
+    return Math.abs(c) < 0.005 ? "about the same as" : `${(Math.abs(c) * 100).toFixed(1)}% ${c > 0 ? more : fewer} than`;
+  };
+  const millions = v => (v / 1e6).toFixed(1) + " million";
+  // round figures that follow "about": 165,878 -> 166,000; 14,466 -> 14,500
+  const approx = v => Site.fmtN(v >= 100000 ? Math.round(v / 1000) * 1000 : v >= 1000 ? Math.round(v / 100) * 100 : Math.round(v / 10) * 10);
+
+  {
+    const n = pick(traffic, now, "total"), y = pick(traffic, year, "total");
+    const c = y ? (n - y) / y : 0;
+    const head = Math.abs(c) < 0.03 ? "Traffic has changed little" : c > 0 ? "Traffic is up on last year" : "Traffic is down on last year";
+    const cmp = versus(n, y, "more", "fewer");
+    set("i-traffic", head,
+      `About ${approx(n)} vehicle trips a day crossed downtown's nine main entry roads in ${Q}` +
+      (cmp ? `, ${cmp} a year earlier. ` : ". ") +
+      "The one big dip came in 2024, when road construction almost stopped downtown-bound traffic on South Westnedge Avenue for several months and drivers took other routes.");
+  }
+  {
+    const v = pick(visitors, now, "visits"), vy = pick(visitors, year, "visits");
+    const cmp = versus(v, vy, "more", "fewer");
+    set("i-people", `${millions(v)} visits in ${Q}`,
+      (cmp ? `That is ${cmp} the same quarter a year earlier. ` : "") +
+      `In an average month about ${approx(pick(visitors, now, "people"))} different visitors came downtown, alongside roughly ` +
+      `${approx(pick(employees, now, "people"))} people who work here and ${approx(pick(residents, now, "people"))} who live here.`);
+  }
+  {
+    const p = parking.find(x => x.q === now) || parking[parking.length - 1];
+    const aft = p.windows["Weekday afternoon"];
+    const eve = Site.mean(["Weekday evening", "Weekend evening"].map(w => p.windows[w]).filter(x => x != null));
+    set("i-parking", aft < 0.6 ? "There is room to park" : "Parking is getting busy",
+      `On weekday afternoons in ${Site.qLabel(p.q)}, the busiest time, about ${Math.round(aft * 100)}% of the counted spaces were in use; ` +
+      `in the evenings it was about ${Math.round(eve * 100)}%. Parking is usually considered full at around 85%.`);
+  }
+  {
+    const t = transit.find(x => x.q === now) || transit[transit.length - 1];
+    const ty = transit.find(x => x.q === Site.qYearAgo(t.q));
+    const share = t.centre / t.total;
+    const cmp = ty ? versus(t.total, ty.total, "higher", "lower") : null;
+    set("i-transit", `The Transit Center handles ${Math.round(share * 10)} in 10 bus boardings and alightings`,
+      `${Math.round(share * 100)}% of the ${Site.fmtN(t.total)} boardings and alightings at downtown stops in ${Site.qLabel(t.q)} were at the Kalamazoo Transit Center` +
+      (cmp ? `. Overall, bus activity downtown was ${cmp} a year earlier.` : "."));
   }
 });
 </script>

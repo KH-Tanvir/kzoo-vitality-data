@@ -39,7 +39,9 @@ One row per group and month.
 | `avg_dwell_minutes` | Average minutes per visit |
 | `panel_visits` | Raw device sample before scaling — **not a demand measure**, it grows with the panel |
 | `visits_yoy` | Change against the same month a year earlier, as a fraction (`0.05` = +5%), supplied with the source data |
-| `corrected` | Names any field changed during export (see CORRECTIONS.md) |
+
+The July 2025 employee count is corrected during export; see
+[KNOWN_ISSUES.md](../KNOWN_ISSUES.md).
 
 Source: Placer.ai via Discover Kalamazoo. Visits add up over a quarter; people
 and dwell time are averaged, because the same person recurs across months.

@@ -59,7 +59,7 @@
         <div class="tv" hidden></div>
       </figure>
     </div>
-    <p class="note"><b>The Transit Center is the network downtown.</b> Close to nine in ten ons and offs happen at stops 1004 and 1011. The fall in street-stop activity is mostly one stop: Rose at Water, which has no recorded activity after October 2024.</p>
+    <p class="note"><b>Most bus activity downtown is at the Transit Center.</b> <span id="tc-share">Close to nine in ten boardings and alightings at downtown stops happen at the Kalamazoo Transit Center.</span> Street stops have been quieter since late 2024, mostly because the stop at Rose and Water Street closed for road construction in November 2024.</p>
   </section>
 
   <section>
@@ -71,25 +71,28 @@
         <tbody></tbody>
       </table>
     </div>
-    <p class="fig-note">Showing the 20 busiest stops. The full list for every month is in <code>data/transit_monthly.csv</code>.</p>
+    <p class="fig-note">Showing the 20 busiest stops. Every stop, month by month, can be downloaded from the <a href="data.html">Data page</a>.</p>
   </section>
 
   <section>
-    <h2>Notes</h2>
+    <h2>How to read these figures</h2>
     <div class="prose">
-      <p><b>Ons + offs, not riders.</b> The study's reports label this "transit users", which overstates it: a round trip counts at least twice, and so does a transfer.</p>
-      <p><b>Service changes move these numbers.</b> Stop 1 (Rose at Water) and stop 1079 (Rose at Butler) have been out of service since November 2024. Several Westnedge-area stops went quiet in August and September 2024 during construction and returned in 2025.</p>
-      <p><b>The Transit Center switched sides in spring 2026.</b> Activity moved from the Rose side (stop 1004) to the Burdick side (stop 1011) from April 2026, while the combined total barely changed. The two sides are labelled inconsistently in the source workbook, so this site reports them by stop number.</p>
-      <p><b>A blank month is not a zero.</b> Where a stop has no figure, it was not reported or not served, and it is left out of the calculation rather than counted as nothing.</p>
-      <p><b>Source.</b> Kalamazoo Metro (K-Metro).</p>
+      <p><b>Boardings and alightings.</b> A boarding is someone getting on a bus and an alighting is someone getting off. The figures count these movements, not individual riders: someone who changes buses at the Transit Center is counted getting off and getting on again.</p>
+      <p><b>Stops closed for construction.</b> The stops at Rose and Water Street and at Rose and Butler Street have been out of service since November 2024 because of road construction. Other stops have paused for construction at times since 2024 and then reopened.</p>
+      <p><b>Two sides of the Transit Center.</b> The center has stops on Rose Street (stop 1004) and Burdick Street (stop 1011). From April 2026 much of the activity moved to the Burdick Street side, while the total at the center barely changed.</p>
+      <p><b>Months with no figure.</b> If a stop has no figure for a month, it was not in service, and it is left out rather than counted as zero.</p>
     </div>
   </section>
 </main>
 
 <footer class="site-foot">
   <div class="wrap">
-    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
-    <p><a href="data.html">Method, downloads and known issues</a></p>
+    <div class="foot-top">
+      <p><span data-coverage>Data since January 2023</span> · Updated every quarter</p>
+      <a class="gh-btn" href="https://github.com/KH-Tanvir/kzoo-vitality-data" target="_blank" rel="noopener">View the repository on GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+    <p>Source: Kalamazoo Metro (K-Metro) boarding and alighting counts</p>
+    <p><a href="data.html">Method, downloads</a> and <a href="https://github.com/KH-Tanvir/kzoo-vitality-data/blob/main/KNOWN_ISSUES.md" target="_blank" rel="noopener">known issues</a></p>
   </div>
 </footer>
 
@@ -104,6 +107,13 @@ Site.ready(async () => {
 
   const qu = Site.transitQuarterly(rows);
   const mo = Site.transitMonthly(rows);
+
+  // share at the Transit Center in the latest quarter, so the note stays current
+  const last = qu[qu.length - 1];
+  if (last && last.total) {
+    document.getElementById("tc-share").textContent =
+      `In ${Site.qLabel(last.q)}, ${Math.round(last.centre / last.total * 100)}% of boardings and alightings at downtown stops happened at the Kalamazoo Transit Center.`;
+  }
 
   const hostQ = document.getElementById("c-quarter"), figQ = hostQ.closest("figure");
   Chart.register(hostQ, () => Chart.column(hostQ, {

@@ -65,7 +65,7 @@
         <div class="tv" hidden></div>
       </figure>
     </div>
-    <p class="note"><b>Nothing here comes close to full.</b> Parking studies commonly treat 85% as effectively full, the point where drivers start circling. The highest single month in this data is about 41%.</p>
+    <p class="note"><b>Plenty of room to park.</b> Parking is usually considered full at about 85% — the point where drivers start circling to find a space. Downtown's counted parking stays well below that: <span id="peak">even its busiest month was less than half full</span>.</p>
   </section>
 
   <section>
@@ -81,20 +81,23 @@
   </section>
 
   <section>
-    <h2>Notes</h2>
+    <h2>How to read these figures</h2>
     <div class="prose">
-      <p><b>What is counted.</b> The city's counted public facilities only — not private lots, and not every space downtown. Each month is a single count in each time window, not a continuous measurement.</p>
-      <p><b>How the headline figure is built.</b> Each facility type is its occupied spaces divided by its spaces. The figure for a time window is the average of the three types, and the quarterly figure is the average of its months. The study's reports use the same method.</p>
-      <p><b>Small differences from the published reports.</b> These figures are recalculated from the counts, so they run about a point above the 2026 report figures: the reports keep Lot 20's 36 spaces in the denominator after that lot stopped being counted. Earlier quarters differ where a report formula averaged the wrong months. <a href="data.html">The data page lists each difference.</a></p>
-      <p><b>Source.</b> City of Kalamazoo occupancy counts, compiled with Discover Kalamazoo.</p>
+      <p><b>What is counted.</b> Downtown's public parking: on-street zones, parking ramps and surface lots. Private lots and garages are not included.</p>
+      <p><b>When it is counted.</b> Parked cars are counted once a month at three times: a weekday afternoon, a weekday evening and a weekend evening. Each figure is a snapshot of that moment, not an all-day average.</p>
+      <p><b>How the percentage is worked out.</b> For each type of parking — on-street, ramps and surface lots — the share of spaces in use is calculated, and the three are averaged. A quarter's figure is the average of its months.</p>
     </div>
   </section>
 </main>
 
 <footer class="site-foot">
   <div class="wrap">
-    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
-    <p><a href="data.html">Method, downloads and known issues</a></p>
+    <div class="foot-top">
+      <p><span data-coverage>Data since January 2023</span> · Updated every quarter</p>
+      <a class="gh-btn" href="https://github.com/KH-Tanvir/kzoo-vitality-data" target="_blank" rel="noopener">View the repository on GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+    <p>Source: Downtown parking occupancy counts, provided by Discover Kalamazoo</p>
+    <p><a href="data.html">Method, downloads</a> and <a href="https://github.com/KH-Tanvir/kzoo-vitality-data/blob/main/KNOWN_ISSUES.md" target="_blank" rel="noopener">known issues</a></p>
   </div>
 </footer>
 
@@ -171,7 +174,16 @@ Site.ready(async () => {
     }
   }
   document.getElementById("inv-note").textContent =
-    `${Site.fmtN(inv.total)} spaces counted in total: on-street ${Site.fmtN(inv.byType["On-street"])}, ramps ${Site.fmtN(inv.byType["Ramps"])}, surface lots ${Site.fmtN(inv.byType["Surface lots"])}. A facility with no count in a month is left out of both sides of the calculation for that month.`;
+    `${Site.fmtN(inv.total)} spaces in total: on-street ${Site.fmtN(inv.byType["On-street"])}, ramps ${Site.fmtN(inv.byType["Ramps"])}, surface lots ${Site.fmtN(inv.byType["Surface lots"])}.`;
+
+  // the busiest single count on record, so the note above stays true as data is added
+  const busiest = Site.parkingMonthly(rows).reduce((a, m) => (a && a.all >= m.all ? a : m), null);
+  if (busiest) {
+    const [mon, yr] = Site.monthLabel(busiest.month).split(" ");
+    const MONTH = { Jan: "January", Feb: "February", Mar: "March", Apr: "April", May: "May", Jun: "June", Jul: "July", Aug: "August", Sep: "September", Oct: "October", Nov: "November", Dec: "December" };
+    document.getElementById("peak").textContent =
+      `even the busiest count on record, ${busiest.window.toLowerCase()}s in ${MONTH[mon]} ${yr}, was only about ${Math.round(busiest.all * 100)}% full`;
+  }
 });
 </script>
 </body>

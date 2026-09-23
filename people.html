@@ -66,7 +66,7 @@
         <div class="tv" hidden></div>
       </figure>
     </div>
-    <p class="note"><b>Read year-to-year change from the source's own comparison, not from the totals.</b> The study area was redrawn after the City's Q3-2024 feedback, so visit counts before and after January 2025 do not cover the same ground. The chart below uses the year-over-year field supplied with the data, which compares like with like.</p>
+    <p class="note"><b>Comparing years.</b> From January 2025 the figures use an updated study-area boundary, so counts before and after that date cover slightly different areas and should not be compared directly. To see how visits have really changed, use the chart below: it compares each quarter with the same quarter a year earlier, over the same area.</p>
   </section>
 
   <section>
@@ -92,20 +92,24 @@
   </section>
 
   <section>
-    <h2>Notes</h2>
+    <h2>How to read these figures</h2>
     <div class="prose">
-      <p><b>Visits add up, people do not.</b> A quarter's visits are the sum of its months. Unique people and dwell time are monthly averages, because the same person appears in more than one month.</p>
-      <p><b>Dwell time shifts in January 2025</b> along with the boundary change: visitor dwell drops from about 186 to 130 minutes, while resident and employee dwell rise. Treat it as a break in the series, not a change in behaviour.</p>
-      <p><b>Panel visits are not published here.</b> The source's raw device sample grows two to four times over the period as the panel grows, which makes it useless as a trend. It stays in <code>data/people_monthly.csv</code> for reference.</p>
-      <p><b>Source.</b> Placer.ai, accessed through Discover Kalamazoo.</p>
+      <p><b>Who is who.</b> Residents are people estimated to live in the study area, employees are people estimated to work there, and visitors are everyone else. The figures are estimates built from anonymous mobile-phone location data.</p>
+      <p><b>Visits and people.</b> A visit is one trip into the study area. The same person can come many times, so visits are always higher than the number of people.</p>
+      <p><b>Adding up a quarter.</b> A quarter's visits are the total of its three months. The number of people, visits per person and time spent are monthly averages, because the same person usually appears in more than one month.</p>
+      <p><b>Time spent downtown.</b> The average time per visit also shifts in January 2025 with the new boundary — shorter for visitors, longer for residents and employees — so compare it within each period rather than across the change.</p>
     </div>
   </section>
 </main>
 
 <footer class="site-foot">
   <div class="wrap">
-    <p><span data-coverage></span> · Updated each quarter from the study's <code>Final data KZOO</code> workbooks.</p>
-    <p><a href="data.html">Method, downloads and known issues</a></p>
+    <div class="foot-top">
+      <p><span data-coverage>Data since January 2023</span> · Updated every quarter</p>
+      <a class="gh-btn" href="https://github.com/KH-Tanvir/kzoo-vitality-data" target="_blank" rel="noopener">View the repository on GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+    <p>Source: Placer.ai visit estimates, provided by Discover Kalamazoo</p>
+    <p><a href="data.html">Method, downloads</a> and <a href="https://github.com/KH-Tanvir/kzoo-vitality-data/blob/main/KNOWN_ISSUES.md" target="_blank" rel="noopener">known issues</a></p>
   </div>
 </footer>
 

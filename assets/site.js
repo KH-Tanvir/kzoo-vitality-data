@@ -71,7 +71,8 @@ const Site = (() => {
       p.className = "error";
       p.textContent = local
         ? "This page reads data files, which a browser will not load from a local file path. Publish the folder to GitHub Pages, or run a local server: python -m http.server 8000"
-        : "Could not load the data files in /data. " + err.message;
+        : "The figures could not be loaded just now. Please refresh the page.";
+      console.error(err);
       h.appendChild(p);
     });
   }
@@ -134,7 +135,6 @@ const Site = (() => {
         visits: numOrNull(r.visits), people: numOrNull(r.people),
         freq: numOrNull(r.visits_per_person), dwell: numOrNull(r.avg_dwell_minutes),
         panel: numOrNull(r.panel_visits), yoy: numOrNull(r.visits_yoy),
-        corrected: r.corrected || "",
       }))
       .sort((a, b) => a.month.localeCompare(b.month));
   }
@@ -317,4 +317,15 @@ const Site = (() => {
     transitMonthly, transitQuarterly, transitStops, TC_STOPS,
   };
 })();
-Site.ready(Site.markNav);
+
+// Every page: highlight the current menu item and show the data's date range
+// (read from the traffic file, which every quarter adds to).
+Site.ready(() => {
+  Site.markNav();
+  if (document.querySelector("[data-coverage]")) {
+    Site.load("traffic_monthly.csv").then(rows => {
+      const months = [...new Set(rows.map(r => r.month))].sort();
+      if (months.length) Site.stamp(months);
+    }).catch(() => { /* the page shows its own message if its data fails */ });
+  }
+});
